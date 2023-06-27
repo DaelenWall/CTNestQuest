@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const { Schema } = mongoose;
 const User = require('./User');
-const Favorite = require(`./Favorite`)
+
 
 const propertySchema = new Schema({
     propertyType: {
@@ -51,8 +51,8 @@ const propertySchema = new Schema({
         type: Number,
         required: true
     }, 
-    listingAgent: [User.schema],
-    favorites: [Favorite.schema]
+    listingAgent: [User.schema]
+    
 });
 
 const Property = mongoose.model('Property', propertySchema);

@@ -31,7 +31,7 @@ const userSchema = new Schema({
         required: true,
         minlength: 5
     },
-    property: [Property.schema]
+    property: [Property.schema],
     favorites: [Favorite.schema]
 });
 
