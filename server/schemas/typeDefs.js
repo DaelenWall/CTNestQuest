@@ -25,6 +25,7 @@ type Property {
     petsAllowed: Boolean!
     sqFootage: Int!
     depositFee: Int!
+    reviews: [Review]!
 }
 
 type Auth {

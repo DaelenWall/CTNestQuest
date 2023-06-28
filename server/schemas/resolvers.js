@@ -5,10 +5,10 @@ const { signToken } = require('../utils/auth');
 
 const resolvers = {
 
-// Mutation
-Mutation: {
-    addUser: async (parent, {firstName,lastName, username, email, password }) => {
-      const user = await User.create({ firstName,lastName,username, email, password });
+  // Mutation
+  Mutation: {
+    addUser: async (parent, { firstName, lastName, username, email, password }) => {
+      const user = await User.create({ firstName, lastName, username, email, password });
       const token = signToken(user);
       return { token, user };
     },
@@ -28,8 +28,24 @@ Mutation: {
       const token = signToken(user);
 
       return { token, user };
-    }
-
     },
-    };
-    module.exports = resolvers;
+    addReview: async (parent, { propertyId, reviewText }, context) => {
+      if (context.user) {
+        return Property.findOneAndUpdate(
+          { _id: propertyId },
+          {
+            $addToSet: {
+              reviews: { reviewText, reviewAuthor: context.user.username },
+            },
+          },
+          {
+            new: true,
+            runValidators: true,
+          }
+        );
+      }
+      throw new AuthenticationError('You need to be logged in!');
+    },
+  },
+};
+module.exports = resolvers;
