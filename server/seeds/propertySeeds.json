@@ -1,0 +1,122 @@
+[
+    {
+        "propertyType": "House",
+        "county": "Hartford",
+        "address": "P. Sherman Way, Hartford CT", 
+        "zipCode": "06053",
+        "price": "1500",
+        "bedroomCount": "3",
+        "bathroomCount": "2",
+        "petsAllowed": "true", 
+        "sqFootage": "1500",
+        "depositFee": "550"
+    },
+    {
+        "propertyType": "Apartment",
+        "county": "Fairfield",
+        "address": "25 Silver Lane, fairfield CT", 
+        "zipCode": "06085",
+        "price": "1150",
+        "bedroomCount": "1",
+        "bathroomCount": "1",
+        "petsAllowed": "false", 
+        "sqFootage": "700",
+        "depositFee": "850"
+    },
+    {
+        "propertyType": "House",
+        "county": "Tolland",
+        "address": "1 Abbott Rd, Ellington CT", 
+        "zipCode": "06029",
+        "price": "1700",
+        "bedroomCount": "1",
+        "bathroomCount": "2",
+        "petsAllowed": "true", 
+        "sqFootage": "1800",
+        "depositFee": "475"
+    },
+    {
+        "propertyType": "Apartment",
+        "county": "Hartford",
+        "address": "54 Alden St, New Britain CT", 
+        "zipCode": "06053",
+        "price": "1000",
+        "bedroomCount": "2",
+        "bathroomCount": "1",
+        "petsAllowed": "false", 
+        "sqFootage": "1700",
+        "depositFee": "890"
+    },
+    {
+        "propertyType": "House",
+        "county": "Litchfield",
+        "address": "12 Pondside Rd, Litchfield CT", 
+        "zipCode": "06043",
+        "price": "1300",
+        "bedroomCount": "4",
+        "bathroomCount": "2",
+        "petsAllowed": "true", 
+        "sqFootage": "2300",
+        "depositFee": "1000"
+    },
+    {
+        "propertyType": "Apartment",
+        "county": "Tolland",
+        "address": "10 Ghostly Way, Cromwell CT", 
+        "zipCode": "06022",
+        "price": "1450",
+        "bedroomCount": "1",
+        "bathroomCount": "1",
+        "petsAllowed": "true", 
+        "sqFootage": "900",
+        "depositFee": "750"
+    },
+    {
+        "propertyType": "House",
+        "county": "Litchfield",
+        "address": "32 Turtle Dr, Litchfield CT", 
+        "zipCode": "06022",
+        "price": "2000",
+        "bedroomCount": "3",
+        "bathroomCount": "2",
+        "petsAllowed": "true", 
+        "sqFootage": "2000",
+        "depositFee": "975"
+    },
+    {
+        "propertyType": "Apartment",
+        "county": "Hartford",
+        "address": "40 Opal St, Hartford CT", 
+        "zipCode": "06053",
+        "price": "1100",
+        "bedroomCount": "2",
+        "bathroomCount": "1",
+        "petsAllowed": "false", 
+        "sqFootage": "900",
+        "depositFee": "550"
+    },
+    {
+        "propertyType": "House",
+        "county": "Tolland",
+        "address": "45 Rancher Rd, Cromwell CT", 
+        "zipCode": "06095",
+        "price": "1900",
+        "bedroomCount": "3",
+        "bathroomCount": "2",
+        "petsAllowed": "true", 
+        "sqFootage": "1500",
+        "depositFee": "795"
+    },
+    {
+        "propertyType": "Apartment",
+        "county": "Hartford",
+        "address": "12 Sandyside Dr, Hartford CT", 
+        "zipCode": "06053",
+        "price": "1600",
+        "bedroomCount": "2",
+        "bathroomCount": "1",
+        "petsAllowed": "true", 
+        "sqFootage": "1000",
+        "depositFee": "600"
+    }
+]

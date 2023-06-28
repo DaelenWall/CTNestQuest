@@ -1,0 +1,72 @@
+[
+    {
+        "firstName": "Josh",
+        "lastName": "Molyneaux",
+        "email": "joshua93@live.com",
+        "username": "joshymol",
+        "password": "password123"
+    },
+    {
+        "firstName": "Sami",
+        "lastName": "Saqib",
+        "email": "ssaqib@email.com",
+        "username": "ssaqib",
+        "password": "password123"
+    },
+    {
+        "firstName": "Matt",
+        "lastName": "Bull",
+        "email": "mattbull@live.com",
+        "username": "mattyb",
+        "password": "password123"
+    },
+    {
+        "firstName": "Hailey",
+        "lastName": "Flora",
+        "email": "hflora@email.com",
+        "username": "hflora",
+        "password": "password123"
+    },
+    {
+        "firstName": "Jane",
+        "lastName": "Doe",
+        "email": "jdoe@live.com",
+        "username": "jdoe",
+        "password": "password123"
+    },
+    {
+        "firstName": "Lisa",
+        "lastName": "Lancer",
+        "email": "llancer@live.com",
+        "username": "llancer",
+        "password": "password123"
+    },
+    {
+        "firstName": "Omar",
+        "lastName": "Wilson",
+        "email": "owilson@live.com",
+        "username": "owilson",
+        "password": "password123"
+    },
+    {
+        "firstName": "Lucy",
+        "lastName": "Heartfilia",
+        "email": "lheartfilia@live.com",
+        "username": "lucyheart",
+        "password": "password123"
+    },
+    {
+        "firstName": "Roy",
+        "lastName": "Rojers",
+        "email": "rrojers@live.com",
+        "username": "rrojers",
+        "password": "password123"
+    },
+    {
+        "firstName": "Roen",
+        "lastName": "Knight",
+        "email": "rknight@live.com",
+        "username": "rknight",
+        "password": "password123"
+    }
+]
