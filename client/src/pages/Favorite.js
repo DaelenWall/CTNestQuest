@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { useQuery } from '@apollo/client';
 import { QUERY_USER } from '../utils/queries';
+import FavoriteItem from '../components/FavoriteItem';
 
 function Favorite() {
   const { data } = useQuery(QUERY_USER);
@@ -28,16 +29,8 @@ function Favorite() {
                   {new Date(parseInt(favorite.favoriteDate)).toLocaleDateString()}
                 </h3>
                 <div className="flex-row">
-                  {favorite.property.map(({ _id, image, name, price }, index) => (
-                    <div key={index} className="card px-1 py-1">
-                      <Link to={`/property/${_id}`}>
-                        <img alt={name} src={`/images/${image}`} />
-                        <p>{name}</p>
-                      </Link>
-                      <div>
-                        <span>${price}</span>
-                      </div>
-                    </div>
+                  {favorite.property.map((property) => (
+                    <FavoriteItem key={property._id} item={property} />
                   ))}
                 </div>
               </div>
