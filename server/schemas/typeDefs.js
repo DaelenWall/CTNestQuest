@@ -27,6 +27,14 @@ type Property {
     listingAgent: [User]
 }
 
+type Auth {
+    token: ID
+    user: User
+  }
+
+  type Query {
+    properties: [Property]
+  }
 type Mutation {
     login(username: String!, password: String!): Auth
     addUser(firstName: String!, lastName: String!, email: String!, username: String!, password: String!): Auth
