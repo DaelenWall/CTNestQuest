@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
 
-function dropdownMenu() {
+function DropdownMenu() {
   const [selectedCounty, setSelectedCounty] = useState(null);
 
   const handleClick = (county) => {
@@ -100,7 +100,7 @@ function Nav() {
             </Link>
           </li>
           <li className="mx-1">
-            {dropdownMenu()}
+            {DropdownMenu()}
           </li>
           <li className="mx-1">
             <a href="/" onClick={() => Auth.logout()}>
@@ -118,7 +118,7 @@ function Nav() {
             </Link>
           </li>
           <li className="mx-1">
-            {dropdownMenu()}
+            {DropdownMenu()}
           </li>
           <li className="mx-1">
             <Link to="/signup">
