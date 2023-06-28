@@ -17,20 +17,20 @@ type Property {
     propertyType: String!
     county: String!
     address: String!
-    zipCode: Number!
-    price: Number!
-    bedroomCount: Number!
-    bathroomCount: Number!
+    zipCode: Int!
+    price: Int!
+    bedroomCount: Int!
+    bathroomCount: Int!
     petsAllowed: Boolean!
-    sqFootage: Number!
-    depositFee: Number!
+    sqFootage: Int!
+    depositFee: Int!
     listingAgent: [User]
 }
 
 type Mutation {
     login(username: String!, password: String!): Auth
-    addUser(firstName: String!, lastName: String!, email: String!, username String!, password: String!): Auth
-    addProperty( propertyType: String!, county: String!, address: String!, zipCode: Number!, price: Number!, bedroomCount: Number!, bathroomCount: Number!, petsAllowed: Boolean!, sqFootage: Number!, depositFee: Number!): Property
+    addUser(firstName: String!, lastName: String!, email: String!, username: String!, password: String!): Auth
+    addProperty( propertyType: String!, county: String!, address: String!, zipCode: Int!, price: Int!, bedroomCount: Int!, bathroomCount: Int!, petsAllowed: Boolean!, sqFootage: Int!, depositFee: Int!): Property
 }
 `;
 
