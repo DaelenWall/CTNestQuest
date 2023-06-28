@@ -28,18 +28,26 @@ type Property {
     reviews: [Review]!
 }
 
+type Review {
+  _id: ID
+  commentText: String
+  commentAuthor: String
+  createdAt: String
+}
+
 type Auth {
     token: ID
     user: User
   }
 
-  type Query {
-    properties: [Property]
-  }
+type Query {
+  properties: [Property]
+}
 type Mutation {
     login(username: String!, password: String!): Auth
     addUser(firstName: String!, lastName: String!, email: String!, username: String!, password: String!): Auth
     addProperty( propertyType: String!, listingAgent: String!, county: String!, address: String!, zipCode: Int!, price: Int!, bedroomCount: Int!, bathroomCount: Int!, petsAllowed: Boolean!, sqFootage: Int!, depositFee: Int!): Property
+    addReview(propertyId: ID!, commentText: String!): Property
 }
 `;
 
