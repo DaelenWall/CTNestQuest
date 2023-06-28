@@ -2,7 +2,6 @@ const mongoose = require('mongoose');
 
 const { Schema } = mongoose;
 const bcrypt = require('bcrypt');
-const Property = require('./Property');
 const Favorite = require(`./Favorite`);
 
 const userSchema = new Schema({
@@ -31,7 +30,12 @@ const userSchema = new Schema({
         required: true,
         minlength: 5
     },
-    property: [Property.schema],
+    property: [
+        {
+            type: Schema.Types.ObjectId,
+            ref: 'Property',
+        },
+    ],
     favorites: [Favorite.schema]
 });
 

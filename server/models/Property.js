@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 
 const { Schema } = mongoose;
-const User = require('./User');
 
 
 const propertySchema = new Schema({
@@ -9,6 +8,11 @@ const propertySchema = new Schema({
         type: String,
         required: true,
         trim: true
+    },
+    listingAgent: {
+        type: String,
+        required: true,
+        trim: true,
     },
     county: {
         type: String,
@@ -51,9 +55,6 @@ const propertySchema = new Schema({
         type: Number,
         required: true
     },
-    listingAgent: {
-        type: String,
-    },
     reviews: [
         {
             reviewText: {
@@ -72,7 +73,7 @@ const propertySchema = new Schema({
                 get: (timestamp) => dateFormat(timestamp),
             },
         },
-    ],
+    ],  
 });
 
 const Property = mongoose.model('Property', propertySchema);

@@ -1,6 +1,7 @@
 [
     {
         "propertyType": "House",
+        "listingAgent": "joshymol",
         "county": "Hartford",
         "address": "P. Sherman Way, Hartford CT", 
         "zipCode": "06053",
@@ -13,6 +14,7 @@
     },
     {
         "propertyType": "Apartment",
+        "listingAgent": "ssaqib",
         "county": "Fairfield",
         "address": "25 Silver Lane, fairfield CT", 
         "zipCode": "06085",
@@ -25,6 +27,7 @@
     },
     {
         "propertyType": "House",
+        "listingAgent": "mattyb",
         "county": "Tolland",
         "address": "1 Abbott Rd, Ellington CT", 
         "zipCode": "06029",
@@ -37,6 +40,7 @@
     },
     {
         "propertyType": "Apartment",
+        "listingAgent": "hflora",
         "county": "Hartford",
         "address": "54 Alden St, New Britain CT", 
         "zipCode": "06053",
@@ -49,6 +53,7 @@
     },
     {
         "propertyType": "House",
+        "listingAgent": "jdoe",
         "county": "Litchfield",
         "address": "12 Pondside Rd, Litchfield CT", 
         "zipCode": "06043",
@@ -61,6 +66,7 @@
     },
     {
         "propertyType": "Apartment",
+        "listingAgent": "llancer",
         "county": "Tolland",
         "address": "10 Ghostly Way, Cromwell CT", 
         "zipCode": "06022",
@@ -73,6 +79,7 @@
     },
     {
         "propertyType": "House",
+        "listingAgent": "owilson",
         "county": "Litchfield",
         "address": "32 Turtle Dr, Litchfield CT", 
         "zipCode": "06022",
@@ -85,6 +92,7 @@
     },
     {
         "propertyType": "Apartment",
+        "listingAgent": "lucyheart",
         "county": "Hartford",
         "address": "40 Opal St, Hartford CT", 
         "zipCode": "06053",
@@ -97,6 +105,7 @@
     },
     {
         "propertyType": "House",
+        "listingAgent": "rrojers",
         "county": "Tolland",
         "address": "45 Rancher Rd, Cromwell CT", 
         "zipCode": "06095",
@@ -109,6 +118,7 @@
     },
     {
         "propertyType": "Apartment",
+        "listingAgent": "rknight",
         "county": "Hartford",
         "address": "12 Sandyside Dr, Hartford CT", 
         "zipCode": "06053",
