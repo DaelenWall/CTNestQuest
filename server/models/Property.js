@@ -50,8 +50,10 @@ const propertySchema = new Schema({
     depositFee: {
         type: Number,
         required: true
-    }, 
-    listingAgent: [User.schema]
+    },
+    listingAgent: {
+        type: String,
+    }
     
 });
 
