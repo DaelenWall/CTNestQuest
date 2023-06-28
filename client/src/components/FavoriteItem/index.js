@@ -48,7 +48,7 @@ const FavoriteItem = ({ item }) => {
           <input
             type="number"
             placeholder="1"
-            value={item.purchaseQuantity}
+            value={item.favoriteQuantity}
             onChange={onChange}
             disabled={!isFavorited}
           />
