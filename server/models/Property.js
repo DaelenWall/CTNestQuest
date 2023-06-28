@@ -11,38 +11,38 @@ const propertySchema = new Schema({
         trim: true
     },
     county: {
-        type: String, 
+        type: String,
         required: true,
         trim: true
     },
-    address: { 
+    address: {
         type: String,
         required: true,
         trim: true
     },
     zipCode: {
-        type: Number, 
+        type: Number,
         required: true
     },
-    price: { 
+    price: {
         type: Number,
         required: true,
         trim: true
-    }, 
+    },
     bedroomCount: {
         type: Number,
         required: true,
         trim: true
-    }, 
+    },
     bathroomCount: {
         type: Number,
         required: true,
         trim: true
-    }, 
+    },
     petsAllowed: {
         type: Boolean,
         required: true,
-    }, 
+    },
     sqFootage: {
         type: Number,
         required: true
@@ -53,8 +53,26 @@ const propertySchema = new Schema({
     },
     listingAgent: {
         type: String,
-    }
-    
+    },
+    reviews: [
+        {
+            reviewText: {
+                type: String,
+                required: true,
+                minlength: 1,
+                maxlength: 280,
+            },
+            reviewAuthor: {
+                type: String,
+                required: true,
+            },
+            createdAt: {
+                type: Date,
+                default: Date.now,
+                get: (timestamp) => dateFormat(timestamp),
+            },
+        },
+    ],
 });
 
 const Property = mongoose.model('Property', propertySchema);

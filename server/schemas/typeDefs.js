@@ -24,7 +24,8 @@ type Property {
     petsAllowed: Boolean!
     sqFootage: Int!
     depositFee: Int!
-    listingAgent: [User]
+    listingAgent: String!
+    reviews: [Review]!
 }
 
 type Auth {
@@ -38,6 +39,7 @@ type Auth {
 type Mutation {
     login(username: String!, password: String!): Auth
     addUser(firstName: String!, lastName: String!, email: String!, username: String!, password: String!): Auth
+    addReview(propertyId: ID!, reviewText: String!) :Property
     addProperty( propertyType: String!, county: String!, address: String!, zipCode: Int!, price: Int!, bedroomCount: Int!, bathroomCount: Int!, petsAllowed: Boolean!, sqFootage: Int!, depositFee: Int!): Property
 }
 `;
