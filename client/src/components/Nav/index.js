@@ -7,10 +7,11 @@ function DropdownMenu() {
 
   const handleClick = (county) => {
     setSelectedCounty(county);
+
   };
 
   return (
-    <div className="dropdown">
+    <nav className="dropdown">
       <button className="dropdown-btn">Rent</button>
       <div className="dropdown-content">
         <div className="column">
@@ -84,7 +85,7 @@ function DropdownMenu() {
           <h2>{selectedCounty} Rentals</h2>
         </div>
       )}
-    </div>
+    </nav>
   );
 }
 
