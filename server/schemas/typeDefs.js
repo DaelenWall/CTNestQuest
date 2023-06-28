@@ -40,6 +40,7 @@ type Auth {
     user: User
   }
 
+
   type Query {
     users: [User]
     user(username: String!): User
@@ -47,6 +48,7 @@ type Auth {
     property(propertyId: ID!): Property
     me: User
   }
+
 type Mutation {
     login(username: String!, password: String!): Auth
     addUser(firstName: String!, lastName: String!, email: String!, username: String!, password: String!): Auth
