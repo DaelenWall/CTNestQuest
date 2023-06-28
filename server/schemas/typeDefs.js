@@ -25,7 +25,6 @@ type Property {
     petsAllowed: Boolean!
     sqFootage: Int!
     depositFee: Int!
-    listingAgent: [User]
 }
 
 type Auth {
