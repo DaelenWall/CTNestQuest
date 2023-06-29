@@ -1,154 +1,89 @@
-import React, { useState } from "react";
-import Auth from "../../utils/auth";
-import { Link } from "react-router-dom";
+import React, { useState } from 'react';
+// import Auth from "../../utils/auth";
+import { Link } from 'react-router-dom';
 
-function DropdownMenu() {
-  const [selectedCounty, setSelectedCounty] = useState(null);
+const Navbar = () => {
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
-  const handleClick = (county) => {
-    setSelectedCounty(county);
-
+  const toggleDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
   };
 
   return (
-    <nav className="dropdown">
-      <button className="dropdown-btn">Rent</button>
-      <div className="dropdown-content">
-        <div className="column">
-          <h3>CT Rentals</h3>
-          <ul>
-            <li>
-              <Link to="/rent">Houses for Rent</Link>
-            </li>
-            <li>
-              <Link to="/rent">Apartments for Rent</Link>
-            </li>
-          </ul>
-        </div>
-        <div className="column">
-          <h3>Rentals by County</h3>
-          <ul>
-            <li>
-              <button onClick={() => handleClick('Fairfield County')}>
-                Fairfield County
-              </button>
-            </li>
-            <li>
-              <button onClick={() => handleClick('New Haven County')}>
-                New Haven County
-              </button>
-            </li>
-            <li>
-              <button onClick={() => handleClick('Hartford County')}>
-                Hartford County
-              </button>
-            </li>
-            <li>
-              <button onClick={() => handleClick('Litchfield County')}>
-                Litchfield County
-              </button>
-            </li>
-            <li>
-              <button onClick={() => handleClick('Windham County')}>
-                Windham County
-              </button>
-            </li>
-            <li>
-              <button onClick={() => handleClick('Middlesex County')}>
-                Middlesex County
-              </button>
-            </li>
-            <li>
-              <button onClick={() => handleClick('New London County')}>
-                New London County
-              </button>
-            </li>
-            <li>
-              <button onClick={() => handleClick('Tolland County')}>
-                Tolland County
-              </button>
-            </li>
-          </ul>
-        </div>
-        <div className="column">
-          <h3>Your Nest</h3>
-          <ul>
-            <li>
-              <Link to="/favorites">Favorites</Link>
-            </li>
-          </ul>
+    <nav className="navbar">
+      <div className="navbar__menu">
+        <Link to="/">Home</Link>
+        <div
+          className="navbar__dropdown"
+          onMouseEnter={toggleDropdown}
+          onMouseLeave={toggleDropdown}
+        >
+          <div className="navbar_menu">
+          </div>
+          <button className="navbar__dropdown-button">Rent</button>
+          {isDropdownOpen && (
+            <div className="navbar__dropdown-content">
+              <div className="navbar__dropdown-column">
+                <h4>CT Rentals</h4>
+                <ul>
+                  <li>
+                    <Link to="/houses-for-rent">Houses for Rent</Link>
+                  </li>
+                  <li>
+                    <Link to="/apartments-for-rent">Apartments for Rent</Link>
+                  </li>
+                </ul>
+              </div>
+              <div className="navbar__dropdown-column">
+                <h4>Rentals by County</h4>
+                <ul>
+                  <li>
+                    <Link to="/fairfield-county">Fairfield County</Link>
+                  </li>
+                  <li>
+                    <Link to="/hartford-county">Hartford County</Link>
+                  </li>
+                  <li>
+                    <Link to="/hartford-county">Litchfield County</Link>
+                  </li>
+                  <li>
+                    <Link to="/hartford-county">Middlesex County</Link>
+                  </li>
+                  <li>
+                    <Link to="/hartford-county">New Haven County</Link>
+                  </li>
+                  <li>
+                    <Link to="/hartford-county">New London County</Link>
+                  </li>
+                  <li>
+                    <Link to="/hartford-county">Tolland County</Link>
+                  </li>
+                  <li>
+                    <Link to="/hartford-county">Windham County</Link>
+                  </li>
+                </ul>
+              </div>
+              <div className="navbar__dropdown-column">
+                <h4>Your Nest</h4>
+                <ul>
+                  <li>
+                    <Link to="/favorites">Favorites</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          )}
         </div>
       </div>
-
-      {selectedCounty && (
-        <div>
-          <h2>{selectedCounty} Rentals</h2>
-        </div>
-      )}
+      <div className="navbar-name">
+        <Link to="/">CTNESTQUEST</Link>
+      </div>
+      <div className="navbar-actions">
+        <Link to="/signin">Sign In</Link>
+        <Link to="/signup">Sign Up</Link>
+      </div>
     </nav>
   );
-}
+};
 
-function Nav() {
-
-  function showNavigation() {
-    if (Auth.loggedIn()) {
-      return (
-        <ul className="flex-row">
-          <li className="mx-1">
-            <Link to="/">
-              Home
-            </Link>
-          </li>
-          <li className="mx-1">
-            {DropdownMenu()}
-          </li>
-          <li className="mx-1">
-            <a href="/" onClick={() => Auth.logout()}>
-              Logout
-            </a>
-          </li>
-        </ul>
-      );
-    } else {
-      return (
-        <ul className="flex-row">
-          <li className="mx-1">
-            <Link to="/login">
-              Home
-            </Link>
-          </li>
-          <li className="mx-1">
-            {DropdownMenu()}
-          </li>
-          <li className="mx-1">
-            <Link to="/signup">
-              Signup
-            </Link>
-          </li>
-          <li className="mx-1">
-            <Link to="/login">
-              Login
-            </Link>
-          </li>
-        </ul>
-      );
-    }
-  }
-
-  return (
-    <header className="flex-row px-1">
-      <h1>
-        <Link to="/">
-          CTNestQuest
-        </Link>
-      </h1>
-
-      <nav>
-        {showNavigation()}
-      </nav>
-    </header>
-  );
-}
-
-export default Nav;
+export default Navbar;
