@@ -79,7 +79,7 @@ const Navbar = () => {
         <Link to="/">CTNESTQUEST</Link>
       </div>
       <div className="navbar-actions">
-        <Link to="/signin">Sign In</Link>
+        <Link to="/login">Login</Link>
         <Link to="/signup">Sign Up</Link>
       </div>
     </nav>
