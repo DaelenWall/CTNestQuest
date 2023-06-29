@@ -44,22 +44,22 @@ const Navbar = () => {
                     <Link to="/hartford-county">Hartford County</Link>
                   </li>
                   <li>
-                    <Link to="/hartford-county">Litchfield County</Link>
+                    <Link to="/litchfield-county">Litchfield County</Link>
                   </li>
                   <li>
-                    <Link to="/hartford-county">Middlesex County</Link>
+                    <Link to="/middlesex-county">Middlesex County</Link>
                   </li>
                   <li>
-                    <Link to="/hartford-county">New Haven County</Link>
+                    <Link to="/new-haven-county">New Haven County</Link>
                   </li>
                   <li>
-                    <Link to="/hartford-county">New London County</Link>
+                    <Link to="/new-london-county">New London County</Link>
                   </li>
                   <li>
-                    <Link to="/hartford-county">Tolland County</Link>
+                    <Link to="/tolland-county">Tolland County</Link>
                   </li>
                   <li>
-                    <Link to="/hartford-county">Windham County</Link>
+                    <Link to="/windham-county">Windham County</Link>
                   </li>
                 </ul>
               </div>
@@ -67,7 +67,7 @@ const Navbar = () => {
                 <h4>Your Nest</h4>
                 <ul>
                   <li>
-                    <Link to="/favorites">Favorites</Link>
+                    <Link to="/favorite">Favorites</Link>
                   </li>
                 </ul>
               </div>
