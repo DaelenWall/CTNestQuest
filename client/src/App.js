@@ -47,7 +47,7 @@ function App() {
                 element={<Home />} 
               />
               <Route 
-                path="/signin" 
+                path="/login" 
                 element={<Login />} 
               />
               <Route 
