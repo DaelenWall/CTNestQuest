@@ -5,7 +5,8 @@ import '../src/components/Nav/index.css';
 import "../src/components/Nav/"
 import App from './App';
 import "../src/pages/Home.css";
-import "../src/pages/Signup.css"
+import "../src/pages/Signup.css";
+import "../src/pages/Login.css";
 
 ReactDOM.render(
   <React.StrictMode>

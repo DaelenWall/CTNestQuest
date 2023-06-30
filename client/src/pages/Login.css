@@ -3,18 +3,19 @@
     justify-content: center;
     align-items: center;
     height: 90vh;
+
   }
   
-  .signup-form {
+  .login-form {
     width: 490px;
-    height: 575px;
+    height: 400px;
     padding: 20px;
     background-color: #537188;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
   
-  .signup-form h2 {
+  .login-form h2 {
     margin-top: 0;
     text-align: center;
     color: #CBB279;
@@ -22,23 +23,23 @@
     padding: 20px;
   }
   
-  .signup-form form {
+  .login-form form {
     margin-top: 30px;
   }
   
-  .signup-form .flex-row {
+  .login-form .flex-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
   }
   
-  .signup-form label {
+  .login-form label {
     font-weight: bold;
     padding: 10px;
   }
   
-  .signup-form input {
+  .login-form input {
     width: 70%;
     padding: 20px;
     border-radius: 3px;
@@ -46,12 +47,12 @@
     color: #EEEEEE;
   }
   
-  .signup-form .flex-end {
+  .login-form .flex-end {
     justify-content: center;
     margin-top: 20px;
   }
   
-  .signup-form button {
+  .login-form button {
     padding: 15px 35px;
     border-radius: 3px;
     background-color: #CBB279;
@@ -61,5 +62,4 @@
     font-size: 20px;
     margin-top: 30px;
   }
-
 
