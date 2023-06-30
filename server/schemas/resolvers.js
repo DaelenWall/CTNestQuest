@@ -49,6 +49,22 @@ const resolvers = {
 
       return { token, user };
     },
+    addproperty: async(parent, { propertyType,listingAgent,county, address, zipCode, price, bedroomCount, bathroomCount, petsAllowed, sqFootage, depositFee }, context) => {
+        if (context.user) {
+            const property  = await Property.create({
+                propertyType,listingAgent,county, address, zipCode, price, bedroomCount, bathroomCount, petsAllowed, sqFootage, depositFee: context.user.username,
+            });
+      
+            await User.findOneAndUpdate(
+              { _id: context.user._id },
+              { $addToSet: { properties: property._id } }
+            );
+      
+            return property;
+          }
+          throw new AuthenticationError('You need to be logged in!');
+      
+      },
     addReview: async (parent, { propertyId, reviewText }, context) => {
       if (context.user) {
         return Property.findOneAndUpdate(
