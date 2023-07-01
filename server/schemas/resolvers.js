@@ -52,7 +52,7 @@ const resolvers = {
     addproperty: async(parent, { propertyType,listingAgent,county, address, zipCode, price, bedroomCount, bathroomCount, petsAllowed, sqFootage, depositFee }, context) => {
         if (context.user) {
             const property  = await Property.create({
-                propertyType,listingAgent,county, address, zipCode, price, bedroomCount, bathroomCount, petsAllowed, sqFootage, depositFee: context.user.username,
+                propertyType,listingAgent,county, address, zipCode, price, bedroomCount, bathroomCount, petsAllowed, sqFootage, depositFee ,
             });
       
             await User.findOneAndUpdate(
@@ -82,6 +82,7 @@ const resolvers = {
       }
       throw new AuthenticationError('You need to be logged in!');
     },
+    
   },
 };
 module.exports = resolvers;
