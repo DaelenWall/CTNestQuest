@@ -10,13 +10,14 @@ import { setContext } from '@apollo/client/link/context';
 
 import Home from './pages/Home/Home';
 import NoMatch from './pages/NoMatch/NoMatch';
-// import Detail from './pages/Detail';
 import Login from './pages/Login/Login';
 import Favorite from './pages/Favorite/Favorite';
 import Signup from './pages/Signup/Signup';
 import Nav from './components/Nav';
 import RentHouse from './pages/RentHouse/RentHouse';
 import Results from './components/Results/Results';
+import RentApartment from './pages/RentApartment/RentApartment';
+import ApartmentResults from "./components/Results/ApartmentResults";
 
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -53,6 +54,10 @@ function App() {
               element={<RentHouse />}
             />
             <Route
+              path="apartments-for-rent"
+              element={<RentApartment />}
+              />
+            <Route
               path="/login"
               element={<Login />}
             />
@@ -67,6 +72,10 @@ function App() {
             <Route
               path="/results"
               element={<Results />}
+            />
+            <Route
+            path="/apartment-results"
+            element={<ApartmentResults />}
             />
             <Route
               path="*"
