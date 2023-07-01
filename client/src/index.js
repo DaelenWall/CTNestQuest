@@ -4,9 +4,10 @@ import ReactDOM from 'react-dom';
 import '../src/components/Nav/index.css';
 import "../src/components/Nav/"
 import App from './App';
-import "../src/pages/Home.css";
-import "../src/pages/Signup.css";
-import "../src/pages/Login.css";
+import "../src/pages/Home/Home.css";
+import "../src/pages/Signup/Signup.css";
+import "../src/pages/Login/Login.css";
+import "../src/pages/RentHouse/RentHouse.css";
 
 ReactDOM.render(
   <React.StrictMode>
