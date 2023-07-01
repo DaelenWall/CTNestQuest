@@ -1,13 +1,17 @@
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
-//import use query and usequery from apollo client 
-import { useQuery } from '@apollo/client';
-import { GET_PROPERTIES } from '../../utils/queries';
+//import use query and usequery from apollo client
+import { useQuery } from "@apollo/client";
+import { GET_PROPERTIES } from "../../utils/queries";
 
 const RentHouseForm = () => {
-
   const navigate = useNavigate();
+  const [minPrice, setMinPrice] = useState("");
+  const [maxPrice, setMaxPrice] = useState("");
+  const [bedrooms, setBedrooms] = useState("");
+  const [bathrooms, setBathrooms] = useState("");
+  const [county, setCounty] = useState("");
 
   const { loading, data } = useQuery(GET_PROPERTIES);
 
@@ -18,19 +22,19 @@ const RentHouseForm = () => {
     const { name, value } = event.target;
 
     switch (name) {
-      case 'minPrice':
+      case "minPrice":
         setMinPrice(value);
         break;
-      case 'maxPrice':
+      case "maxPrice":
         setMaxPrice(value);
         break;
-      case 'bedroom':
+      case "bedroom":
         setBedrooms(value);
         break;
-      case 'bathroom':
+      case "bathroom":
         setBathrooms(value);
         break;
-      case 'county':
+      case "county":
         setCounty(value);
         break;
       default:
@@ -40,9 +44,19 @@ const RentHouseForm = () => {
 
   const handleFormSubmit = (event) => {
     event.preventDefault();
-
-    //passing properties over to results js 
-    navigate('/results', { state: { properties }}); 
+    //passing properties over to results js
+    navigate("/results", {
+      state: {
+        properties,
+        filters: {
+          minPrice,
+          maxPrice,
+          bedrooms,
+          bathrooms,
+          county,
+        },
+      },
+    });
   };
 
   return (
