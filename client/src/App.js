@@ -8,13 +8,14 @@ import {
 } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
 
-import Home from './pages/Home';
-import NoMatch from './pages/NoMatch';
-import Detail from './pages/Detail';
-import Login from './pages/Login';
-import Favorite from './pages/Favorite';
-import Signup from './pages/Signup';
+import Home from './pages/Home/Home';
+import NoMatch from './pages/NoMatch/NoMatch';
+// import Detail from './pages/Detail';
+import Login from './pages/Login/Login';
+import Favorite from './pages/Favorite/Favorite';
+import Signup from './pages/Signup/Signup';
 import Nav from './components/Nav';
+import RentHouse from './pages/RentHouse/RentHouse';
 
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -45,6 +46,10 @@ function App() {
               <Route 
                 path="/" 
                 element={<Home />} 
+              />
+              <Route
+              path="houses-for-rent"
+              element={<RentHouse />}
               />
               <Route 
                 path="/login" 
