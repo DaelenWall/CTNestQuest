@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import Auth from "../../utils/auth";
+import Auth from "../../utils/auth";
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
@@ -7,6 +7,12 @@ const Navbar = () => {
 
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
+  };
+
+  const isLoggedIn = Auth.loggedIn();
+
+  const handleLogout = () => {
+    Auth.logout();
   };
 
   return (
@@ -63,14 +69,6 @@ const Navbar = () => {
                   </li>
                 </ul>
               </div>
-              <div className="navbar__dropdown-column">
-                <h4>Your Nest</h4>
-                <ul>
-                  <li>
-                    <Link to="/favorite">Favorites</Link>
-                  </li>
-                </ul>
-              </div>
             </div>
           )}
         </div>
@@ -78,9 +76,21 @@ const Navbar = () => {
       <div className="navbar-name">
         <Link to="/">CTNESTQUEST</Link>
       </div>
-      <div className="navbar-actions">
-        <Link to="/login">Login</Link>
-        <Link to="/signup">Sign Up</Link>
+<div className="navbar-actions">
+<div>
+  {isLoggedIn ? (
+    <>
+      <Link to="/home">Your Nest</Link>
+      <Link to="/favorite">Favorites</Link>
+      <Link to="/" onClick={handleLogout}>Logout</Link>
+    </>
+  ) : (
+    <Link to="/login">Login</Link>
+  )}
+</div>
+      <div>
+        {isLoggedIn ? '' : <Link to="/signup">Sign Up</Link>}
+      </div>
       </div>
     </nav>
   );
