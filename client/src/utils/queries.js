@@ -26,3 +26,26 @@ export const QUERY_USER = gql`
     }
   }
 `;
+
+export const GET_PROPERTIES = gql`
+{
+  properties {
+  _id
+  address
+  bathroomCount
+  bedroomCount
+  county
+  depositFee
+  listingAgent
+  petsAllowed
+  price
+  propertyType
+  sqFootage
+  zipCode
+  reviews {
+    reviewText
+    reviewAuthor
+  }
+}
+}
+`;

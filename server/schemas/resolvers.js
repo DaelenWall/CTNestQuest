@@ -49,7 +49,7 @@ const resolvers = {
 
       return { token, user };
     },
-    addproperty: async(parent, { propertyType,listingAgent,county, address, zipCode, price, bedroomCount, bathroomCount, petsAllowed, sqFootage, depositFee }, context) => {
+    addProperty: async(parent, { propertyType,listingAgent,county, address, zipCode, price, bedroomCount, bathroomCount, petsAllowed, sqFootage, depositFee }, context) => {
         if (context.user) {
             const property  = await Property.create({
                 propertyType,listingAgent,county, address, zipCode, price, bedroomCount, bathroomCount, petsAllowed, sqFootage, depositFee ,

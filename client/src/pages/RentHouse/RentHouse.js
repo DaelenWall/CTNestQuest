@@ -1,16 +1,18 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import seeds from '../../../../server/seeds/propertySeeds.json';
+//import use query and usequery from apollo client 
+import { useQuery } from '@apollo/client';
+import { GET_PROPERTIES } from '../../utils/queries';
 
 const RentHouseForm = () => {
-  const [minPrice, setMinPrice] = useState('');
-  const [maxPrice, setMaxPrice] = useState('');
-  const [bedrooms, setBedrooms] = useState('');
-  const [bathrooms, setBathrooms] = useState('');
-  const [county, setCounty] = useState('');
 
   const navigate = useNavigate();
+
+  const { loading, data } = useQuery(GET_PROPERTIES);
+
+  const properties = data?.properties || {};
+  console.log(properties);
 
   const handleChange = (event) => {
     const { name, value } = event.target;
@@ -39,18 +41,8 @@ const RentHouseForm = () => {
   const handleFormSubmit = (event) => {
     event.preventDefault();
 
-    const filteredData = seeds.filter((property) => {
-        return (
-            property.propertyType === 'House' &&
-            property.price >= minPrice &&
-            property.price <= maxPrice &&
-            property.bedroomCount === bedrooms &&
-            property.bathroomCount === bathrooms &&
-            property.county.toLowerCase() === county.toLowerCase()
-        );
-    });
-
-    navigate('/results', { state: { filteredHouses: filteredData }});
+    //passing properties over to results js 
+    navigate('/results', { state: { properties }}); 
   };
 
   return (
