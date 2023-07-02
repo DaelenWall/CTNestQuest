@@ -83,6 +83,32 @@ const resolvers = {
       throw new AuthenticationError('You need to be logged in!');
     },
     
+      removeProperty: async (parent, { propertyId }, context) => {
+        if (context.user) {
+          const property = await Property.findOne({ _id: propertyId });
+    
+          if (!property) {
+            throw new Error('Property not found');
+          }
+
+          if (property.listingAgent.toString() !== context.user._id) {
+            throw new AuthenticationError('You are not authorized to remove this property');
+          }
+    
+          await property.remove();
+         
+          await User.findOneAndUpdate(
+            { _id: context.user._id },
+            { $pull: { properties: property._id } }
+          );
+    
+          return property;
+        }
+    
+        throw new AuthenticationError('You need to be logged in!');
+      
+    },
+    
   },
 };
 module.exports = resolvers;
