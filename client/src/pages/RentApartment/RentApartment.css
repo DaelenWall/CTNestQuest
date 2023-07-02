@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  
+  .apartment-form {
+    width: 525px;
+    height: 575px;
+    padding: 20px;
+    background-color: #537188;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .apartment-form h2 {
+    margin-top: 0;
+    text-align: center;
+    color: #CBB279;
+    font-size: 35px;
+    padding: 20px;
+  }
+  
+  .apartment-form form {
+    margin-top: 30px;
+  }
+  
+  .apartment-form .flex-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .apartment-form label {
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .apartment-form input {
+    width: 58%;
+    padding: 20px;
+    border-radius: 3px;
+    border: 1px solid #E1D4BB;
+    color: black;
+  }
+  
+  .apartment-form .flex-end {
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .apartment-form button {
+    padding: 15px 35px;
+    border-radius: 3px;
+    background-color: #CBB279;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 30px;
+  }

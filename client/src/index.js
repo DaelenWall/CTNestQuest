@@ -8,6 +8,7 @@ import "../src/pages/Home/Home.css";
 import "../src/pages/Signup/Signup.css";
 import "../src/pages/Login/Login.css";
 import "../src/pages/RentHouse/RentHouse.css";
+import "../src/pages/RentApartment/RentApartment.css"
 
 ReactDOM.render(
   <React.StrictMode>
