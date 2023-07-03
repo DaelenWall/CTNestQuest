@@ -6,7 +6,7 @@ import { GET_PROPERTIES } from '../../utils/queries';
 const FairfieldCounty = () => {
 
   const { loading, data } = useQuery(GET_PROPERTIES);
-  console.log(data)
+
   if (!data) {
     return <p>No data available to show.</p>;
   }
