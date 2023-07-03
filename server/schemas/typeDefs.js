@@ -10,6 +10,7 @@ type User {
     username: String!
     password: String!
     property: [Property]
+    favorites: [Favorite]
 }
 
 type Property { 
@@ -26,6 +27,11 @@ type Property {
     sqFootage: Int!
     depositFee: Int!
     reviews: [Review]!
+}
+
+type Favorite { 
+  favoriteDate: String
+  property: [Property]
 }
 
 type Review {
