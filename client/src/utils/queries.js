@@ -44,6 +44,7 @@ export const GET_PROPERTIES = gql`
   listingAgent
   petsAllowed
   price
+  image
   propertyType
   sqFootage
   zipCode

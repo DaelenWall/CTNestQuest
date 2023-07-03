@@ -6,6 +6,7 @@ import { QUERY_ME } from '../../utils/queries';
 import FavoriteItem from '../../components/FavoriteItem';
 
 function Favorite() {
+
   const { data } = useQuery(QUERY_ME, {
     variables: {
       username: 'joshymol',
