@@ -18,6 +18,7 @@ import RentHouse from './pages/RentHouse/RentHouse';
 import Results from './components/Results/Results';
 import RentApartment from './pages/RentApartment/RentApartment';
 import ApartmentResults from "./components/Results/ApartmentResults";
+import FairfieldCounty from './pages/Counties/FairfieldCounty';
 
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -76,6 +77,10 @@ function App() {
             <Route
             path="/apartment-results"
             element={<ApartmentResults />}
+            />
+            <Route
+            path="/fairfield-county"
+            element={<FairfieldCounty />}
             />
             <Route
               path="*"
