@@ -36,7 +36,12 @@ const userSchema = new Schema({
             ref: 'Property',
         },
     ],
-    favorites: [Favorite.schema]
+    favorites: [
+        {
+            type: Schema.Types.ObjectId,
+            ref: 'Favorite',
+        }
+    ]
 });
 
 // pre-save middleware to create password
