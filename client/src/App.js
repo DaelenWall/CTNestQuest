@@ -19,6 +19,13 @@ import Results from './components/Results/Results';
 import RentApartment from './pages/RentApartment/RentApartment';
 import ApartmentResults from "./components/Results/ApartmentResults";
 import FairfieldCounty from './pages/Counties/FairfieldCounty';
+import HartfordCounty from './pages/Counties/HartfordCounty';
+import LitchfieldCounty from './pages/Counties/LitchfieldCounty';
+import MiddlesexCounty from './pages/Counties/MiddlesexCounty';
+import NewHavenCounty from './pages/Counties/NewHavenCounty';
+import NewLondonCounty from './pages/Counties/NewLondonCounty';
+import TollandCounty from './pages/Counties/TollandCounty';
+import WindhamCounty from './pages/Counties/WindhamCounty';
 
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -81,6 +88,34 @@ function App() {
             <Route
             path="/fairfield-county"
             element={<FairfieldCounty />}
+            />
+            <Route
+            path="/hartford-county"
+            element={<HartfordCounty />}
+            />
+            <Route
+            path="/litchfield-county"
+            element={<LitchfieldCounty />}
+            />
+            <Route
+            path="/middlesex-county"
+            element={<MiddlesexCounty />}
+            />
+            <Route
+            path="/new-haven-county"
+            element={<NewHavenCounty />}
+            />
+            <Route
+            path="/new-london-county"
+            element={<NewLondonCounty />}
+            />
+            <Route
+            path="/tolland-county"
+            element={<TollandCounty />}
+            />
+            <Route
+            path="/windham-county"
+            element={<WindhamCounty />}
             />
             <Route
               path="*"
