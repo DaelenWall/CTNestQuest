@@ -33,6 +33,10 @@ const propertySchema = new Schema({
         required: true,
         trim: true
     },
+    image: {
+        type: String,
+        trim: true,
+    },
     bedroomCount: {
         type: Number,
         required: true,
