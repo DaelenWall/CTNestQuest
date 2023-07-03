@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 import { useQuery } from '@apollo/client';
@@ -6,24 +6,34 @@ import { QUERY_ME } from '../../utils/queries';
 import FavoriteItem from '../../components/FavoriteItem';
 
 function Favorite() {
-  const { data } = useQuery(QUERY_ME);
-  let user;
+
+  const { data } = useQuery(QUERY_ME, {
+    variables: {
+      username: 'joshymol',
+    }
+  });
+  let me;
 
   if (data) {
-    user = data.user;
+    me = data.me;
   }
 
+  useEffect(() => {
+    console.log(data);
+  }, [data]);
+
+  console.log(me.firstName);
   return (
     <>
       <div className="container my-1">
         <Link to="/">← Back to Properties</Link>
 
-        {user ? (
+        {me ? (
           <>
             <h2>
-              Favorites for {user.firstName} {user.lastName}
+              Favorites for {me.firstName} {me.lastName}
             </h2>
-            {user.favorites.map((favorite) => (
+            {me.favorites.map((favorite) => (
               <div key={favorite._id} className="my-2">
                 <h3>
                   {new Date(parseInt(favorite.favoriteDate)).toLocaleDateString()}
