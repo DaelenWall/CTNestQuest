@@ -57,7 +57,7 @@ export const GET_PROPERTIES = gql`
 `;
 
 export const GET_SINGLE_PROPERTY = gql`
-{
+query Query($propertyId: ID!){
   property(propertyId: $propertyId) {
     _id
     address
@@ -128,7 +128,7 @@ export const GET_USER = gql`
 `;
 
 export const GET_SINGLE_USER = gql`
-{
+query Query($username: String!) {
   user(username: $username) {
     _id
     email
