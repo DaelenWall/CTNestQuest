@@ -8,8 +8,9 @@ const Property = () => {
 
   const { loading, data } = useQuery(GET_SINGLE_PROPERTY, {
     variables: { 
-        _id: propertyId },
+        propertyId: propertyId },
 });
+console.log(propertyId);
 
   if (!data) {
     return <p>No available data to show.</p>;
@@ -23,7 +24,7 @@ const Property = () => {
       <div className="single_property-container">
       <img src={`/images/${property.image}`} alt={property.address} />
       <div key={property.id} className="single_property-info-container">
-        <h3>Price: ${property.propertyId.price}/mo</h3>
+        <h3>Price: ${property.price}/mo</h3>
         <p>Bedrooms: {property.bedroomCount}</p>
         <p>Bathrooms: {property.bathroomCount}</p>
         <p>Address: {property.address}</p>
