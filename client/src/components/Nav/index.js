@@ -4,9 +4,14 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isFavoritesOpen, setIsFavoritesOpen] = useState(false);
 
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
+  };
+
+  const toggleFavorites = () => {
+    setIsFavoritesOpen(!isFavoritesOpen);
   };
 
   const isLoggedIn = Auth.loggedIn();
@@ -24,8 +29,7 @@ const Navbar = () => {
           onMouseEnter={toggleDropdown}
           onMouseLeave={toggleDropdown}
         >
-          <div className="navbar_menu">
-          </div>
+          <div className="navbar_menu"></div>
           <button className="navbar__dropdown-button">Rent</button>
           {isDropdownOpen && (
             <div className="navbar__dropdown-content">
@@ -76,21 +80,34 @@ const Navbar = () => {
       <div className="navbar-name">
         <Link to="/">CTNESTQUEST</Link>
       </div>
-<div className="navbar-actions">
-<div>
-  {isLoggedIn ? (
-    <>
-      <Link to="/home">Your Nest</Link>
-      <Link to="/favorite">Favorites</Link>
-      <Link to="/" onClick={handleLogout}>Logout</Link>
-    </>
-  ) : (
-    <Link to="/login">Login</Link>
-  )}
-</div>
-      <div>
-        {isLoggedIn ? '' : <Link to="/signup">Sign Up</Link>}
-      </div>
+      <div className="navbar-actions">
+        <div
+          className="navbar__dropdown"
+          onMouseEnter={toggleFavorites}
+          onMouseLeave={toggleFavorites}
+        >
+          <Link to="/home">Profile</Link>
+          {isFavoritesOpen && (
+            <div className="navbar__dropdown-content2">
+              <h5>My Nest</h5>
+              <ul>
+                <li>
+                  <Link to="/favorite">Favorites</Link>
+                </li>
+              </ul>
+            </div>
+          )}
+        </div>
+        {isLoggedIn ? (
+          <>
+            <Link to="/" onClick={handleLogout}>Logout</Link>
+          </>
+        ) : (
+          <>
+            <Link to="/login">Login</Link>
+            <Link to="/signup">Sign Up</Link>
+          </>
+        )}
       </div>
     </nav>
   );
