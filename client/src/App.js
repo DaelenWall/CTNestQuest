@@ -26,6 +26,7 @@ import NewHavenCounty from './pages/Counties/NewHavenCounty';
 import NewLondonCounty from './pages/Counties/NewLondonCounty';
 import TollandCounty from './pages/Counties/TollandCounty';
 import WindhamCounty from './pages/Counties/WindhamCounty';
+import Property from './pages/Property/Property';
 
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -116,6 +117,10 @@ function App() {
             <Route
             path="/windham-county"
             element={<WindhamCounty />}
+            />
+            <Route
+            path="/single-property/:propertyId"
+            element={<Property/>}
             />
             <Route
               path="*"
