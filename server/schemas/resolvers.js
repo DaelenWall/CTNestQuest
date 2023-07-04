@@ -49,22 +49,41 @@ const resolvers = {
 
       return { token, user };
     },
-    addProperty: async(parent, { propertyType,listingAgent,county, address, zipCode, price, bedroomCount, bathroomCount, petsAllowed, sqFootage, depositFee }, context) => {
-        if (context.user) {
-            const property  = await Property.create({
-                propertyType,listingAgent,county, address, zipCode, price, bedroomCount, bathroomCount, petsAllowed, sqFootage, depositFee ,
-            });
-      
-            await User.findOneAndUpdate(
-              { _id: context.user._id },
-              { $addToSet: { properties: property._id } }
-            );
-      
-            return property;
-          }
-          throw new AuthenticationError('You need to be logged in!');
-      
-      },
+    addProperty: async (parent, { propertyType, listingAgent, county, address, zipCode, price, bedroomCount, bathroomCount, petsAllowed, sqFootage, depositFee }, context) => {
+      if (context.user) {
+        const property = await Property.create({
+          propertyType, listingAgent, county, address, zipCode, price, bedroomCount, bathroomCount, petsAllowed, sqFootage, depositFee,
+        });
+
+        await User.findOneAndUpdate(
+          { _id: context.user._id },
+          { $addToSet: { properties: property._id } }
+        );
+
+        return property;
+      }
+      throw new AuthenticationError('You need to be logged in!');
+
+    },
+
+    addFavorite: async (parent, { propertyId }, context) => {
+      if (context.user) {
+        const favorite = {
+          favoriteDate: new Date(),
+          property: propertyId,
+        };
+
+        const user = await User.findOneAndUpdate(
+          { _id: context.user._id },
+          { $addToSet: { favorites: favorite } },
+          { new: true }
+        );
+
+        return user;
+      }
+      throw new AuthenticationError('You need to be logged in!');
+    },
+
     addReview: async (parent, { propertyId, reviewText }, context) => {
       if (context.user) {
         return Property.findOneAndUpdate(
@@ -82,33 +101,33 @@ const resolvers = {
       }
       throw new AuthenticationError('You need to be logged in!');
     },
-    
-      removeProperty: async (parent, { propertyId }, context) => {
-        if (context.user) {
-          const property = await Property.findOne({ _id: propertyId });
-    
-          if (!property) {
-            throw new Error('Property not found');
-          }
 
-          if (property.listingAgent.toString() !== context.user._id) {
-            throw new AuthenticationError('You are not authorized to remove this property');
-          }
-    
-          await property.remove();
-         
-          await User.findOneAndUpdate(
-            { _id: context.user._id },
-            { $pull: { properties: property._id } }
-          );
-    
-          return property;
+    removeProperty: async (parent, { propertyId }, context) => {
+      if (context.user) {
+        const property = await Property.findOne({ _id: propertyId });
+
+        if (!property) {
+          throw new Error('Property not found');
         }
-    
-        throw new AuthenticationError('You need to be logged in!');
-      
+
+        if (property.listingAgent.toString() !== context.user._id) {
+          throw new AuthenticationError('You are not authorized to remove this property');
+        }
+
+        await property.remove();
+
+        await User.findOneAndUpdate(
+          { _id: context.user._id },
+          { $pull: { properties: property._id } }
+        );
+
+        return property;
+      }
+
+      throw new AuthenticationError('You need to be logged in!');
+
     },
-    
+
   },
 };
 module.exports = resolvers;
