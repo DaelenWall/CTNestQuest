@@ -1,6 +1,7 @@
 import React from 'react';
 import { useQuery } from '@apollo/client';
 import { GET_PROPERTIES } from '../../utils/queries';
+import { Link } from 'react-router-dom';
 
 const HartfordCounty = () => {
 
@@ -24,12 +25,18 @@ const HartfordCounty = () => {
     return (
       <div className="container my-1">
         {hartfordProperties.map((property) => (
+          <Link to={`/single-property/${property._id}`}>
+          <img
+            src={`/images/${property.image}`}
+            alt={property.address}
+          />
           <div key={property.id} className="property-container">
             <h3>Price: ${property.price}/mo</h3>
             <p>Bedrooms: {property.bedroomCount}</p>
             <p>Bathrooms: {property.bathroomCount}</p>
             <p>Address: {property.address}</p>
           </div>
+          </Link>
         ))}
       </div>
     );
