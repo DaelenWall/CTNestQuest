@@ -4,7 +4,8 @@
         "lastName": "Molyneaux",
         "email": "joshua93@live.com",
         "username": "joshymol",
-        "password": "password123"
+        "password": "password123",
+        "favorites": []
     },
     {
         "firstName": "Sami",
