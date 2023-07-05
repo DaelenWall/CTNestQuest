@@ -33,7 +33,7 @@ export const ADD_FAVORITE = gql`
   }
 `;
 
-export const ADD_REVIEW = gpl`
+export const ADD_REVIEW = gql`
 mutation addReview($propertyId: ID!, $reviewText: String!){
   addReview(propertyId: $propertyId, reviewText: $reviewText){
     _id: ID
