@@ -13,7 +13,7 @@ function Favorite() {
   useEffect(() => {
     console.log(me);
   }, [me]);
-
+  
   return (
     <div className="container my-1">
 
