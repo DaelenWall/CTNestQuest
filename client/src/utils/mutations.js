@@ -11,7 +11,7 @@ export const LOGIN = gql`
   }
 `;
 
-export const ADD_Favorite = gql`
+export const ADD_FAVORITE = gql`
   mutation addFavorite($property: [ID]!) {
     addFavorite(property: $propertys) {
       favoriteDate
@@ -31,6 +31,33 @@ export const ADD_Favorite = gql`
       }
     }
   }
+`;
+
+export const ADD_REVIEW = gpl`
+mutation addReview($propertyId: ID!, $reviewText: String!){
+  addReview(propertyId: $propertyId, reviewText: $reviewText){
+    _id: ID
+    propertyType
+    listingAgent 
+    county 
+    address
+    zipCode
+    price
+    bedroomCount 
+    bathroomCount
+    petsAllowed 
+    sqFootage 
+    depositFee
+    reviews{
+      _id: ID
+      reviewText
+      reviewAuthor
+      createdAt
+    }
+  }
+}
+
+
 `;
 
 export const ADD_USER = gql`
