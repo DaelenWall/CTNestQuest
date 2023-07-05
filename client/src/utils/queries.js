@@ -68,6 +68,7 @@ query Query($propertyId: ID!){
     listingAgent
     petsAllowed
     price
+    image
     propertyType
     reviews {
       reviewText
