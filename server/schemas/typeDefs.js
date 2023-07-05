@@ -20,6 +20,7 @@ type Property {
     county: String!
     address: String!
     zipCode: Int!
+    image: String
     price: Int!
     bedroomCount: Int!
     bathroomCount: Int!

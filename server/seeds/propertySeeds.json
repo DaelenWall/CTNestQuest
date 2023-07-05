@@ -19,6 +19,7 @@
         "address": "25 Silver Lane, fairfield CT", 
         "zipCode": "06085",
         "price": "1150",
+        "image": "bridgeportHouse.jpg",
         "bedroomCount": "1",
         "bathroomCount": "1",
         "petsAllowed": "false", 
