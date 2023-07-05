@@ -18,6 +18,7 @@ import RentHouse from './pages/RentHouse/RentHouse';
 import Results from './components/Results/Results';
 import RentApartment from './pages/RentApartment/RentApartment';
 import ApartmentResults from "./components/Results/ApartmentResults";
+import SearchResults from './components/Results/SearchResults';
 import FairfieldCounty from './pages/Counties/FairfieldCounty';
 import HartfordCounty from './pages/Counties/HartfordCounty';
 import LitchfieldCounty from './pages/Counties/LitchfieldCounty';
@@ -65,7 +66,7 @@ function App() {
             <Route
               path="apartments-for-rent"
               element={<RentApartment />}
-              />
+            />
             <Route
               path="/login"
               element={<Login />}
@@ -83,44 +84,48 @@ function App() {
               element={<Results />}
             />
             <Route
-            path="/apartment-results"
-            element={<ApartmentResults />}
+              path="/search-results"
+              element={<SearchResults />}
             />
             <Route
-            path="/fairfield-county"
-            element={<FairfieldCounty />}
+              path="/apartment-results"
+              element={<ApartmentResults />}
             />
             <Route
-            path="/hartford-county"
-            element={<HartfordCounty />}
+              path="/fairfield-county"
+              element={<FairfieldCounty />}
             />
             <Route
-            path="/litchfield-county"
-            element={<LitchfieldCounty />}
+              path="/hartford-county"
+              element={<HartfordCounty />}
             />
             <Route
-            path="/middlesex-county"
-            element={<MiddlesexCounty />}
+              path="/litchfield-county"
+              element={<LitchfieldCounty />}
             />
             <Route
-            path="/new-haven-county"
-            element={<NewHavenCounty />}
+              path="/middlesex-county"
+              element={<MiddlesexCounty />}
             />
             <Route
-            path="/new-london-county"
-            element={<NewLondonCounty />}
+              path="/new-haven-county"
+              element={<NewHavenCounty />}
             />
             <Route
-            path="/tolland-county"
-            element={<TollandCounty />}
+              path="/new-london-county"
+              element={<NewLondonCounty />}
             />
             <Route
-            path="/windham-county"
-            element={<WindhamCounty />}
+              path="/tolland-county"
+              element={<TollandCounty />}
             />
             <Route
-            path="/single-property/:propertyId"
-            element={<Property/>}
+              path="/windham-county"
+              element={<WindhamCounty />}
+            />
+            <Route
+              path="/single-property/:propertyId"
+              element={<Property />}
             />
             <Route
               path="*"
