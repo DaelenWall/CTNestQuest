@@ -11,6 +11,54 @@ export const LOGIN = gql`
   }
 `;
 
+export const ADD_PROPERTY = gql`
+  mutation addProperty(
+    $propertyType: String!
+    $listingAgent: String!
+    $county: String!
+    $address: String!
+    $zipCode: String!
+    $price: Float!
+    $bedroomCount: Int!
+    $bathroomCount: Int!
+    $petsAllowed: Boolean!
+    $sqFootage: Int!
+    $depositFee: Float!
+  ) {
+    addProperty(
+      propertyType: $propertyType
+      listingAgent: $listingAgent
+      county: $county
+      address: $address
+      zipCode: $zipCode
+      price: $price
+      bedroomCount: $bedroomCount
+      bathroomCount: $bathroomCount
+      petsAllowed: $petsAllowed
+      sqFootage: $sqFootage
+      depositFee: $depositFee
+    ) {
+      propertyType
+      listingAgent
+      county
+      address
+      zipCode
+      price
+      bedroomCount
+      bathroomCount
+      petsAllowed
+      sqFootage
+      depositFee
+    }
+  }
+`;
+
+
+
+
+
+
+
 export const ADD_FAVORITE = gql`
   mutation addFavorite($property: [ID]!) {
     addFavorite(property: $propertys) {
@@ -59,6 +107,15 @@ mutation addReview($propertyId: ID!, $reviewText: String!){
 
 
 `;
+
+export const REMOVE_PROPERTY = gql`
+  mutation removeProperty($propertyId: ID!) {
+    removeProperty(propertyId: $propertyId) {
+      _id
+    }
+  }
+`;
+
 
 export const ADD_USER = gql`
   mutation addUser(
