@@ -14,7 +14,7 @@ export const LOGIN = gql`
 export const ADD_PROPERTY = gql`
   mutation addProperty(
     $propertyType: String!
-    $listingAgent: String!
+    $landlord: String!
     $county: String!
     $address: String!
     $zipCode: String!
@@ -27,7 +27,7 @@ export const ADD_PROPERTY = gql`
   ) {
     addProperty(
       propertyType: $propertyType
-      listingAgent: $listingAgent
+      landlord: $landlord
       county: $county
       address: $address
       zipCode: $zipCode
@@ -39,7 +39,7 @@ export const ADD_PROPERTY = gql`
       depositFee: $depositFee
     ) {
       propertyType
-      listingAgent
+      landlord
       county
       address
       zipCode
@@ -75,7 +75,7 @@ export const ADD_FAVORITE = gql`
         petsAllowed
         sqFootage
         depositFee
-        listingAgent
+        landlord
       }
     }
   }
@@ -86,7 +86,7 @@ mutation addReview($propertyId: ID!, $reviewText: String!){
   addReview(propertyId: $propertyId, reviewText: $reviewText){
     _id: ID
     propertyType
-    listingAgent 
+    landlord 
     county 
     address
     zipCode
