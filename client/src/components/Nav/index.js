@@ -87,7 +87,7 @@ const Navbar = () => {
             onMouseEnter={toggleFavorites}
             onMouseLeave={toggleFavorites}
           >
-            <Link to="/home">Profile</Link>
+            <button className="navbar__dropdown-button">Profile</button>
             {isFavoritesOpen && (
               <div className="navbar__dropdown-content2">
                 <h5>My Nest</h5>
