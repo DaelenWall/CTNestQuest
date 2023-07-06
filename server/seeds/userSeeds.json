@@ -3,7 +3,7 @@
         "firstName": "Josh",
         "lastName": "Molyneaux",
         "email": "joshua93@live.com",
-        "username": "joshymol",
+        "username": "Josh Molyneaux",
         "password": "password123",
         "favorites": []
     },
@@ -11,70 +11,70 @@
         "firstName": "Sami",
         "lastName": "Saqib",
         "email": "ssaqib@email.com",
-        "username": "ssaqib",
+        "username": "Sami Saqib",
         "password": "password123"
     },
     {
         "firstName": "Matt",
         "lastName": "Bull",
         "email": "mattbull@live.com",
-        "username": "mattyb",
+        "username": "Matthew Bull",
         "password": "password123"
     },
     {
         "firstName": "Daelen",
         "lastName": "Wall",
         "email": "dwall@live.com",
-        "username": "dwall",
+        "username": "Daelan Wall",
         "password": "password123"
     },
     {
         "firstName": "Hailey",
         "lastName": "Flora",
         "email": "hflora@email.com",
-        "username": "hflora",
+        "username": "Hailey Flora",
         "password": "password123"
     },
     {
         "firstName": "Jane",
         "lastName": "Doe",
         "email": "jdoe@live.com",
-        "username": "jdoe",
+        "username": "Jane Doe",
         "password": "password123"
     },
     {
         "firstName": "Lisa",
         "lastName": "Lancer",
         "email": "llancer@live.com",
-        "username": "llancer",
+        "username": "Lisa Lancer",
         "password": "password123"
     },
     {
         "firstName": "Omar",
         "lastName": "Wilson",
         "email": "owilson@live.com",
-        "username": "owilson",
+        "username": "Omar Wilson",
         "password": "password123"
     },
     {
         "firstName": "Lucy",
         "lastName": "Heartfilia",
         "email": "lheartfilia@live.com",
-        "username": "lucyheart",
+        "username": "Lucy Heartfilia",
         "password": "password123"
     },
     {
         "firstName": "Roy",
         "lastName": "Rojers",
         "email": "rrojers@live.com",
-        "username": "rrojers",
+        "username": "Roy Rogers",
         "password": "password123"
     },
     {
         "firstName": "Roen",
         "lastName": "Knight",
         "email": "rknight@live.com",
-        "username": "rknight",
+        "username": "Roen Knight",
         "password": "password123"
     }
 ]
