@@ -81,27 +81,27 @@ const Navbar = () => {
         <Link to="/">CTNESTQUEST</Link>
       </div>
       <div className="navbar-actions">
-        <div
-          className="navbar__dropdown"
-          onMouseEnter={toggleFavorites}
-          onMouseLeave={toggleFavorites}
-        >
-          <Link to="/home">Profile</Link>
-          {isFavoritesOpen && (
-            <div className="navbar__dropdown-content2">
-              <h5>My Nest</h5>
-              <ul>
-                <li>
-                  <Link to="/favorite">Favorites</Link>
-                </li>
-              </ul>
-            </div>
-          )}
-        </div>
+        {isLoggedIn && (
+          <div
+            className="navbar__dropdown"
+            onMouseEnter={toggleFavorites}
+            onMouseLeave={toggleFavorites}
+          >
+            <Link to="/home">Profile</Link>
+            {isFavoritesOpen && (
+              <div className="navbar__dropdown-content2">
+                <h5>My Nest</h5>
+                <ul>
+                  <li>
+                    <Link to="/favorite">Favorites</Link>
+                  </li>
+                </ul>
+              </div>
+            )}
+          </div>
+        )}
         {isLoggedIn ? (
-          <>
-            <Link to="/" onClick={handleLogout}>Logout</Link>
-          </>
+          <Link to="/" onClick={handleLogout}>Logout</Link>
         ) : (
           <>
             <Link to="/login">Login</Link>
