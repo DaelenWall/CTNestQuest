@@ -50,10 +50,10 @@ const resolvers = {
 
       return { token, user };
     },
-    addProperty: async (parent, { propertyType, listingAgent, county, address, zipCode, price, bedroomCount, bathroomCount, petsAllowed, sqFootage, depositFee }, context) => {
+    addProperty: async (parent, { propertyType, landlord, county, address, zipCode, price, bedroomCount, bathroomCount, petsAllowed, sqFootage, depositFee }, context) => {
       if (context.user) {
         const property = await Property.create({
-          propertyType, listingAgent, county, address, zipCode, price, bedroomCount, bathroomCount, petsAllowed, sqFootage, depositFee,
+          propertyType, landlord, county, address, zipCode, price, bedroomCount, bathroomCount, petsAllowed, sqFootage, depositFee,
         });
 
         await User.findOneAndUpdate(
@@ -111,7 +111,7 @@ const resolvers = {
           throw new Error('Property not found');
         }
 
-        if (property.listingAgent.toString() !== context.user._id) {
+        if (property.landlord.toString() !== context.user._id) {
           throw new AuthenticationError('You are not authorized to remove this property');
         }
 

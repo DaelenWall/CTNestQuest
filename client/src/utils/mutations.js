@@ -27,7 +27,7 @@ export const ADD_FAVORITE = gql`
         petsAllowed
         sqFootage
         depositFee
-        listingAgent
+        landlord
       }
     }
   }
@@ -38,7 +38,7 @@ mutation addReview($propertyId: ID!, $reviewText: String!){
   addReview(propertyId: $propertyId, reviewText: $reviewText){
     _id: ID
     propertyType
-    listingAgent 
+    landlord 
     county 
     address
     zipCode
