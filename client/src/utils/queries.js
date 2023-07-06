@@ -13,7 +13,7 @@ export const QUERY_ME = gql`
           bedroomCount
           county
           depositFee
-          listingAgent
+          landlord
           petsAllowed
           price
           propertyType
@@ -41,7 +41,7 @@ export const GET_PROPERTIES = gql`
   bedroomCount
   county
   depositFee
-  listingAgent
+  landlord
   petsAllowed
   price
   image
@@ -65,9 +65,10 @@ query Query($propertyId: ID!){
     bedroomCount
     county
     depositFee
-    listingAgent
+    landlord
     petsAllowed
     price
+    image
     propertyType
     reviews {
       reviewText
@@ -91,7 +92,7 @@ export const GET_USER = gql`
         bedroomCount
         county
         depositFee
-        listingAgent
+        landlord
         petsAllowed
         price
         propertyType
@@ -111,7 +112,7 @@ export const GET_USER = gql`
       bedroomCount
       county
       depositFee
-      listingAgent
+      landlord
       petsAllowed
       price
       propertyType
@@ -139,7 +140,7 @@ query Query($username: String!) {
         bedroomCount
         county
         depositFee
-        listingAgent
+        landlord
         petsAllowed
         price
         propertyType

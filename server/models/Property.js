@@ -9,7 +9,7 @@ const propertySchema = new Schema({
         required: true,
         trim: true
     },
-    listingAgent: {
+    landlord: {
         type: String,
         required: true,
         trim: true,

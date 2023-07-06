@@ -12,6 +12,7 @@ db.once('open', async () => {
 
   try {
     // delete ran on User and Property 
+
     await User.deleteMany({});
     await Property.deleteMany({});
     await Favorite.deleteMany({});
@@ -20,7 +21,7 @@ db.once('open', async () => {
 
     // for loop to create a property and assign it's id to a user by username search and update
     for (let i = 0; i < propertySeeds.length; i++) {
-      const { _id, listingAgent } = await Property.create(propertySeeds[i]);
+      const { _id, landlord } = await Property.create(propertySeeds[i]);
 
       if (favoriteSeeds) {
         const { favoriteDate, property } = favoriteSeeds;
@@ -30,7 +31,7 @@ db.once('open', async () => {
           property: _id
         });
         const user = await User.findOneAndUpdate(
-          { username: listingAgent },
+          { username: landlord },
           {
             $addToSet: {
               property: _id,
