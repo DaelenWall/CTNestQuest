@@ -111,7 +111,7 @@ const resolvers = {
           throw new Error('Property not found');
         }
 
-        if (property.listingAgent.toString() !== context.user._id) {
+        if (property.landlord.toString() !== context.user._id) {
           throw new AuthenticationError('You are not authorized to remove this property');
         }
 
