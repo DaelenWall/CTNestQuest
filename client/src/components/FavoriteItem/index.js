@@ -1,14 +1,13 @@
 import React, { useState } from 'react';
-import { useStoreContext } from "../../utils/GlobalState";
+import { useDispatch } from 'react-redux';
 import { REMOVE_FROM_FAVORITES, UPDATE_FAVORITE_QUANTITY } from "../../utils/actions";
-// must add utils to support dis ^^
 import { idbPromise } from "../../utils/helpers";
 
 const FavoriteItem = ({ item }) => {
-  const [, dispatch] = useStoreContext();
+  const dispatch = useDispatch();
   const [isFavorited, setIsFavorited] = useState(true);
 
-  const removeFromFavorites = item => {
+  const removeFromFavorites = () => {
     dispatch({
       type: REMOVE_FROM_FAVORITES,
       _id: item._id
@@ -20,12 +19,7 @@ const FavoriteItem = ({ item }) => {
   const onChange = (e) => {
     const value = e.target.value;
     if (value === '0') {
-      dispatch({
-        type: REMOVE_FROM_FAVORITES,
-        _id: item._id
-      });
-      idbPromise('favorite', 'delete', { ...item });
-      setIsFavorited(false);
+      removeFromFavorites();
     } else if (!isFavorited) {
       dispatch({
         type: UPDATE_FAVORITE_QUANTITY,
@@ -40,21 +34,23 @@ const FavoriteItem = ({ item }) => {
   return (
     <div className="flex-row">
       <div>
-        <img src={`/images/${item.image}`} alt="" />
+        <img
+          src={`/images/${item.image}`}
+          alt=""
+        />
       </div>
       <div>
         <div>{item.name}, ${item.price}</div>
         <div>
           <input
             type="number"
-            placeholder="1"
+            placeholder="0"
             value={item.favoriteQuantity}
             onChange={onChange}
-            disabled={!isFavorited}
           />
           <span
             role="img"
-            aria-label="remove"
+            aria-label="trash"
             onClick={() => removeFromFavorites(item)}
           >
             ❌
@@ -66,4 +62,3 @@ const FavoriteItem = ({ item }) => {
 }
 
 export default FavoriteItem;
-
