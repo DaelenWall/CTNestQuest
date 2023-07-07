@@ -29,11 +29,17 @@ console.log(propertyId);
         <p>Bathrooms: {property.bathroomCount}</p>
         <p>Address: {property.address}</p>
         <div className="single_property-sub-info-container">
-          <p>Listing Agent: {property.listingAgent}</p>
+          <p>Listing Agent: {property.landlord}</p>
           <div className="single_property-add-info-containter">
             <p>Square Footage: {property.sqFootage}</p>
             <p>Pets Allowed: {property.petsAllowed}</p>
             <p>Deposit and Fees: {property.depositFee}</p>
+            <p>Reviews: </p>
+            {property.reviews.map((review, index) => (
+              <div key={index} className="review-item">
+                <p>{review.reviewText} - {review.reviewAuthor}</p>
+              </div>
+            ))}
           </div>
         </div>
       </div>

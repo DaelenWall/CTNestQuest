@@ -1,7 +1,7 @@
 [
     {
         "propertyType": "Apartment",
-        "listingAgent": "ssaqib",
+        "landlord": "Sami Saqib",
         "county": "Fairfield",
         "address": "25 Silver Lane, Fairfield CT", 
         "zipCode": "06085",
@@ -11,11 +11,21 @@
         "bathroomCount": "1",
         "petsAllowed": "false", 
         "sqFootage": "700",
-        "depositFee": "850"
+        "depositFee": "850",
+        "reviews": [
+            {
+                "reviewText": "Great place to live!",
+                "reviewAuthor": "Jane Doe"
+            },
+            {
+                "reviewText": "Landlord was easy to contact and swift with fixing issues",
+                "reviewAuthor": "Davis Jaekle"
+            }
+        ]
     },
     {
         "propertyType": "House",
-        "listingAgent": "mattyb",
+        "landlord": "Matthew Bull",
         "county": "Fairfield",
         "address": "2493 Redding Rd, Fairfield, CT", 
         "zipCode": "06824",
@@ -25,11 +35,17 @@
         "bathroomCount": "5",
         "petsAllowed": "true", 
         "sqFootage": "6500",
-        "depositFee": "5000"
+        "depositFee": "5000",
+        "reviews": [
+            {
+                "reviewText": "Family loves the pool, it has been great to live here.",
+                "reviewAuthor": "anonymous"
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "mattyb",
+        "landlord": "Matthew Bull",
         "county": "Fairfield",
         "address": "14 Bedford Ave, Norwalk, CT", 
         "zipCode": "06850",
@@ -39,11 +55,17 @@
         "bathroomCount": "1",
         "petsAllowed": "true", 
         "sqFootage": "700",
-        "depositFee": "1000"
+        "depositFee": "1000",
+        "reviews": [
+            {
+                "reviewText": "Management is impossible to contact. Always a struggle to fix problems",
+                "reviewAuthor": "anonymous"
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "mattyb",
+        "landlord": "Matthew Bull",
         "county": "Fairfield",
         "address": "1111 Stratford Ave, Stratford, CT", 
         "zipCode": "06615",
@@ -53,11 +75,17 @@
         "bathroomCount": "1",
         "petsAllowed": "false", 
         "sqFootage": "560",
-        "depositFee": "600"
+        "depositFee": "600",
+        "reviews": [
+            {
+                "reviewText": "Management is impossible to contact. Always a struggle to fix problems",
+                "reviewAuthor": "anonymous"
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "mattyb",
+        "landlord": "Matthew Bull",
         "county": "Fairfield",
         "address": "23 Oakview Cir, # R, Westport, CT", 
         "zipCode": "06880",
@@ -71,7 +99,7 @@
     },
     {
         "propertyType": "House",
-        "listingAgent": "mattyb",
+        "landlord": "Matthew Bull",
         "county": "Fairfield",
         "address": "20 Casement St, Darien, CT", 
         "zipCode": "06820",
@@ -85,7 +113,7 @@
     }, 
     {
         "propertyType": "Apartment",
-        "listingAgent": "mattyb",
+        "landlord": "Matthew Bull",
         "county": "Fairfield",
         "address": "20 Casement St, Darien, CT", 
         "zipCode": "06820",
@@ -99,7 +127,7 @@
     },
     {
         "propertyType": "House",
-        "listingAgent": "mattyb",
+        "landlord": "Matthew Bull",
         "county": "Fairfield",
         "address": "56 Bramble Ln, Riverside, CT", 
         "zipCode": "06878",
@@ -113,7 +141,7 @@
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "mattyb",
+        "landlord": "Matthew Bull",
         "county": "Fairfield",
         "address": "100 Oakview Dr, Trumbull, CT", 
         "zipCode": "06611",
@@ -127,7 +155,7 @@
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "rknight",
+        "landlord": "Roen Knight",
         "county": "Hartford",
         "address": "12 Sandyside Dr, Hartford CT", 
         "zipCode": "06053",
@@ -141,7 +169,7 @@
     },
     {
         "propertyType": "House",
-        "listingAgent": "joshymol",
+        "landlord": "Josh Molyneaux",
         "county": "Hartford",
         "address": "P. Sherman Way, Hartford CT", 
         "zipCode": "06053",
@@ -155,7 +183,7 @@
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "hflora",
+        "landlord": "Hailey Flora",
         "county": "Hartford",
         "address": "54 Alden St, New Britain CT", 
         "zipCode": "06053",
@@ -169,7 +197,7 @@
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "lucyheart",
+        "landlord": "Lucy Heartfilia",
         "county": "Hartford",
         "address": "40 Opal St, Hartford CT", 
         "zipCode": "06053",
@@ -183,7 +211,7 @@
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "rknight",
+        "landlord": "Roen Knight",
         "county": "Hartford",
         "address": "55 Sharon St, # 2, Hartford, CT", 
         "zipCode": "06112",
@@ -197,7 +225,7 @@
     },
     {
         "propertyType": "House",
-        "listingAgent": "rknight",
+        "landlord": "Roen Knight",
         "county": "Hartford",
         "address": "205 High Path Rd, Windsor, CT", 
         "zipCode": "06095",
@@ -211,7 +239,7 @@
     },
     {
         "propertyType": "House",
-        "listingAgent": "rknight",
+        "landlord": "Roen Knight",
         "county": "Hartford",
         "address": "390 Nevers Rd, South Windsor, CT", 
         "zipCode": "06074",
@@ -225,7 +253,7 @@
     },
     {
         "propertyType": "House",
-        "listingAgent": "rknight",
+        "landlord": "Roen Knight",
         "county": "Hartford",
         "address": "61 Berkshire Rd, West Hartford, CT", 
         "zipCode": "06107",
@@ -239,7 +267,7 @@
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "rknight",
+        "landlord": "Roen Knight",
         "county": "Hartford",
         "address": "253 White St FLOOR 3, Hartford, CT", 
         "zipCode": " 06106",
@@ -253,7 +281,7 @@
     },
     {
         "propertyType": "House",
-        "listingAgent": "mattyb",
+        "landlord": "Matthew Bull",
         "county": "Tolland",
         "address": "1 Abbott Rd, Ellington CT", 
         "zipCode": "06029",
@@ -267,7 +295,7 @@
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "llancer",
+        "landlord": "Lisa Lancer",
         "county": "Tolland",
         "address": "10 Ghostly Way, Cromwell CT", 
         "zipCode": "06022",
@@ -281,7 +309,7 @@
     },
     {
         "propertyType": "House",
-        "listingAgent": "rrojers",
+        "landlord": "Roy Rogers",
         "county": "Tolland",
         "address": "45 Rancher Rd, Cromwell CT", 
         "zipCode": "06095",
@@ -295,7 +323,7 @@
     },
     {
         "propertyType": "House",
-        "listingAgent": "rrojers",
+        "landlord": "Roy Rogers",
         "county": "Tolland",
         "address": "56 Reservoir Rd, Vernon, CT", 
         "zipCode": "06066",
@@ -309,7 +337,7 @@
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "rrojers",
+        "landlord": "Roy Rogers",
         "county": "Tolland",
         "address": "1085 Hartford Tpke, Vernon, CT", 
         "zipCode": "06066",
@@ -323,7 +351,7 @@
     },
     {
         "propertyType": "House",
-        "listingAgent": "rrojers",
+        "landlord": "Roy Rogers",
         "county": "Tolland",
         "address": "66 Crystal Ridge Dr, Ellington, CT", 
         "zipCode": "06029",
@@ -337,7 +365,7 @@
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "rrojers",
+        "landlord": "Roy Rogers",
         "county": "Tolland",
         "address": "11 Depot Rd, Willington, CT", 
         "zipCode": "06279",
@@ -351,7 +379,7 @@
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "rrojers",
+        "landlord": "Roy Rogers",
         "county": "Tolland",
         "address": "1125 Hartford Tpke, Vernon, CT", 
         "zipCode": "06066",
@@ -365,7 +393,7 @@
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "rrojers",
+        "landlord": "Roy Rogers",
         "county": "Tolland",
         "address": "256 Buff Cap Rd, Tolland, CT ", 
         "zipCode": "06084",
@@ -379,7 +407,7 @@
     },
     {
         "propertyType": "House",
-        "listingAgent": "jdoe",
+        "landlord": "Jane Doe",
         "county": "Litchfield",
         "address": "12 Pondside Rd, Litchfield CT", 
         "zipCode": "06043",
@@ -393,7 +421,7 @@
     },
     {
         "propertyType": "House",
-        "listingAgent": "owilson",
+        "landlord": "Owen Wilson",
         "county": "Litchfield",
         "address": "32 Turtle Dr, Litchfield CT", 
         "zipCode": "06022",
@@ -407,7 +435,7 @@
     },
     {
         "propertyType": "House",
-        "listingAgent": "owilson",
+        "landlord": "Owen Wilson",
         "county": "Litchfield",
         "address": "29 Morgan Ln, Salisbury, CT", 
         "zipCode": "06068",
@@ -421,7 +449,7 @@
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "owilson",
+        "landlord": "Owen Wilson",
         "county": "Litchfield",
         "address": "39 Rockwell St, # 41, Winsted, CT", 
         "zipCode": "06098",
@@ -435,7 +463,7 @@
     },
     {
         "propertyType": "House",
-        "listingAgent": "owilson",
+        "landlord": "Owen Wilson",
         "county": "Litchfield",
         "address": "12 Lovers Ln, Sharon, CT", 
         "zipCode": "06069",
@@ -449,7 +477,7 @@
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "owilson",
+        "landlord": "Owen Wilson",
         "county": "Litchfield",
         "address": "499 Bantam Rd, # 499, Litchfield, CT", 
         "zipCode": "06759",
@@ -463,7 +491,7 @@
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "owilson",
+        "landlord": "Owen Wilson",
         "county": "Litchfield",
         "address": "10 Ames Ave, APT 2, Terryville, CT", 
         "zipCode": "06786",
@@ -477,7 +505,7 @@
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "owilson",
+        "landlord": "Owen Wilson",
         "county": "Litchfield",
         "address": "126 Sherman Hill Rd APT B15, Woodbury, CT", 
         "zipCode": "06798",
@@ -491,7 +519,7 @@
     },
     {
         "propertyType": "House",
-        "listingAgent": "jdoe",
+        "landlord": "Jane Doe",
         "county": "Litchfield",
         "address": "18 Cherry Ave, Watertown, CT", 
         "zipCode": "06795",
@@ -505,7 +533,7 @@
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "dwall",
+        "landlord": "Daelen Wall",
         "county": "New Haven",
         "address": "50-56 S Broad St, Milford, CT", 
         "zipCode": "06460",
@@ -519,7 +547,7 @@
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "dwall",
+        "landlord": "Daelen Wall",
         "county": "New Haven",
         "address": "211 Campbell Ave, # 3, West Haven, CT", 
         "zipCode": "06516",
@@ -533,7 +561,7 @@
     },
     {
         "propertyType": "House",
-        "listingAgent": "dwall",
+        "landlord": "Daelen Wall",
         "county": "New Haven",
         "address": "20 Ashford St, West Haven, CT 06516", 
         "zipCode": "06516",
@@ -547,7 +575,7 @@
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "dwall",
+        "landlord": "Daelen Wall",
         "county": "New Haven",
         "address": "32 Old Bradley St, # 3, East Haven, CT", 
         "zipCode": "06512",
@@ -561,7 +589,7 @@
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "dwall",
+        "landlord": "Daelen Wall",
         "county": "New Haven",
         "address": "104 Lexington Ave, # F, New Haven, CT", 
         "zipCode": "06513",
@@ -575,7 +603,7 @@
     },
     {
         "propertyType": "House",
-        "listingAgent": "dwall",
+        "landlord": "Daelen Wall",
         "county": "New Haven",
         "address": "25 S End Rd, New Haven, CT", 
         "zipCode": "06512",
@@ -589,7 +617,7 @@
     },
     {
         "propertyType": "House",
-        "listingAgent": "dwall",
+        "landlord": "Daelen Wall",
         "county": "New Haven",
         "address": "172 Foxon Blvd, East Haven, CT", 
         "zipCode": "06513",
@@ -603,7 +631,7 @@
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "dwall",
+        "landlord": "Daelen Wall",
         "county": "New Haven",
         "address": "Parkside Manor, APT 409, 1730 State St, Hamden, CT", 
         "zipCode": "06517",
@@ -617,7 +645,7 @@
     },
     {
         "propertyType": "House",
-        "listingAgent": "dwall",
+        "landlord": "Daelen Wall",
         "county": "New Haven",
         "address": "26 Haverford St, Hamden, CT", 
         "zipCode": "06517",
@@ -631,7 +659,7 @@
     },
     {
         "propertyType": "House",
-        "listingAgent": "hflora",
+        "landlord": "Hailey Flora",
         "county": "Windham",
         "address": "77 Boys Ave, Killingly, CT", 
         "zipCode": "06263",
@@ -645,7 +673,7 @@
     },
     {
         "propertyType": "House",
-        "listingAgent": "hflora",
+        "landlord": "Hailey Flora",
         "county": "Windham",
         "address": "20 Litchfield Ave, Dayville, CT", 
         "zipCode": "06241",
@@ -659,7 +687,7 @@
     },
     {
         "propertyType": "House",
-        "listingAgent": "hflora",
+        "landlord": "Hailey Flora",
         "county": "Windham",
         "address": "32 Gawron Rd, Thompson, CT", 
         "zipCode": "06277",
@@ -673,7 +701,7 @@
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "hflora",
+        "landlord": "Hailey Flora",
         "county": "Windham",
         "address": "32-6 Pompey Rd, Ashford, CT", 
         "zipCode": "06278",
@@ -687,7 +715,7 @@
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "hflora",
+        "landlord": "Hailey Flora",
         "county": "Windham",
         "address": "140 Plains Rd, Windham, CT", 
         "zipCode": "06280",
@@ -701,7 +729,7 @@
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "hflora",
+        "landlord": "Hailey Flora",
         "county": "Windham",
         "address": "5 Brookside Ln, Woodstock, CT", 
         "zipCode": "06281",
@@ -715,7 +743,7 @@
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "hflora",
+        "landlord": "Hailey Flora",
         "county": "Windham",
         "address": "34 Pleasant St, APT A, Plainfield, CT", 
         "zipCode": "06374",
@@ -729,7 +757,7 @@
     },
     {
         "propertyType": "House",
-        "listingAgent": "hflora",
+        "landlord": "Hailey Flora",
         "county": "Windham",
         "address": "34 Pleasant St, APT A, Plainfield, CT", 
         "zipCode": "06374",
@@ -743,7 +771,7 @@
     },
     {
         "propertyType": "House",
-        "listingAgent": "hflora",
+        "landlord": "Hailey Flora",
         "county": "Windham",
         "address": "44 Geer Rd, Griswold, CT", 
         "zipCode": "06351",
@@ -757,7 +785,7 @@
     },
     {
         "propertyType": "House",
-        "listingAgent": "joshymol",
+        "landlord": "Josh Molyneaux",
         "county": "New London",
         "address": "124 Somersett Dr, Groton, CT", 
         "zipCode": "06355",
@@ -771,7 +799,7 @@
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "joshymol",
+        "landlord": "Josh Molyneaux",
         "county": "New London",
         "address": "600 Meridian St, Groton, CT", 
         "zipCode": "06340",
@@ -785,7 +813,7 @@
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "joshymol",
+        "landlord": "Josh Molyneaux",
         "county": "New London",
         "address": "202 Shaw St, # 2, New London, CT", 
         "zipCode": "06320",
@@ -799,7 +827,7 @@
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "joshymol",
+        "landlord": "Josh Molyneaux",
         "county": "New London",
         "address": "9 Wilford Ct, Pawcatuck, CT", 
         "zipCode": "06379",
@@ -813,7 +841,7 @@
     },
     {
         "propertyType": "House",
-        "listingAgent": "joshymol",
+        "landlord": "Josh Molyneaux",
         "county": "New London",
         "address": "26 Lamphere Rd, Waterford, CT", 
         "zipCode": "06385",
@@ -827,7 +855,7 @@
     },
     {
         "propertyType": "House",
-        "listingAgent": "joshymol",
+        "landlord": "Josh Molyneaux",
         "county": "New London",
         "address": "20 Wayne Dr, East Lyme, CT", 
         "zipCode": "06333",
@@ -841,7 +869,7 @@
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "joshymol",
+        "landlord": "Josh Molyneaux",
         "county": "New London",
         "address": "103 E Pattagansett Rd, # A, Niantic, CT", 
         "zipCode": "06357",
@@ -855,7 +883,7 @@
     },
     {
         "propertyType": "House",
-        "listingAgent": "joshymol",
+        "landlord": "Josh Molyneaux",
         "county": "New London",
         "address": "20 Portland Ave, Old Lyme, CT", 
         "zipCode": "06371",
@@ -869,7 +897,7 @@
     },
     {
         "propertyType": "House",
-        "listingAgent": "joshymol",
+        "landlord": "Josh Molyneaux",
         "county": "New London",
         "address": "59-3 Elys Ferry Rd, Old Lyme, CT", 
         "zipCode": "06371",
@@ -883,7 +911,7 @@
     },
     {
         "propertyType": "House",
-        "listingAgent": "ssaqib",
+        "landlord": "Sami Saqib",
         "county": "Middlesex",
         "address": "38 Pond Rd, Old Saybrook, CT", 
         "zipCode": "06475",
@@ -897,7 +925,7 @@
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "ssaqib",
+        "landlord": "Sami Saqib",
         "county": "Middlesex",
         "address": "27 Boston Post Road Pl, # 2, Old Saybrook, CT", 
         "zipCode": "06475",
@@ -911,7 +939,7 @@
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "ssaqib",
+        "landlord": "Sami Saqib",
         "county": "Middlesex",
         "address": "132 W Main St, APT C, Chester, CT", 
         "zipCode": "06412",
@@ -925,7 +953,7 @@
     },
     {
         "propertyType": "House",
-        "listingAgent": "ssaqib",
+        "landlord": "Sami Saqib",
         "county": "Middlesex",
         "address": "60 Watch Hill Dr, Middletown, CT", 
         "zipCode": "06457",
@@ -939,7 +967,7 @@
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "ssaqib",
+        "landlord": "Sami Saqib",
         "county": "Middlesex",
         "address": "288 Woodbury Cir, Middletown, CT", 
         "zipCode": "06457",
@@ -953,7 +981,7 @@
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "ssaqib",
+        "landlord": "Sami Saqib",
         "county": "Middlesex",
         "address": "11 Pine Ridge Rd FLOOR 2, Cromwell, CT", 
         "zipCode": "06416",
@@ -967,7 +995,7 @@
     },
     {
         "propertyType": "House",
-        "listingAgent": "ssaqib",
+        "landlord": "Sami Saqib",
         "county": "Middlesex",
         "address": "42 Oakum Dock Rd, Cobalt, CT", 
         "zipCode": "06414",
@@ -981,7 +1009,7 @@
     },
     {
         "propertyType": "House",
-        "listingAgent": "ssaqib",
+        "landlord": "Sami Saqib",
         "county": "Middlesex",
         "address": "20 Ridgewood Rd, Middletown, CT", 
         "zipCode": "06457",
@@ -995,7 +1023,7 @@
     },
     {
         "propertyType": "Apartment",
-        "listingAgent": "ssaqib",
+        "landlord": "Sami Saqib",
         "county": "Middlesex",
         "address": "80 Hillside Ave, Middletown, CT", 
         "zipCode": "06457",

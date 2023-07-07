@@ -3,6 +3,8 @@ import { useQuery } from '@apollo/client';
 import { GET_PROPERTIES } from '../../utils/queries';
 import { Link } from 'react-router-dom';
 
+import "../Counties/Counties.css"
+
 const HartfordCounty = () => {
 
   const { loading, data } = useQuery(GET_PROPERTIES);
