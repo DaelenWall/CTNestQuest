@@ -28,7 +28,7 @@ import NewLondonCounty from './pages/Counties/NewLondonCounty';
 import TollandCounty from './pages/Counties/TollandCounty';
 import WindhamCounty from './pages/Counties/WindhamCounty';
 import Property from './pages/Property/Property';
-
+import Footer from './components/Footer/footer';
 const httpLink = createHttpLink({
   uri: '/graphql',
 });
@@ -133,6 +133,7 @@ function App() {
             />
           </Routes>
         </div>
+       <Footer />
       </Router>
     </ApolloProvider>
   );
