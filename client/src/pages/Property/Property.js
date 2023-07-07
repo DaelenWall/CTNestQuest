@@ -34,6 +34,12 @@ console.log(propertyId);
             <p>Square Footage: {property.sqFootage}</p>
             <p>Pets Allowed: {property.petsAllowed}</p>
             <p>Deposit and Fees: {property.depositFee}</p>
+            <p>Reviews: </p>
+            {property.reviews.map((review, index) => (
+              <div key={index} className="review-item">
+                <p>{review.reviewText} - {review.reviewAuthor}</p>
+              </div>
+            ))}
           </div>
         </div>
       </div>

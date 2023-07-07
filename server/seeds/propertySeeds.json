@@ -11,7 +11,17 @@
         "bathroomCount": "1",
         "petsAllowed": "false", 
         "sqFootage": "700",
-        "depositFee": "850"
+        "depositFee": "850",
+        "reviews": [
+            {
+                "reviewText": "Great place to live!",
+                "reviewAuthor": "Jane Doe"
+            },
+            {
+                "reviewText": "Landlord was easy to contact and swift with fixing issues",
+                "reviewAuthor": "Davis Jaekle"
+            }
+        ]
     },
     {
         "propertyType": "House",
