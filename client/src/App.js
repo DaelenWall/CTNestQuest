@@ -28,6 +28,7 @@ import NewLondonCounty from './pages/Counties/NewLondonCounty';
 import TollandCounty from './pages/Counties/TollandCounty';
 import WindhamCounty from './pages/Counties/WindhamCounty';
 import Property from './pages/Property/Property';
+import Footer from './components/Footer/footer';
 import AddProperty from './pages/Property/AddProperty';
 
 const httpLink = createHttpLink({
@@ -138,6 +139,7 @@ function App() {
             />
           </Routes>
         </div>
+       <Footer />
       </Router>
     </ApolloProvider>
   );
