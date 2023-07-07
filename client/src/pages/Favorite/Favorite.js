@@ -1,90 +1,18 @@
-import React, { useEffect, useState } from 'react';
-// import { Link } from 'react-router-dom';
+import React, { useEffect } from 'react';
 import { useQuery } from '@apollo/client';
-import { useStoreContext } from "../../utils/GlobalState";
-import { REMOVE_FROM_FAVORITES, UPDATE_FAVORITE_QUANTITY } from "../../utils/actions";
 import { QUERY_ME } from '../../utils/queries';
-import { idbPromise } from "../../utils/helpers";
+import FavoriteItem from '../../components/FavoriteItem';
 
-const FavoriteItem = ({ item }) => {
-  const [, dispatch] = useStoreContext();
-  const [isFavorited, setIsFavorited] = useState(true);
- 
-  const removeFromFavorites = item => {
-    dispatch({
-      type: REMOVE_FROM_FAVORITES,
-      _id: item._id
-    });
-    idbPromise('favorite', 'delete', { ...item });
-    setIsFavorited(false);
-  };
-
-  const onChange = (e) => {
-    const value = e.target.value;
-    if (value === '0') {
-      dispatch({
-        type: REMOVE_FROM_FAVORITES,
-        _id: item._id
-      });
-      idbPromise('favorite', 'delete', { ...item });
-      setIsFavorited(false);
-    } else if (!isFavorited) {
-      dispatch({
-        type: UPDATE_FAVORITE_QUANTITY,
-        _id: item._id,
-        favoriteQuantity: parseInt(value)
-      });
-      idbPromise('favorite', 'put', { ...item, favoriteQuantity: parseInt(value) });
-      setIsFavorited(true);
-    }
-  }
-}
-
-function Favorite({ item }) {
-
+function Favorite() {
   const { data } = useQuery(QUERY_ME);
   const me = data?.me;
-
 
   useEffect(() => {
     console.log(me);
   }, [me]);
-
-  const [, dispatch] = useStoreContext();
-  const [isFavorited, setIsFavorited] = useState(true);
- 
-  const removeFromFavorites = item => {
-    dispatch({
-      type: REMOVE_FROM_FAVORITES,
-      _id: item._id
-    });
-    idbPromise('favorite', 'delete', { ...item });
-    setIsFavorited(false);
-  };
-
-  const onChange = (e) => {
-    const value = e.target.value;
-    if (value === '0') {
-      dispatch({
-        type: REMOVE_FROM_FAVORITES,
-        _id: item._id
-      });
-      idbPromise('favorite', 'delete', { ...item });
-      setIsFavorited(false);
-    } else if (!isFavorited) {
-      dispatch({
-        type: UPDATE_FAVORITE_QUANTITY,
-        _id: item._id,
-        favoriteQuantity: parseInt(value)
-      });
-      idbPromise('favorite', 'put', { ...item, favoriteQuantity: parseInt(value) });
-      setIsFavorited(true);
-    }
-  }
-
+  
   return (
     <div className="container my-1">
-
       {me && (
         <>
           <h2>
@@ -100,9 +28,18 @@ function Favorite({ item }) {
                   <FavoriteItem key={property._id} item={property} />
                 ))}
               </div>
+              <div>
+                {/* ADD TO PROPERTY.JS */}
+
+                {/* <button onClick={addToFavorites}>Add to Favorites</button> */}
+
+                {/* ADD TO PROPERTY.JS */}
+              </div>
             </div>
+
           ))}
         </>
+
       )}
     </div>
   );
