@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from 'react-router-dom';
 import { useLocation } from "react-router-dom";
 
 
@@ -18,13 +18,20 @@ const SearchResults = () => {
         return (
             <div className="container my-1">
                 {location.state.criteriaFilter.map((property) => (
-                    <div key={property.id} className="property-container">
-                        <h3>Price: ${property.price}/mo</h3>
-                        <p>Bedrooms: {property.bedroomCount}</p>
-                        <p>Bathrooms: {property.bathroomCount}</p>
-                        <p>Address: {property.address}</p>
-                        <p>County: {property.county}</p>
-                    </div>
+                    <Link to={`/single-property/${property._id}`}>
+                    <div className="property-container">
+                  <img
+                    src={`/images/${property.image}`}
+                    alt={property.address}
+                  />
+                  <div key={property.id} className="property-details">
+                    <h3>Price: ${property.price}/mo</h3>
+                    <p>Bedrooms: {property.bedroomCount}</p>
+                    <p>Bathrooms: {property.bathroomCount}</p>
+                    <p>Address: {property.address}</p>
+                  </div>
+                  </div>
+                  </Link>
                 ))}
             </div>
         );
