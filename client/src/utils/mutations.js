@@ -60,25 +60,27 @@ export const ADD_PROPERTY = gql`
 
 
 export const ADD_FAVORITE = gql`
-  mutation addFavorite($property: [ID]!) {
-    addFavorite(property: $propertys) {
-      favoriteDate
-      property {
-        _id
-        propertyType
-        county
-        address
-        zipCode
-        price
-        bedroomCount
-        bathroomCount
-        petsAllowed
-        sqFootage
-        depositFee
-        landlord
-      }
+mutation Mutation($propertyId: ID!) {
+  addFavorite(propertyId: $propertyId) {
+    _id
+    address
+    bathroomCount
+    bedroomCount
+    county
+    depositFee
+    image
+    listingAgent
+    petsAllowed
+    price
+    propertyType
+    reviews {
+      reviewText
+      reviewAuthor
     }
+    sqFootage
+    zipCode
   }
+}
 `;
 
 export const ADD_REVIEW = gql`
