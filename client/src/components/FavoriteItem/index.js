@@ -1,69 +1,60 @@
-import React, { useState } from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
 import { useStoreContext } from "../../utils/GlobalState";
-import { REMOVE_FROM_FAVORITES, UPDATE_FAVORITE_QUANTITY } from "../../utils/actions";
-// must add utils to support dis ^^
+import { ADD_TO_FAVORITES, UPDATE_FAVORITE_QUANTITY } from "../../utils/actions";
 import { idbPromise } from "../../utils/helpers";
 
-const FavoriteItem = ({ item }) => {
-  const [, dispatch] = useStoreContext();
-  const [isFavorited, setIsFavorited] = useState(true);
+function FavoriteItem(item) {
+  const [state, dispatch] = useStoreContext();
 
-  const removeFromFavorites = item => {
+  const {
+    image,
+    name,
+    _id,
+    price,
+  } = item;
+
+  const { property } = state
+
+const addToFavorites = () => {
+  const itemInFavorites = property.find((propertyItem) => propertyItem._id === _id)
+  if (itemInFavorites) {
     dispatch({
-      type: REMOVE_FROM_FAVORITES,
-      _id: item._id
+      type: UPDATE_FAVORITE_QUANTITY,
+      _id: _id,
+      favoriteQuantity: parseInt(itemInFavorites.favoriteQuantity) + 1
     });
-    idbPromise('favorite', 'delete', { ...item });
-    setIsFavorited(false);
-  };
-
-  const onChange = (e) => {
-    const value = e.target.value;
-    if (value === '0') {
-      dispatch({
-        type: REMOVE_FROM_FAVORITES,
-        _id: item._id
-      });
-      idbPromise('favorite', 'delete', { ...item });
-      setIsFavorited(false);
-    } else if (!isFavorited) {
-      dispatch({
-        type: UPDATE_FAVORITE_QUANTITY,
-        _id: item._id,
-        favoriteQuantity: parseInt(value)
-      });
-      idbPromise('favorite', 'put', { ...item, favoriteQuantity: parseInt(value) });
-      setIsFavorited(true);
-    }
+    idbPromise('favorites', 'put', {
+      ...itemInFavorites,
+      favoriteQuantity: parseInt(itemInFavorites.favoriteQuantity) + 1
+    });
+  } else {
+    dispatch({
+      type: ADD_TO_FAVORITES,
+      product: { ...item, purchaseQuantity: 1 }
+    });
+    idbPromise('favorites', 'put', { ...item, favoriteQuantity: 1 });
   }
+}
 
-  return (
-    <div className="flex-row">
-      <div>
-        <img src={`/images/${item.image}`} alt="" />
-      </div>
-      <div>
-        <div>{item.name}, ${item.price}</div>
-        <div>
-          <input
-            type="number"
-            placeholder="1"
-            value={item.favoriteQuantity}
-            onChange={onChange}
-            disabled={!isFavorited}
-          />
-          <span
-            role="img"
-            aria-label="remove"
-            onClick={() => removeFromFavorites(item)}
-          >
-            ❌
-          </span>
-        </div>
-      </div>
+return (
+  <div className="card px-1 py-1">
+    <Link to={`/property/${_id}`}>
+      <img
+        alt={name}
+        src={`/images/${image}`}
+      />
+      <p>{name}</p>
+    </Link>
+    <div>
+      <span>${price}</span>
+
+      {/* ADD TO PROPERTY.JS */}
     </div>
-  );
+    <button onClick={addToFavorites}>Add to Favorites</button>
+  </div>
+ 
+);
 }
 
 export default FavoriteItem;
-
