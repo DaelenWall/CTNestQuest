@@ -35,7 +35,13 @@
         "bathroomCount": "5",
         "petsAllowed": "true", 
         "sqFootage": "6500",
-        "depositFee": "5000"
+        "depositFee": "5000",
+        "reviews": [
+            {
+                "reviewText": "Family loves the pool, it has been great to live here.",
+                "reviewAuthor": "anonymous"
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -49,7 +55,13 @@
         "bathroomCount": "1",
         "petsAllowed": "true", 
         "sqFootage": "700",
-        "depositFee": "1000"
+        "depositFee": "1000",
+        "reviews": [
+            {
+                "reviewText": "Management is impossible to contact. Always a struggle to fix problems",
+                "reviewAuthor": "anonymous"
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -63,7 +75,13 @@
         "bathroomCount": "1",
         "petsAllowed": "false", 
         "sqFootage": "560",
-        "depositFee": "600"
+        "depositFee": "600",
+        "reviews": [
+            {
+                "reviewText": "Management is impossible to contact. Always a struggle to fix problems",
+                "reviewAuthor": "anonymous"
+            }
+        ]
     },
     {
         "propertyType": "Apartment",

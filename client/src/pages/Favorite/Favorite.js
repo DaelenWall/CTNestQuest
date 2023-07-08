@@ -1,24 +1,18 @@
 import React, { useEffect } from 'react';
-// import { Link } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
 import { QUERY_ME } from '../../utils/queries';
 import FavoriteItem from '../../components/FavoriteItem';
 
 function Favorite() {
-
   const { data } = useQuery(QUERY_ME);
   const me = data?.me;
-
 
   useEffect(() => {
     console.log(me);
   }, [me]);
-
-  // console.log(me.favorites)
   
   return (
     <div className="container my-1">
-
       {me && (
         <>
           <h2>
@@ -34,9 +28,18 @@ function Favorite() {
                   <FavoriteItem key={property._id} item={property} />
                 ))}
               </div>
+              <div>
+                {/* ADD TO PROPERTY.JS */}
+
+                {/* <button onClick={addToFavorites}>Add to Favorites</button> */}
+
+                {/* ADD TO PROPERTY.JS */}
+              </div>
             </div>
+
           ))}
         </>
+
       )}
     </div>
   );
