@@ -217,14 +217,6 @@
         "sqFootage": "1000",
         "depositFee": "600",
         "reviews": [
-            {
-                "reviewText": "Conveniently located rental with easy access to public transportation.",
-                "reviewAuthor": ""
-            },
-            {
-                "reviewText": "Classic and elegant apartment with vintage decor.",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -241,14 +233,6 @@
         "sqFootage": "1500",
         "depositFee": "550",
         "reviews": [
-            {
-                "reviewText": "A cozy cottage that feels like home.",
-                "reviewAuthor": ""
-            },
-            {
-                "reviewText": "Bright and airy house with lots of natural light.",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -769,10 +753,6 @@
         "sqFootage": "1100",
         "depositFee": "4000",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -789,14 +769,6 @@
         "sqFootage": "1100",
         "depositFee": "500",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            },
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -813,14 +785,6 @@
         "sqFootage": "1150",
         "depositFee": "500",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            },
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -837,10 +801,6 @@
         "sqFootage": "2200",
         "depositFee": "1000",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -857,14 +817,6 @@
         "sqFootage": "600",
         "depositFee": "400",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            },
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -881,10 +833,6 @@
         "sqFootage": "1000",
         "depositFee": "400",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -901,14 +849,6 @@
         "sqFootage": "1000",
         "depositFee": "5800",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            },
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -925,10 +865,6 @@
         "sqFootage": "650",
         "depositFee": "1200",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -945,14 +881,6 @@
         "sqFootage": "700",
         "depositFee": "2600",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            },
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -969,10 +897,6 @@
         "sqFootage": "1500",
         "depositFee": "3700",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -989,10 +913,6 @@
         "sqFootage": "2800",
         "depositFee": "2700",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -1009,10 +929,6 @@
         "sqFootage": "700",
         "depositFee": "2600",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -1029,14 +945,6 @@
         "sqFootage": "2150",
         "depositFee": "3495",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            },
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -1053,10 +961,6 @@
         "sqFootage": "1000",
         "depositFee": "1400",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -1073,10 +977,6 @@
         "sqFootage": "1000",
         "depositFee": "1500",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -1093,14 +993,6 @@
         "sqFootage": "1800",
         "depositFee": "3000",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            },
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -1117,10 +1009,6 @@
         "sqFootage": "650",
         "depositFee": "2500",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -1137,10 +1025,6 @@
         "sqFootage": "800",
         "depositFee": "1700",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -1157,10 +1041,6 @@
         "sqFootage": "600",
         "depositFee": "1500",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -1177,10 +1057,6 @@
         "sqFootage": "1300",
         "depositFee": "3700",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -1197,10 +1073,6 @@
         "sqFootage": "1300",
         "depositFee": "3700",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -1217,10 +1089,6 @@
         "sqFootage": "800",
         "depositFee": "1000",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -1237,10 +1105,6 @@
         "sqFootage": "2050",
         "depositFee": "3000",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -1257,10 +1121,6 @@
         "sqFootage": "1050",
         "depositFee": "2000",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -1277,14 +1137,6 @@
         "sqFootage": "1100",
         "depositFee": "2000",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            },
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -1301,14 +1153,6 @@
         "sqFootage": "800",
         "depositFee": "1500",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            },
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -1325,10 +1169,6 @@
         "sqFootage": "2100",
         "depositFee": "4000",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -1345,14 +1185,6 @@
         "sqFootage": "1900",
         "depositFee": "4000",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            },
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -1369,10 +1201,6 @@
         "sqFootage": "900",
         "depositFee": "3000",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -1389,10 +1217,6 @@
         "sqFootage": "2250",
         "depositFee": "4000",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -1409,14 +1233,6 @@
         "sqFootage": "2250",
         "depositFee": "4800",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            },
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -1433,10 +1249,6 @@
         "sqFootage": "1600",
         "depositFee": "3000",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -1453,10 +1265,6 @@
         "sqFootage": "1100",
         "depositFee": "2000",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -1473,14 +1281,6 @@
         "sqFootage": "750",
         "depositFee": "2000",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            },
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -1497,14 +1297,6 @@
         "sqFootage": "2100",
         "depositFee": "8000",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            },
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -1521,10 +1313,6 @@
         "sqFootage": "600",
         "depositFee": "2000",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -1541,14 +1329,6 @@
         "sqFootage": "800",
         "depositFee": "2000",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            },
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -1565,10 +1345,6 @@
         "sqFootage": "2800",
         "depositFee": "7000",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -1585,10 +1361,6 @@
         "sqFootage": "1600",
         "depositFee": "4000",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     },
     {
@@ -1605,10 +1377,6 @@
         "sqFootage": "750",
         "depositFee": "2000",
         "reviews": [
-            {
-                "reviewText": "",
-                "reviewAuthor": ""
-            }
         ]
     }
 ]
