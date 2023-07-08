@@ -18,15 +18,16 @@ function AddProperty(props) {
                 landlord: formState.landlord,
                 county: formState.county,
                 address: formState.address,
-                zipCode: formState.zipCode,
-                price: formState.price,
-                bedroomCount: formState.bedroomCount,
-                bathroomCount: formState.bathroomCount,
+                zipCode: parseInt(formState.zipCode),
+                price: parseInt(formState.price),
+                bedroomCount: parseInt(formState.bedroomCount),
+                bathroomCount: parseInt(formState.bathroomCount),
                 petsAllowed: formState.petsAllowed,
-                sqFootage: formState.sqFootage,
-                depositFee: formState.depositFee
+                sqFootage: parseInt(formState.sqFootage),
+                depositFee: parseInt(formState.depositFee)
             },
         });
+        window.location.reload(false);
     };
 
     const handleChange = (event) => {
@@ -124,22 +125,22 @@ function AddProperty(props) {
                     </div>
                     <div className="flex-row space-between my-2">
                         <label htmlFor="petsAllowed">Pets Allowed:</label>
-                        <p>True: </p>
+                        <p>Yes: </p>
                         <input
                             placeholder="petsAllowed"
                             name="petsAllowed"
                             type="radio"
-                            id="true"
-                            value="true"
+                            id="yes"
+                            value="Yes"
                             onChange={handleChange}
                         />
-                        <p>False: </p>
+                        <p>No: </p>
                         <input
                             placeholder="petsAllowed"
                             name="petsAllowed"
                             type="radio"
-                            id="false"
-                            value="false"
+                            id="no"
+                            value="No"
                             onChange={handleChange}
                         />
                     </div>

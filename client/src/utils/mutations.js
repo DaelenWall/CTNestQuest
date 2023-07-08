@@ -17,13 +17,14 @@ export const ADD_PROPERTY = gql`
     $landlord: String!
     $county: String!
     $address: String!
-    $zipCode: String!
-    $price: Float!
+    $zipCode: Int!
+    $price: Int!
+    $image: String
     $bedroomCount: Int!
     $bathroomCount: Int!
-    $petsAllowed: Boolean!
+    $petsAllowed: String!
     $sqFootage: Int!
-    $depositFee: Float!
+    $depositFee: Int!
   ) {
     addProperty(
       propertyType: $propertyType
@@ -32,6 +33,7 @@ export const ADD_PROPERTY = gql`
       address: $address
       zipCode: $zipCode
       price: $price
+      image: $image
       bedroomCount: $bedroomCount
       bathroomCount: $bathroomCount
       petsAllowed: $petsAllowed
