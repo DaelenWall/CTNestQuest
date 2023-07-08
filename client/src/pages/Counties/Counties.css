@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 30px;
-    width: 100%
+    width: 100%;
   }
   
   .property-container {
@@ -21,9 +21,10 @@
   
   .property-container h3 {
     font-size: 30px;
-    color: black;
+    color: #CBB279;
     text-align: center;
     text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
   .property-container p {
@@ -32,12 +33,14 @@
     color: black;
     text-align: center;
     text-decoration: none;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   .property-container a {
     display: inline-block;
   }
-  
+
   a,
   a:hover,
   a:focus,

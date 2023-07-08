@@ -48,7 +48,7 @@ const propertySchema = new Schema({
         trim: true
     },
     petsAllowed: {
-        type: Boolean,
+        type: String,
         required: true,
     },
     sqFootage: {
