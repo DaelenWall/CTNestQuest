@@ -35,13 +35,15 @@ function Login(props) {
 
   return (
     <div className="container my-1">
+      <div className="background-image">
+        <img src="/images/background-image-1.jpeg" alt="Login House" />
       <div className="login-form">
         <h2>LOGIN</h2>
         <form onSubmit={handleFormSubmit}>
           <div className="flex-row space-between my-2">
             <label htmlFor="username">Username:</label>
             <input
-              placeholder="username"
+              placeholder="Username"
               name="username"
               type="username"
               id="username"
@@ -66,9 +68,10 @@ function Login(props) {
             </div>
           ) : null}
           <div className="flex-row flex-end">
-            <button type="submit">Submit</button>
+            <button type="submit">SUBMIT</button>
           </div>
         </form>
+            </div>
       </div>
     </div>
    

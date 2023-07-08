@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import { useMutation } from '@apollo/client';
 import Auth from '../../utils/auth';
 import { ADD_USER } from '../../utils/mutations';
@@ -33,6 +32,8 @@ function Signup(props) {
 
   return (
     <div className="container my-1">
+            <div className="background-image">
+        <img src="/images/background-image-2.jpeg" alt="Login House" />
       <div className="signup-form">
       <h2>SIGNUP</h2>
       <form onSubmit={handleFormSubmit}>
@@ -59,7 +60,7 @@ function Signup(props) {
         <div className="flex-row space-between my-2">
           <label htmlFor="username">Username:</label>
           <input
-            placeholder="username"
+            placeholder="Username"
             name="username"
             type="username"
             id="username"
@@ -87,9 +88,10 @@ function Signup(props) {
           />
         </div>
         <div className="flex-row flex-end">
-          <button type="submit">Submit</button>
+          <button type="submit">SUBMIT</button>
         </div>
       </form>
+    </div>
     </div>
     </div>
   );
