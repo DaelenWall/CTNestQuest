@@ -6,13 +6,13 @@ const Footer = () => {
     <div className='footer-Container'>
       <div className='footer-Elements'>
         <div className='footer-Content'>
-         Careers
+         LinkedIn
         </div>
         <div className='footer-Content'>
         <a href="https://github.com/DaelenWall/CTNestQuest">Our GitHub</a>
         </div>
         <div className='footer-Content'>
-         Contact Us
+         Contact Us: ctnestquest@gmail.com
         </div>
       </div>
     </div>
