@@ -23,18 +23,20 @@ const MiddlesexCounty = () => {
     );
   } else {
     return (
-      <div className="container my-1">
+      <div className="main-container my-1">
         {middlesexProperties.map((property) => (
           <Link to={`/single-property/${property._id}`}>
+            <div className="property-container">
           <img
             src={`/images/${property.image}`}
             alt={property.address}
           />
-          <div key={property.id} className="property-container">
+          <div key={property.id} className="property-details">
             <h3>Price: ${property.price}/mo</h3>
             <p>Bedrooms: {property.bedroomCount}</p>
             <p>Bathrooms: {property.bathroomCount}</p>
             <p>Address: {property.address}</p>
+          </div>
           </div>
           </Link>
         ))}
