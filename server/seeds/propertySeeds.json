@@ -95,7 +95,17 @@
         "bathroomCount": "2",
         "petsAllowed": "false", 
         "sqFootage": "1100",
-        "depositFee": "2500"
+        "depositFee": "2500",
+        "reviews": [
+            {
+                "reviewText": "Spacious and well-maintained apartment with beautiful garden.",
+                "reviewAuthor": "Jane Doe"
+            },
+            {
+                "reviewText": "Charming Victorian house with a lot of character.",
+                "reviewAuthor": "Davis Jaekle"
+            }
+        ]
     },
     {
         "propertyType": "House",
@@ -109,7 +119,17 @@
         "bathroomCount": "2",
         "petsAllowed": "true", 
         "sqFootage": "2400",
-        "depositFee": "5000"
+        "depositFee": "5000",
+        "reviews": [
+            {
+                "reviewText": "Immaculate and comfortable family home.",
+                "reviewAuthor": "Jane Doe"
+            },
+            {
+                "reviewText": "Affordable rental with a convenient location",
+                "reviewAuthor": "Davis Jaekle"
+            }
+        ]
     }, 
     {
         "propertyType": "Apartment",
@@ -123,7 +143,17 @@
         "bathroomCount": "2",
         "petsAllowed": "true", 
         "sqFootage": "2400",
-        "depositFee": "5000"
+        "depositFee": "5000",
+        "reviews": [
+            {
+                "reviewText": "Well-appointed vacation apartment  near popular attractions.",
+                "reviewAuthor": "Jane Doe"
+            },
+            {
+                "reviewText": "Spacious and pet-friendly rental for families.",
+                "reviewAuthor": "Davis Jaekle"
+            }
+        ]
     },
     {
         "propertyType": "House",
@@ -137,7 +167,17 @@
         "bathroomCount": "2",
         "petsAllowed": "true", 
         "sqFootage": "2550",
-        "depositFee": "5000"
+        "depositFee": "5000",
+        "reviews": [
+            {
+                "reviewText": "Quirky and artistic house in a vibrant neighborhood.",
+                "reviewAuthor": "Jane Doe"
+            },
+            {
+                "reviewText": "Welcoming and family-friendly rental with a backyard.",
+                "reviewAuthor": "Davis Jaekle"
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -151,7 +191,17 @@
         "bathroomCount": "1",
         "petsAllowed": "true", 
         "sqFootage": "875",
-        "depositFee": "600"
+        "depositFee": "600",
+        "reviews": [
+            {
+                "reviewText": "Well-equipped kitchen and comfortable beds in this vacation home.",
+                "reviewAuthor": "Jane Doe"
+            },
+            {
+                "reviewText": "Beautifully furnished apartment with a charming garden.",
+                "reviewAuthor": "Davis Jaekle"
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -165,7 +215,17 @@
         "bathroomCount": "1",
         "petsAllowed": "true", 
         "sqFootage": "1000",
-        "depositFee": "600"
+        "depositFee": "600",
+        "reviews": [
+            {
+                "reviewText": "Conveniently located rental with easy access to public transportation.",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "Classic and elegant apartment with vintage decor.",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "House",
@@ -179,7 +239,17 @@
         "bathroomCount": "2",
         "petsAllowed": "true", 
         "sqFootage": "1500",
-        "depositFee": "550"
+        "depositFee": "550",
+        "reviews": [
+            {
+                "reviewText": "A cozy cottage that feels like home.",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "Bright and airy house with lots of natural light.",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -193,7 +263,17 @@
         "bathroomCount": "1",
         "petsAllowed": "false", 
         "sqFootage": "1700",
-        "depositFee": "890"
+        "depositFee": "890",
+        "reviews": [
+            {
+                "reviewText": "Quiet and private rental for a relaxing stay.",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "Cozy and inviting atmosphere that makes you feel at home.",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -207,7 +287,17 @@
         "bathroomCount": "1",
         "petsAllowed": "false", 
         "sqFootage": "900",
-        "depositFee": "550"
+        "depositFee": "550",
+        "reviews": [
+            {
+                "reviewText": "Outdated and broken appliances in the kitchen.",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "Unresponsive property management and poor repairs.",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -221,7 +311,17 @@
         "bathroomCount": "1",
         "petsAllowed": "true", 
         "sqFootage": "800",
-        "depositFee": "600"
+        "depositFee": "600",
+        "reviews": [
+            {
+                "reviewText": "Constant plumbing problems and low water pressure",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "Noisy neighborhood, impossible to sleep.",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "House",
@@ -235,7 +335,17 @@
         "bathroomCount": "2",
         "petsAllowed": "true", 
         "sqFootage": "950",
-        "depositFee": "600"
+        "depositFee": "600",
+        "reviews": [
+            {
+                "reviewText": "Broken air conditioning in the middle of summer.",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "Lack of proper heating during the winter.",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "House",
@@ -249,7 +359,17 @@
         "bathroomCount": "2",
         "petsAllowed": "true", 
         "sqFootage": "2100",
-        "depositFee": "800"
+        "depositFee": "800",
+        "reviews": [
+            {
+                "reviewText": "Impressive architecture and unique features in this house.",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "Great value for a spacious and comfortable rental.",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "House",
@@ -263,7 +383,17 @@
         "bathroomCount": "1",
         "petsAllowed": "true", 
         "sqFootage": "1300",
-        "depositFee": "700"
+        "depositFee": "700",
+        "reviews": [
+            {
+                "reviewText": "Proximity to public parks and recreational areas.",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "Welcoming and helpful neighbors in the community.",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -277,7 +407,17 @@
         "bathroomCount": "1",
         "petsAllowed": "false", 
         "sqFootage": "1100",
-        "depositFee": "500"
+        "depositFee": "500",
+        "reviews": [
+            {
+                "reviewText": "Insufficient parking space and limited street parking.",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "Unpleasant odors and persistent musty smell.",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "House",
@@ -291,7 +431,17 @@
         "bathroomCount": "2",
         "petsAllowed": "true", 
         "sqFootage": "1800",
-        "depositFee": "475"
+        "depositFee": "475",
+        "reviews": [
+            {
+                "reviewText": "Bright and cheerful interior design in this rental property.",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "Well-insulated windows for a noise-free stay.",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -305,7 +455,17 @@
         "bathroomCount": "1",
         "petsAllowed": "true", 
         "sqFootage": "900",
-        "depositFee": "750"
+        "depositFee": "750",
+        "reviews": [
+            {
+                "reviewText": "Limited or no hot water supply.",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "Broken or malfunctioning doors and windows.",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "House",
@@ -319,7 +479,17 @@
         "bathroomCount": "2",
         "petsAllowed": "true", 
         "sqFootage": "1500",
-        "depositFee": "795"
+        "depositFee": "795",
+        "reviews": [
+            {
+                "reviewText": "Pet-friendly rental with a fenced backyard.",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "Great communication and helpful landlord.",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "House",
@@ -333,7 +503,17 @@
         "bathroomCount": "1",
         "petsAllowed": "true", 
         "sqFootage": "1100",
-        "depositFee": "500"
+        "depositFee": "500",
+        "reviews": [
+            {
+                "reviewText": "Uncooperative or rude property owners/landlords.",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "Inadequate storage space and small closets.",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -347,7 +527,17 @@
         "bathroomCount": "1",
         "petsAllowed": "false", 
         "sqFootage": "1300",
-        "depositFee": "500"
+        "depositFee": "500",
+        "reviews": [
+            {
+                "reviewText": "Noisy and malfunctioning appliances.",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "Uncomfortable and outdated interior decor.",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "House",
@@ -361,7 +551,17 @@
         "bathroomCount": "2",
         "petsAllowed": "true", 
         "sqFootage": "2500",
-        "depositFee": "1000"
+        "depositFee": "1000",
+        "reviews": [
+            {
+                "reviewText": "Family-friendly house with a spacious backyard.",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": " Stylish loft in a trendy neighborhood.",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -375,7 +575,17 @@
         "bathroomCount": "1",
         "petsAllowed": "true", 
         "sqFootage": "600",
-        "depositFee": "200"
+        "depositFee": "200",
+        "reviews": [
+            {
+                "reviewText": "Broken or malfunctioning showers and faucets.",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "Unreliable or slow response from property management.",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -389,7 +599,17 @@
         "bathroomCount": "1",
         "petsAllowed": "false", 
         "sqFootage": "1400",
-        "depositFee": "300"
+        "depositFee": "300",
+        "reviews": [
+            {
+                "reviewText": "Welcoming and family-friendly rental with a backyard.",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "Modern and stylish apartment in the heart of the city.",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -403,7 +623,17 @@
         "bathroomCount": "1",
         "petsAllowed": "true", 
         "sqFootage": "900",
-        "depositFee": "300"
+        "depositFee": "300",
+        "reviews": [
+            {
+                "reviewText": "Unpleasant neighbors and disruptive neighbors.",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "Insufficient hot water capacity for multiple guests",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "House",
@@ -417,7 +647,17 @@
         "bathroomCount": "2",
         "petsAllowed": "true", 
         "sqFootage": "2300",
-        "depositFee": "1000"
+        "depositFee": "1000",
+        "reviews": [
+            {
+                "reviewText": "Classic and elegant home with vintage decor.",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "Bright and airy apartment with lots of natural light.",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "House",
@@ -431,7 +671,17 @@
         "bathroomCount": "2",
         "petsAllowed": "true", 
         "sqFootage": "2000",
-        "depositFee": "975"
+        "depositFee": "975",
+        "reviews": [
+            {
+                "reviewText": "Tranquil and scenic location for nature enthusiasts",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "Classic and elegant home with vintage decor.",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "House",
@@ -445,7 +695,17 @@
         "bathroomCount": "3",
         "petsAllowed": "true", 
         "sqFootage": "2300",
-        "depositFee": "7500"
+        "depositFee": "7500",
+        "reviews": [
+            {
+                "reviewText": "Authentic and traditional house with unique architecture.",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "Relaxing atmosphere and soothing decor in this rental.",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -459,7 +719,17 @@
         "bathroomCount": "1",
         "petsAllowed": "true", 
         "sqFootage": "900",
-        "depositFee": "1200"
+        "depositFee": "1200",
+        "reviews": [
+            {
+                "reviewText": "Contemporary apartment with modern amenities.",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "Affordable and cozy studio apartment for solo travelers",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "House",
@@ -473,7 +743,17 @@
         "bathroomCount": "2",
         "petsAllowed": "true", 
         "sqFootage": "2200",
-        "depositFee": "2000"
+        "depositFee": "2000",
+        "reviews": [
+            {
+                "reviewText": "Pet-friendly rental with a fenced backyard",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "Well-equipped kitchen for those who love to cook.",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -487,7 +767,13 @@
         "bathroomCount": "1",
         "petsAllowed": "true", 
         "sqFootage": "1100",
-        "depositFee": "4000"
+        "depositFee": "4000",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -501,7 +787,17 @@
         "bathroomCount": "1",
         "petsAllowed": "true", 
         "sqFootage": "1100",
-        "depositFee": "500"
+        "depositFee": "500",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -515,7 +811,17 @@
         "bathroomCount": "1",
         "petsAllowed": "true", 
         "sqFootage": "1150",
-        "depositFee": "500"
+        "depositFee": "500",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "House",
@@ -529,7 +835,13 @@
         "bathroomCount": "2",
         "petsAllowed": "true", 
         "sqFootage": "2200",
-        "depositFee": "1000"
+        "depositFee": "1000",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -543,7 +855,17 @@
         "bathroomCount": "1",
         "petsAllowed": "true", 
         "sqFootage": "600",
-        "depositFee": "400"
+        "depositFee": "400",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -557,7 +879,13 @@
         "bathroomCount": "1",
         "petsAllowed": "false", 
         "sqFootage": "1000",
-        "depositFee": "400"
+        "depositFee": "400",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "House",
@@ -571,7 +899,17 @@
         "bathroomCount": "2",
         "petsAllowed": "true", 
         "sqFootage": "1000",
-        "depositFee": "5800"
+        "depositFee": "5800",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -585,7 +923,13 @@
         "bathroomCount": "1",
         "petsAllowed": "true", 
         "sqFootage": "650",
-        "depositFee": "1200"
+        "depositFee": "1200",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -599,7 +943,17 @@
         "bathroomCount": "1",
         "petsAllowed": "true", 
         "sqFootage": "700",
-        "depositFee": "2600"
+        "depositFee": "2600",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "House",
@@ -613,7 +967,13 @@
         "bathroomCount": "1",
         "petsAllowed": "true", 
         "sqFootage": "1500",
-        "depositFee": "3700"
+        "depositFee": "3700",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "House",
@@ -627,7 +987,13 @@
         "bathroomCount": "2",
         "petsAllowed": "true", 
         "sqFootage": "2800",
-        "depositFee": "2700"
+        "depositFee": "2700",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -641,7 +1007,13 @@
         "bathroomCount": "1",
         "petsAllowed": "true", 
         "sqFootage": "700",
-        "depositFee": "2600"
+        "depositFee": "2600",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "House",
@@ -655,7 +1027,17 @@
         "bathroomCount": "3",
         "petsAllowed": "true", 
         "sqFootage": "2150",
-        "depositFee": "3495"
+        "depositFee": "3495",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "House",
@@ -669,7 +1051,13 @@
         "bathroomCount": "1",
         "petsAllowed": "true", 
         "sqFootage": "1000",
-        "depositFee": "1400"
+        "depositFee": "1400",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "House",
@@ -683,7 +1071,13 @@
         "bathroomCount": "1",
         "petsAllowed": "true", 
         "sqFootage": "1000",
-        "depositFee": "1500"
+        "depositFee": "1500",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "House",
@@ -697,7 +1091,17 @@
         "bathroomCount": "2",
         "petsAllowed": "true", 
         "sqFootage": "1800",
-        "depositFee": "3000"
+        "depositFee": "3000",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -711,7 +1115,13 @@
         "bathroomCount": "1",
         "petsAllowed": "false", 
         "sqFootage": "650",
-        "depositFee": "2500"
+        "depositFee": "2500",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -725,7 +1135,13 @@
         "bathroomCount": "1",
         "petsAllowed": "false", 
         "sqFootage": "800",
-        "depositFee": "1700"
+        "depositFee": "1700",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -739,7 +1155,13 @@
         "bathroomCount": "1",
         "petsAllowed": "false", 
         "sqFootage": "600",
-        "depositFee": "1500"
+        "depositFee": "1500",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -753,7 +1175,13 @@
         "bathroomCount": "1",
         "petsAllowed": "false", 
         "sqFootage": "1300",
-        "depositFee": "3700"
+        "depositFee": "3700",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "House",
@@ -767,7 +1195,13 @@
         "bathroomCount": "1",
         "petsAllowed": "false", 
         "sqFootage": "1300",
-        "depositFee": "3700"
+        "depositFee": "3700",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "House",
@@ -781,7 +1215,13 @@
         "bathroomCount": "1",
         "petsAllowed": "true", 
         "sqFootage": "800",
-        "depositFee": "1000"
+        "depositFee": "1000",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "House",
@@ -795,7 +1235,13 @@
         "bathroomCount": "2",
         "petsAllowed": "true", 
         "sqFootage": "2050",
-        "depositFee": "3000"
+        "depositFee": "3000",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -809,7 +1255,13 @@
         "bathroomCount": "2",
         "petsAllowed": "false", 
         "sqFootage": "1050",
-        "depositFee": "2000"
+        "depositFee": "2000",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -823,7 +1275,17 @@
         "bathroomCount": "2",
         "petsAllowed": "false", 
         "sqFootage": "1100",
-        "depositFee": "2000"
+        "depositFee": "2000",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -837,7 +1299,17 @@
         "bathroomCount": "1",
         "petsAllowed": "false", 
         "sqFootage": "800",
-        "depositFee": "1500"
+        "depositFee": "1500",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "House",
@@ -851,7 +1323,13 @@
         "bathroomCount": "2",
         "petsAllowed": "true", 
         "sqFootage": "2100",
-        "depositFee": "4000"
+        "depositFee": "4000",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "House",
@@ -865,7 +1343,17 @@
         "bathroomCount": "3",
         "petsAllowed": "false", 
         "sqFootage": "1900",
-        "depositFee": "4000"
+        "depositFee": "4000",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -879,7 +1367,13 @@
         "bathroomCount": "1",
         "petsAllowed": "true", 
         "sqFootage": "900",
-        "depositFee": "3000"
+        "depositFee": "3000",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "House",
@@ -893,7 +1387,13 @@
         "bathroomCount": "2",
         "petsAllowed": "true", 
         "sqFootage": "2250",
-        "depositFee": "4000"
+        "depositFee": "4000",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "House",
@@ -907,7 +1407,17 @@
         "bathroomCount": "3",
         "petsAllowed": "true", 
         "sqFootage": "2250",
-        "depositFee": "4800"
+        "depositFee": "4800",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "House",
@@ -921,7 +1431,13 @@
         "bathroomCount": "2",
         "petsAllowed": "true", 
         "sqFootage": "1600",
-        "depositFee": "3000"
+        "depositFee": "3000",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -935,7 +1451,13 @@
         "bathroomCount": "1",
         "petsAllowed": "false", 
         "sqFootage": "1100",
-        "depositFee": "2000"
+        "depositFee": "2000",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -949,7 +1471,17 @@
         "bathroomCount": "1",
         "petsAllowed": "false", 
         "sqFootage": "750",
-        "depositFee": "2000"
+        "depositFee": "2000",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "House",
@@ -963,7 +1495,17 @@
         "bathroomCount": "3",
         "petsAllowed": "true", 
         "sqFootage": "2100",
-        "depositFee": "8000"
+        "depositFee": "8000",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -977,7 +1519,13 @@
         "bathroomCount": "2",
         "petsAllowed": "true", 
         "sqFootage": "600",
-        "depositFee": "2000"
+        "depositFee": "2000",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -991,7 +1539,17 @@
         "bathroomCount": "1",
         "petsAllowed": "false", 
         "sqFootage": "800",
-        "depositFee": "2000"
+        "depositFee": "2000",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            },
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "House",
@@ -1005,7 +1563,13 @@
         "bathroomCount": "3",
         "petsAllowed": "true", 
         "sqFootage": "2800",
-        "depositFee": "7000"
+        "depositFee": "7000",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "House",
@@ -1019,7 +1583,13 @@
         "bathroomCount": "2",
         "petsAllowed": "true", 
         "sqFootage": "1600",
-        "depositFee": "4000"
+        "depositFee": "4000",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     },
     {
         "propertyType": "Apartment",
@@ -1033,6 +1603,12 @@
         "bathroomCount": "1",
         "petsAllowed": "true", 
         "sqFootage": "750",
-        "depositFee": "2000"
+        "depositFee": "2000",
+        "reviews": [
+            {
+                "reviewText": "",
+                "reviewAuthor": ""
+            }
+        ]
     }
 ]

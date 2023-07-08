@@ -17,6 +17,7 @@
     "concurrently": "^5.1.0"
   },
   "dependencies": {
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "apollo-server-express": "^3.11.1",
     "express": "^4.17.2",
     "graphql": "^15.8.0",
