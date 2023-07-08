@@ -43,8 +43,8 @@ function AddProperty(props) {
             <div className="addproperty-form">
                 <h2>Add a Property</h2>
                 <form onSubmit={handleFormSubmit}>
-                    <div className="flex-row space-between my-2">
-                        <label htmlFor="propertyType">Property Type(House/Apartment):</label>
+                    <div className="flex-row space-between my-2" >
+                        <label htmlFor="propertyType">Property Type:</label>
                         <input
                             placeholder="House or Apartment"
                             name="propertyType"

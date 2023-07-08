@@ -10,6 +10,7 @@ import "../src/pages/Login/Login.css";
 import "../src/pages/RentHouse/RentHouse.css";
 import "../src/pages/RentApartment/RentApartment.css"
 import "./pages/Counties/Counties.css"
+import "../src/pages/Property/addProperty.css"
 
 ReactDOM.render(
   <React.StrictMode>
