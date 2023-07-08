@@ -23,14 +23,14 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar__menu">
-        <Link to="/">Home</Link>
+        <Link to="/">HOME</Link>
         <div
           className="navbar__dropdown"
           onMouseEnter={toggleDropdown}
           onMouseLeave={toggleDropdown}
         >
           <div className="navbar_menu"></div>
-          <button className="navbar__dropdown-button">Rent</button>
+          <button className="navbar__dropdown-button">RENT</button>
           {isDropdownOpen && (
             <div className="navbar__dropdown-content">
               <div className="navbar__dropdown-column">
@@ -78,7 +78,10 @@ const Navbar = () => {
         </div>
       </div>
       <div className="navbar-name">
-        <Link to="/">CTNESTQUEST</Link>
+        <Link to="/">
+          <span className="first-letter">C</span>
+          <span className="second-letter">T</span>NESTQUEST
+          </Link>
       </div>
       <div className="navbar-actions">
         {isLoggedIn && (
@@ -104,8 +107,8 @@ const Navbar = () => {
           <Link to="/" onClick={handleLogout}>Logout</Link>
         ) : (
           <>
-            <Link to="/login">Login</Link>
-            <Link to="/signup">Sign Up</Link>
+            <Link to="/login">LOGIN</Link>
+            <Link to="/signup">SIGN UP</Link>
           </>
         )}
       </div>
