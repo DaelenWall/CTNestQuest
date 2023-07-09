@@ -3,24 +3,31 @@
     justify-content: center;
     align-items: center;
     height: 82.5vh;
+    z-index: 1;
   }
   
   .apartment-form {
-    width: 525px;
-    height: 575px;
+    position: relative;
+    width: 600px;
+    height: 650px;
     padding: 20px;
-    background-color: #537188;
+    background-color: #d6d6d6;
+    border: 3px solid #537188;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    margin-top: 5%;
   }
   
   .apartment-form h2 {
-    margin-top: 0;
     text-align: center;
     color: #CBB279;
     font-size: 35px;
     padding: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
+
+  /*last word CSS comes from RentHouse.css*/
   
   .apartment-form form {
     margin-top: 30px;
@@ -36,10 +43,13 @@
   .apartment-form label {
     font-weight: bold;
     padding: 10px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #537188;
+    width: 100%;
   }
   
   .apartment-form input {
-    width: 58%;
+    width: 170%;
     padding: 20px;
     border-radius: 3px;
     border: 1px solid #E1D4BB;
@@ -55,9 +65,10 @@
     padding: 15px 35px;
     border-radius: 3px;
     background-color: #CBB279;
-    color: white;
-    border: none;
+    color: #537188;
+    font-weight: bold;
     cursor: pointer;
     font-size: 20px;
+    border-color: #537188;
     margin-top: 30px;
   }

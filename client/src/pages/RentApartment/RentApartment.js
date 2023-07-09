@@ -61,15 +61,18 @@ const RentApartmentForm = () => {
 
   return (
     <div className="container my-1">
-      <div className="apartment-form">
-        <h2>What are you looking for in your Apartment?</h2>
+            <div className="background-image">
+        <img src="/images/background-image-4.jpeg" alt="Login House" />
+        <div className="apartment-form">
+          <h2>What are you looking for in your <span className="last-word">APARTMENT?</span>
+          </h2>
         <form onSubmit={handleFormSubmit}>
           <div className="flex-row space-between my-2">
             <label htmlFor="minPrice">Minimum Price:</label>
             <input
               placeholder="$1400"
               name="minPrice"
-              type="number"
+              type="minPrice"
               id="minPrice"
               onChange={handleChange}
               value={minPrice}
@@ -80,7 +83,7 @@ const RentApartmentForm = () => {
             <input
               placeholder="$2400"
               name="maxPrice"
-              type="number"
+              type="maxPrice"
               id="maxPrice"
               onChange={handleChange}
               value={maxPrice}
@@ -91,7 +94,7 @@ const RentApartmentForm = () => {
             <input
               placeholder="2"
               name="bedroom"
-              type="number"
+              type="bedroom"
               id="bedroom"
               onChange={handleChange}
               value={bedrooms}
@@ -102,7 +105,7 @@ const RentApartmentForm = () => {
             <input
               placeholder="2"
               name="bathroom"
-              type="number"
+              type="bathroom"
               id="bathroom"
               onChange={handleChange}
               value={bathrooms}
@@ -113,17 +116,18 @@ const RentApartmentForm = () => {
             <input
               placeholder="Fairfield"
               name="county"
-              type="text"
+              type="county"
               id="county"
               onChange={handleChange}
               value={county}
             />
           </div>
           <div className="flex-row flex-end">
-            <button type="submit">Submit</button>
+            <button type="submit">SUBMIT</button>
           </div>
         </form>
       </div>
+    </div>
     </div>
   );
 };

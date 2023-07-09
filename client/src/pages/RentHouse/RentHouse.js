@@ -61,68 +61,72 @@ const RentHouseForm = () => {
 
   return (
     <div className="container my-1">
-      <div className="house-form">
-        <h2>What are you looking for in your house?</h2>
-        <form onSubmit={handleFormSubmit}>
-          <div className="flex-row space-between my-2">
-            <label htmlFor="minPrice">Minimum Price:</label>
-            <input
-              placeholder="$1400"
-              name="minPrice"
-              type="number"
-              id="minPrice"
-              onChange={handleChange}
-              value={minPrice}
-            />
-          </div>
-          <div className="flex-row space-between my-2">
-            <label htmlFor="maxPrice">Maximum Price:</label>
-            <input
-              placeholder="$2400"
-              name="maxPrice"
-              type="number"
-              id="maxPrice"
-              onChange={handleChange}
-              value={maxPrice}
-            />
-          </div>
-          <div className="flex-row space-between my-2">
-            <label htmlFor="bedroom">Number of Bedrooms:</label>
-            <input
-              placeholder="2"
-              name="bedroom"
-              type="number"
-              id="bedroom"
-              onChange={handleChange}
-              value={bedrooms}
-            />
-          </div>
-          <div className="flex-row space-between my-2">
-            <label htmlFor="bathroom">Number of Bathrooms:</label>
-            <input
-              placeholder="2"
-              name="bathroom"
-              type="number"
-              id="bathroom"
-              onChange={handleChange}
-              value={bathrooms}
-            />
-          </div>
-          <div className="flex-row space-between my-2">
-            <label htmlFor="county">CT County:</label>
-            <input
-              placeholder="Fairfield"
-              name="county"
-              type="text"
-              id="county"
-              onChange={handleChange}
-              value={county}
-            />
-          </div>
-          <div className="flex-row flex-end">
-            <button type="submit">Submit</button>
-          </div>
-        </form>
+      <div className="background-image">
+        <img src="/images/background-image-3.jpeg" alt="Login House" />
+        <div className="house-form">
+          <h2>What are you looking for in your <span className="last-word">HOUSE?</span>
+          </h2>
+          <form onSubmit={handleFormSubmit}>
+            <div className="flex-row space-between my-2">
+              <label htmlFor="minPrice">Minimum Price:</label>
+              <input
+                placeholder="$1400"
+                name="minPrice"
+                type="minPrice"
+                id="minPrice"
+                onChange={handleChange}
+                value={minPrice}
+              />
+            </div>
+            <div className="flex-row space-between my-2">
+              <label htmlFor="maxPrice">Maximum Price:</label>
+              <input
+                placeholder="$2400"
+                name="maxPrice"
+                type="maxPrice"
+                id="maxPrice"
+                onChange={handleChange}
+                value={maxPrice}
+              />
+            </div>
+            <div className="flex-row space-between my-2">
+              <label htmlFor="bedroom">Number of Bedrooms:</label>
+              <input
+                placeholder="2"
+                name="bedroom"
+                type="bedroom"
+                id="bedroom"
+                onChange={handleChange}
+                value={bedrooms}
+              />
+            </div>
+            <div className="flex-row space-between my-2">
+              <label htmlFor="bathroom">Number of Bathrooms:</label>
+              <input
+                placeholder="2"
+                name="bathroom"
+                type="bathroom"
+                id="bathroom"
+                onChange={handleChange}
+                value={bathrooms}
+              />
+            </div>
+            <div className="flex-row space-between my-2">
+              <label htmlFor="county">CT County:</label>
+              <input
+                placeholder="Fairfield"
+                name="county"
+                type="county"
+                id="county"
+                onChange={handleChange}
+                value={county}
+              />
+            </div>
+            <div className="flex-row flex-end">
+              <button type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   );
