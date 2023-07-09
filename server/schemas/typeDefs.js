@@ -10,7 +10,7 @@ type User {
     username: String!
     password: String!
     property: [Property]
-    favorites: [Favorite]
+    favorites: [Property]
 }
 
 type Property { 

@@ -71,7 +71,7 @@ mutation Mutation($propertyId: ID!) {
     county
     depositFee
     image
-    listingAgent
+    landlord
     petsAllowed
     price
     propertyType

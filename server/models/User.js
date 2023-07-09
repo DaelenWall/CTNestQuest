@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const { Schema } = mongoose;
 const bcrypt = require('bcrypt');
-const Favorite = require(`./Favorite`);
+// const Favorite = require(`./Favorite`);
 
 const userSchema = new Schema({
     firstName: {
@@ -39,7 +39,7 @@ const userSchema = new Schema({
     favorites: [
         {
             type: Schema.Types.ObjectId,
-            ref: 'Favorite',
+            ref: 'Property',
         }
     ]
 });

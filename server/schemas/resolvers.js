@@ -1,5 +1,5 @@
 const { AuthenticationError } = require('apollo-server-express');
-const { User, Property, Favorites } = require('../models');
+const { User, Property, Favorite } = require('../models');
 const { signToken } = require('../utils/auth');
 
 
@@ -20,7 +20,7 @@ const resolvers = {
     },
     me: async (parent, args, context) => {
       if (context.user) {
-        const user = await User.findOne({_id: context.user._id});
+        const user = await User.findOne({ _id: context.user._id });
         return user;
       }
       throw new AuthenticationError('You need to be logged in!');
@@ -69,20 +69,18 @@ const resolvers = {
 
     addFavorite: async (parent, { propertyId }, context) => {
       if (context.user) {
-        const favorite = {
-          favoriteDate: new Date(),
-          property: propertyId,
-        };
+
+        const property = await Property.findOne({ _id: propertyId});
 
         const user = await User.findOneAndUpdate(
           { _id: context.user._id },
-          { $addToSet: { favorites: favorite } },
-          { new: true }
+          { $addToSet: { favorites: property._id } }
         );
 
-        return user;
+        return property;
       }
       throw new AuthenticationError('You need to be logged in!');
+
     },
 
     addReview: async (parent, { propertyId, reviewText }, context) => {

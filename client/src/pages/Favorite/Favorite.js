@@ -19,22 +19,8 @@ function Favorite() {
             Favorites for {me.firstName} {me.lastName}
           </h2>
           {me.favorites.map((favorite) => (
-            <div key={favorite._id} className="my-2">
-              <h3>
-                {new Date(parseInt(favorite.favoriteDate)).toLocaleDateString()}
-              </h3>
-              <div className="flex-row">
-                {favorite.property.map((property) => (
-                  <FavoriteItem key={property._id} item={property} />
-                ))}
-              </div>
-              <div>
-                {/* ADD TO PROPERTY.JS */}
+            <div key={favorite.address} className="my-2">
 
-                {/* <button onClick={addToFavorites}>Add to Favorites</button> */}
-
-                {/* ADD TO PROPERTY.JS */}
-              </div>
             </div>
 
           ))}
