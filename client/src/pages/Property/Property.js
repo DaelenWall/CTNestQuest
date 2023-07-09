@@ -1,27 +1,42 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import { useQuery } from "@apollo/client";
+import { useQuery, useMutation } from "@apollo/client";
 import { GET_SINGLE_PROPERTY } from "../../utils/queries";
+
+//import use mutation and mutation
+import { ADD_FAVORITE } from '../../utils/mutations';
 
 const Property = () => {
   const { propertyId } = useParams();
+  const [addFavorite] = useMutation(ADD_FAVORITE);
 
   const { loading, data } = useQuery(GET_SINGLE_PROPERTY, {
     variables: { 
         propertyId: propertyId },
 });
-console.log(propertyId);
+  console.log(propertyId);
 
   if (!data) {
     return <p>No available data to show.</p>;
   }
 
   const property = data?.property;
- console.log(data)
+  console.log(data)
+
+  const handleAddFavorite = async (event) => {
+    event.preventDefault();
+
+    const addtoFavorite = await addFavorite({
+      variables: {
+        propertyId: property._id,
+      },
+    });
+    window.location.reload(false);
+  };
 
   
   return (
-      <div className="single_property-container">
+      <form className="single_property-container" onSubmit={handleAddFavorite}>
       <img src={`/images/${property.image}`} alt={property.address} />
       <div key={property.id} className="single_property-info-container">
         <h3>Price: ${property.price}/mo</h3>
@@ -43,8 +58,8 @@ console.log(propertyId);
           </div>
         </div>
       </div>
-      <button className="favorite_button">Add to my Favorites</button>
-    </div>
+      <button className="favorite_button" type="submit">Add to my Favorites</button>
+    </form>
   );
 };
 

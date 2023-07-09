@@ -5,29 +5,29 @@ export const QUERY_ME = gql`
     me {
       _id
       email
-      favorites {
-        favoriteDate
-        property {
-          address
-          bathroomCount
-          bedroomCount
-          county
-          depositFee
-          landlord
-          petsAllowed
-          price
-          propertyType
-          reviews {
-            reviewText
-            reviewAuthor
-          }
-          sqFootage
-          zipCode
-        }
-      }
       firstName
       lastName
+      password
       username
+      favorites {
+        _id
+        address
+        bathroomCount
+        bedroomCount
+        county
+        depositFee
+        image
+        landlord
+        petsAllowed
+        price
+        propertyType
+        sqFootage
+        zipCode
+        reviews {
+          reviewText
+          reviewAuthor
+        }
+      }
     }
   }
 `;
