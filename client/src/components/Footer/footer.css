@@ -1,20 +1,67 @@
 .footer-Container {
-    background-color:  #537188;
-    height: 4rem;
-    width: 100%;
-  }
+  background-color: #D6D6D6;
+  height: 3.5rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+  
   .footer-Elements {
-    color: #CBB279;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 0px;
   }
   .footer-Content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 6.5rem;
+    padding: 1.0rem 6.5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ justify-content: center;
+  align-items: center;
   }
-  
+  .contact-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-button:focus {
+  outline: none;
+}
+
+.contact-button:hover .email-text {
+  display: inline;
+}
+
+.email-text {
+  display: none;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-icon {
+  margin: 0 10px;
+  font-size: 24px;
+  color: black; 
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.5));
+}
+
+
+.footer-icon:hover {
+  color: #dcdc83; 
+}
