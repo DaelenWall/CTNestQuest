@@ -123,7 +123,7 @@ const RentHouseForm = () => {
               />
             </div>
             <div className="flex-row flex-end">
-              <button type="submit">Submit</button>
+              <button type="submit">SUBMIT</button>
             </div>
           </form>
         </div>
