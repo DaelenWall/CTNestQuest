@@ -29,7 +29,9 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar__menu">
+        <div className="navbar__home-button">
         <Link to="/">HOME</Link>
+        </div>
         <div
           className="navbar__dropdown"
           onMouseEnter={toggleDropdown}
@@ -116,14 +118,20 @@ const Navbar = () => {
             )}
           </div>
         )}
+        <div className="navbar__logout-button">
         {isLoggedIn ? (
           <Link to="/" onClick={handleLogout}>LOGOUT</Link>
         ) : (
           <>
+          <div className="navbar__login-button">
             <Link to="/login">LOGIN</Link>
+            </div>
+            <div className="navbar__signup-button">
             <Link to="/signup">SIGN UP</Link>
+            </div>
           </>
         )}
+        </div>
       </div>
     </nav>
   );
