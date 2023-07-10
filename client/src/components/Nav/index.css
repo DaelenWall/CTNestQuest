@@ -47,7 +47,7 @@
   background: none;
   border: none;
   color: #cbb279;
-  cursor: pointer;
+  cursor: default;
   font-size: 30px;
   text-decoration: none;
   font-weight: bold;
@@ -56,7 +56,7 @@
 
 .navbar__dropdown-content {
   position: absolute;
-  top: 110%;
+  top: 100%;
   left: 0;
   z-index: 9999;
   width: 370px;
@@ -110,27 +110,30 @@
   top: 100%;
   left: 0;
   z-index: 9999;
-  width: 185px;
+  width: 290px;
   background-color: #537188;
-  padding-left: 10px;
+  padding-left: 13px;
   list-style: none;
 }
 
 .navbar__dropdown-content2 h5 {
-  font-size: 16px;
+  font-size: 28px;
   font-weight: bold;
   margin-bottom: 5px;
+  color: #D6D6D6;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .navbar__dropdown-content2 ul {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin-bottom: 0;
 }
 
 .navbar__dropdown-content2 ul li {
   margin-bottom: 5px;
-  margin-left: -10px;
+  margin-left: -30px;
 }
 
 .navbar-actions .navbar__button {

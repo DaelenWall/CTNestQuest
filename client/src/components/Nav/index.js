@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  const [isFavoritesOpen, setIsFavoritesOpen] = useState(false);
+  const [isProfileOpen, setIsProfileOpen] = useState(false);
 
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
   };
 
   const toggleFavorites = () => {
-    setIsFavoritesOpen(!isFavoritesOpen);
+    setIsProfileOpen(!isProfileOpen);
   };
 
   const isLoggedIn = Auth.loggedIn();
@@ -90,8 +90,8 @@ const Navbar = () => {
             onMouseEnter={toggleFavorites}
             onMouseLeave={toggleFavorites}
           >
-            <button className="navbar__dropdown-button">Profile</button>
-            {isFavoritesOpen && (
+            <button className="navbar__dropdown-button">PROFILE</button>
+            {isProfileOpen && (
               <div className="navbar__dropdown-content2">
                 <h5>My Nest</h5>
                 <ul>
@@ -99,12 +99,18 @@ const Navbar = () => {
                     <Link to="/favorite">Favorites</Link>
                   </li>
                 </ul>
+                <h5>Rental Management</h5>
+                <ul>
+                  <li>
+                    <Link to="/add-property">List a Property</Link>
+                  </li>
+                </ul>
               </div>
             )}
           </div>
         )}
         {isLoggedIn ? (
-          <Link to="/" onClick={handleLogout}>Logout</Link>
+          <Link to="/" onClick={handleLogout}>LOGOUT</Link>
         ) : (
           <>
             <Link to="/login">LOGIN</Link>
