@@ -37,7 +37,7 @@ function AddProperty(props) {
             [name]: value,
         });
     };
-
+    
     return (
         <div className="container my-1">
             <div className="addproperty-form">
@@ -56,7 +56,7 @@ function AddProperty(props) {
                     <div className="flex-row space-between my-2">
                         <label htmlFor="landlord">Landlord:</label>
                         <input
-                            placeholder="landlord"
+                            placeholder="Anthony Torres"
                             name="landlord"
                             type="landlord"
                             id="landlord"
@@ -64,9 +64,9 @@ function AddProperty(props) {
                         />
                     </div>
                     <div className="flex-row space-between my-2">
-                        <label htmlFor="county">County:</label>
+                        <label htmlFor="county">Connecticut County:</label>
                         <input
-                            placeholder="county"
+                            placeholder="Fairfield"
                             name="county"
                             type="county"
                             id="county"
@@ -76,7 +76,7 @@ function AddProperty(props) {
                     <div className="flex-row space-between my-2">
                         <label htmlFor="address">Address:</label>
                         <input
-                            placeholder="address"
+                            placeholder="123 Example Street"
                             name="address"
                             type="address"
                             id="address"
@@ -86,7 +86,7 @@ function AddProperty(props) {
                     <div className="flex-row space-between my-2">
                         <label htmlFor="zipCode">Zip Code:</label>
                         <input
-                            placeholder="zipCode"
+                            placeholder="06605"
                             name="zipCode"
                             type="zipCode"
                             id="zipCode"
@@ -94,9 +94,9 @@ function AddProperty(props) {
                         />
                     </div>
                     <div className="flex-row space-between my-2">
-                        <label htmlFor="price">Price:</label>
+                        <label htmlFor="price">Price Per Month:</label>
                         <input
-                            placeholder="price"
+                            placeholder="1800"
                             name="price"
                             type="price"
                             id="price"
@@ -106,7 +106,7 @@ function AddProperty(props) {
                     <div className="flex-row space-between my-2">
                         <label htmlFor="bedroomCount">Bedroom Count:</label>
                         <input
-                            placeholder="bedroomCount"
+                            placeholder="2"
                             name="bedroomCount"
                             type="bedroomCount"
                             id="bedroomCount"
@@ -116,7 +116,7 @@ function AddProperty(props) {
                     <div className="flex-row space-between my-2">
                         <label htmlFor="bathroomCount">Bathroom Count:</label>
                         <input
-                            placeholder="bathroomCount"
+                            placeholder="2"
                             name="bathroomCount"
                             type="bathroomCount"
                             id="bathroomCount"
@@ -147,7 +147,7 @@ function AddProperty(props) {
                     <div className="flex-row space-between my-2">
                         <label htmlFor="sqFootage">Square Footage:</label>
                         <input
-                            placeholder="sqFootage"
+                            placeholder="2500"
                             name="sqFootage"
                             type="sqFootage"
                             id="sqFootage"
@@ -157,7 +157,7 @@ function AddProperty(props) {
                     <div className="flex-row space-between my-2">
                         <label htmlFor="depositFee">Deposit Fee:</label>
                         <input
-                            placeholder="depositFee"
+                            placeholder="3600"
                             name="depositFee"
                             type="depositFee"
                             id="depositFee"
@@ -169,6 +169,7 @@ function AddProperty(props) {
                     </div>
                 </form>
             </div>
+                <img className="family-photo" src="/images/add-property-family.jpeg" alt="house-for-rent" />
         </div>
     );
 }

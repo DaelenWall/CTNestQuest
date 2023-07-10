@@ -2,6 +2,12 @@ import React, { useState } from 'react';
 import Auth from "../../utils/auth";
 import { Link } from 'react-router-dom';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faFeather } from '@fortawesome/free-solid-svg-icons';
+
+library.add(faFeather);
+
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isFavoritesOpen, setIsFavoritesOpen] = useState(false);
@@ -80,8 +86,9 @@ const Navbar = () => {
       <div className="navbar-name">
         <Link to="/">
           <span className="first-letter">C</span>
-          <span className="second-letter">T</span>NESTQUEST
-          </Link>
+          <span className="second-letter">T</span>NESTQUEST 
+          <FontAwesomeIcon icon={faFeather} size="1x" />
+          </Link> 
       </div>
       <div className="navbar-actions">
         {isLoggedIn && (

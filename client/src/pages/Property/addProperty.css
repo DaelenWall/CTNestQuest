@@ -1,23 +1,37 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     height: 82.5vh;
 }
 
 p {
-    margin-left: 70px;
+    margin-left: 20%;
+}
+
+.family-photo {
+    opacity: 0.6;
+    border-radius: 5px;
+    border: 3px solid #CBB279;
+    margin-top: 3%;
 }
 
 .addproperty-form {
-    margin-top: 150px;
-    width: 550px;
+    margin-top: 3%;
+    width: 700px;
     display: inline;
-    padding: 20px;
-    background-color: #537188;
+    padding: 40px;
+    background-color:  #D6D6D6;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    z-index: 999px;
+    border: 3px solid #CBB279;
+}
+
+.addproperty-form input[type="radio"] {
+    transform: scale(1.5);
 }
 
 .addproperty-form h2 {
@@ -26,30 +40,32 @@ p {
     color: #CBB279;
     font-size: 35px;
     padding: 20px;
+    text-shadow: 0px 1px #537188;
 }
 
 .addproperty-form form {
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .addproperty-form .flex-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .addproperty-form label {
     font-weight: bold;
     padding: 10px;
+    color: #537188; 
 }
 
 .addproperty-form input {
-    width: 70%;
-    padding: 5px;
+    width: 65%;
+    padding: 18px;
     border-radius: 3px;
-    border: 1px solid #E1D4BB;
-    color: #EEEEEE;
+    border: 2px solid #537188;
+    color: #537188;
 }
 
 .addproperty-form .flex-end {
@@ -61,8 +77,9 @@ p {
     padding: 15px 35px;
     border-radius: 3px;
     background-color: #CBB279;
-    color: white;
-    border: none;
+    color: #537188;
+    font-weight: bold;
+    border-color: #537188;
     cursor: pointer;
     font-size: 20px;
     margin-top: 30px;
