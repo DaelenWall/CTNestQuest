@@ -1,0 +1,82 @@
+body {
+  margin: 0%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.single_property-container {
+  justify-content: center;
+  width: 70%;
+  border: 4px solid #cbb279;
+  padding: 40px;
+  background-color: #d6d6d6;
+  margin: auto;
+  margin-top: 1%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.single_property-container img {
+  border: 3px solid #cbb279;
+  border-radius: 10px;
+}
+
+.single_property-inner-container {
+  display: flex;
+  padding: 10px;
+  margin-bottom: 5%;
+  border: 3px solid #537188;
+  border-radius: 10px;
+}
+
+.single_property-info-container {
+  margin-top: 50px;
+  margin-left: 10px;
+  width: 300%;
+}
+
+.single_property-details {
+  padding-bottom: 50px;
+  text-align: center;
+  border-bottom: 3px solid #537188;
+  font-size: 20px;
+}
+
+.single_property-details h3 {
+    font-size: 40px;
+    color:#537188;
+}
+
+.single_property-sub-info-container {
+    margin-top: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
+.reviews-container {
+  border: 3px solid #537188;
+  padding: 10px;
+  margin-bottom: 3%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.reviews-container h3 {
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+.favorite-form {
+  display: flex;
+  justify-content: center;
+}
+
+.favorite_button {
+    padding: 10px 20px;
+    background-color: #CBB279;
+    margin-left: 10px;
+    color:#537188;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 18px;
+  }
