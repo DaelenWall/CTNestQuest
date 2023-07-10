@@ -18,6 +18,11 @@ body{
     margin: auto;
     margin-bottom: 15px;
     border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+
+  .property-container:hover {
+    transform: scale(1.03);
   }
   
   .property-container img {

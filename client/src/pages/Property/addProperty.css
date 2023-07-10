@@ -57,7 +57,7 @@ p {
 .addproperty-form label {
     font-weight: bold;
     padding: 10px;
-    color: #537188; 
+    color: #537188;
 }
 
 .addproperty-form input {
@@ -83,4 +83,11 @@ p {
     cursor: pointer;
     font-size: 20px;
     margin-top: 30px;
+    transition: transform 0.3s ease;
 }
+
+.addproperty-form button:hover {
+    transform: scale(1.05);
+    background-color: #537188;
+    color: #CBB279;
+  }
