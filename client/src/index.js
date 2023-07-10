@@ -11,6 +11,7 @@ import "../src/pages/RentHouse/RentHouse.css";
 import "../src/pages/RentApartment/RentApartment.css"
 import "./pages/Counties/Counties.css"
 import "../src/pages/Property/addProperty.css"
+import "../src/pages/Property/Property.css"
 
 ReactDOM.render(
   <React.StrictMode>
