@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { useQuery, useMutation } from "@apollo/client";
 import { GET_SINGLE_PROPERTY } from "../../utils/queries";
+import { Link } from 'react-router-dom';
 
 //import use mutation and mutation
 import { ADD_FAVORITE } from "../../utils/mutations";
@@ -88,9 +89,11 @@ const Property = () => {
         </div>
       </div>
       <form className="favorite-form" onSubmit={handleAddFavorite}>
+        <Link to="/favorite">
         <button className="favorite_button" type="submit">
           Add to my Favorites
         </button>
+        </Link>
       </form>
     </div>
   );

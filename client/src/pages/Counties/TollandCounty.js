@@ -34,6 +34,7 @@ const TollandCounty = () => {
                   {property.bedroomCount} Bedroom {property.bathroomCount} Bath
                 </h4>
                   <h4>{property.address}</h4>
+                  <h4>{property.propertyType}</h4>
               </div>
             </div>
           </Link>
