@@ -30,6 +30,7 @@ import WindhamCounty from './pages/Counties/WindhamCounty';
 import Property from './pages/Property/Property';
 import Footer from './components/Footer/footer';
 import AddProperty from './pages/Property/AddProperty';
+import MyListings from './pages/MyListings/MyListings';
 
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -54,7 +55,7 @@ function App() {
   return (
     <ApolloProvider client={client}>
       <Router>
-        
+
         <div>
           <Nav />
           <Routes>
@@ -130,9 +131,13 @@ function App() {
               path="/single-property/:propertyId"
               element={<Property />}
             />
-             <Route
+            <Route
               path="/add-property"
               element={<AddProperty />}
+            />
+            <Route
+              path="/my-listings"
+              element={<MyListings />}
             />
             <Route
               path="*"
@@ -140,8 +145,8 @@ function App() {
             />
           </Routes>
         </div>
-       <Footer />
-       
+        <Footer />
+
       </Router>
     </ApolloProvider>
   );

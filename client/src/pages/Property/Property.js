@@ -89,11 +89,9 @@ const Property = () => {
         </div>
       </div>
       <form className="favorite-form" onSubmit={handleAddFavorite}>
-        <Link to="/favorite">
         <button className="favorite_button" type="submit">
           Add to my Favorites
         </button>
-        </Link>
       </form>
     </div>
   );
