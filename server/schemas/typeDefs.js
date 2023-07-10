@@ -11,6 +11,7 @@ type User {
     password: String!
     property: [Property]
     favorites: [Property]
+    listings: [Property]
 }
 
 type Property { 

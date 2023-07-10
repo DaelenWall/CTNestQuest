@@ -61,6 +61,11 @@ const resolvers = {
           { $addToSet: { properties: property._id } }
         );
 
+        await User.findOneAndUpdate(
+          { _id: context.user._id },
+          { $addToSet: { listings: property._id } }
+        );
+
         return property;
       }
       throw new AuthenticationError('You need to be logged in!');
