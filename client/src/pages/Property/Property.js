@@ -2,7 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { useQuery, useMutation } from "@apollo/client";
 import { GET_SINGLE_PROPERTY } from "../../utils/queries";
-import { Link } from 'react-router-dom';
+
 
 //import use mutation and mutation
 import { ADD_FAVORITE } from "../../utils/mutations";
