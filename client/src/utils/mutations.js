@@ -33,7 +33,7 @@ export const ADD_PROPERTY = gql`
       address: $address
       zipCode: $zipCode
       price: $price
-      image: $image
+      images: $images
       bedroomCount: $bedroomCount
       bathroomCount: $bathroomCount
       petsAllowed: $petsAllowed
@@ -70,7 +70,9 @@ mutation Mutation($propertyId: ID!) {
     bedroomCount
     county
     depositFee
-    image
+    images {
+      imageText
+    }
     landlord
     petsAllowed
     price
