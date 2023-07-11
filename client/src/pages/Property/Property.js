@@ -2,7 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { useQuery, useMutation } from "@apollo/client";
 import { GET_SINGLE_PROPERTY } from "../../utils/queries";
-import { Link } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 //import use mutation and mutation
 import { ADD_FAVORITE } from "../../utils/mutations";
@@ -15,6 +15,7 @@ library.add(faUser, faRulerCombined, faDog, faSackDollar, faHouse, faBed, faBath
 
 
 const Property = () => {
+  const navigate = useNavigate();
   const { propertyId } = useParams();
   const [addFavorite] = useMutation(ADD_FAVORITE);
 
@@ -40,7 +41,7 @@ const Property = () => {
         propertyId: property._id,
       },
     });
-    window.location.reload(false);
+    navigate("/favorite")
   };
 
   return (
