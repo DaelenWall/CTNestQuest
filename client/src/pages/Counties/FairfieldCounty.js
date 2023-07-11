@@ -14,6 +14,7 @@ const FairfieldCounty = () => {
   const fairfieldProperties = data?.properties.filter(
     (property) => property.county.toLowerCase() === 'Fairfield'.toLowerCase()
   );
+    
   
   if (fairfieldProperties.length === 0) {
   return (
@@ -25,11 +26,12 @@ const FairfieldCounty = () => {
     return (
       <div className="main-container my-1">
         {fairfieldProperties.map((property) => (
+                 
           <Link to={`/single-property/${property._id}`}>
             <div className="property-container">
-              <img src={`/images/${property.image}`} alt={property.address} />
+              <img src={`/images/${property.images[0].imageText}`} alt={property.address} />
               <div key={property.id} className="property-details">
-                <h3> ${property.price}/mo</h3>
+                <h3>${property.price}/mo</h3>
                 <h4>
                   {property.bedroomCount} Bedroom {property.bathroomCount} Bath
                 </h4>

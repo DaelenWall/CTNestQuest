@@ -46,7 +46,7 @@ const Property = () => {
   return (
     <div className="single_property-container">
       <div className="single_property-inner-container">
-        <img src={`/images/${property.image}`} alt={property.address} />
+        <img src={`/images/${property.images[0].imageText}`} alt={property.address} />
         <div key={property.id} className="single_property-info-container">
           <div className="single_property-details">
             <h3> ${property.price}/mo</h3>
