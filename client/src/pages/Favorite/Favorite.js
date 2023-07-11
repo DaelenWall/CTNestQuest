@@ -18,7 +18,7 @@ function Favorite() {
           {me.favorites.map((favorite) => (
           <Link to={`/single-property/${favorite._id}`}>
           <div className="favorite-container">
-            <img src={`/images/${favorite.image}`} alt={favorite.address} />
+            <img src={`/images/${favorite.images[0].imageText}`} alt={favorite.address} />
             <div key={favorite.id} className="favorite-details">
               <h3> ${favorite.price}/mo</h3>
               <h4>
