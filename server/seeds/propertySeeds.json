@@ -9,6 +9,9 @@
         "images": [
             {
                 "imageText": "apartment1.png"
+            },
+            {
+                "imageText": "apartment2.png"
             }
         ],
         "bedroomCount": "1",
