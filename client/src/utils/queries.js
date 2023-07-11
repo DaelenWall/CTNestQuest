@@ -16,7 +16,9 @@ export const QUERY_ME = gql`
         bedroomCount
         county
         depositFee
-        images
+        images {
+          imageText
+        }
         landlord
         petsAllowed
         price
