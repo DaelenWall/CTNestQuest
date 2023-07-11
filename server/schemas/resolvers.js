@@ -50,10 +50,10 @@ const resolvers = {
 
       return { token, user };
     },
-    addProperty: async (parent, { propertyType, landlord, county, address, zipCode, price, image, bedroomCount, bathroomCount, petsAllowed, sqFootage, depositFee }, context) => {
+    addProperty: async (parent, { propertyType, landlord, county, address, zipCode, price, images, bedroomCount, bathroomCount, petsAllowed, sqFootage, depositFee }, context) => {
       if (context.user) {
         const property = await Property.create({
-          propertyType, landlord, county, address, zipCode, price, image, bedroomCount, bathroomCount, petsAllowed, sqFootage, depositFee,
+          propertyType, landlord, county, address, zipCode, price, images, bedroomCount, bathroomCount, petsAllowed, sqFootage, depositFee,
         });
 
         await User.findOneAndUpdate(

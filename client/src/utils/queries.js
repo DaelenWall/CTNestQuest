@@ -16,7 +16,7 @@ export const QUERY_ME = gql`
         bedroomCount
         county
         depositFee
-        image
+        images
         landlord
         petsAllowed
         price
@@ -44,7 +44,9 @@ export const GET_PROPERTIES = gql`
   landlord
   petsAllowed
   price
-  image
+  images {
+    imageText
+  }
   propertyType
   sqFootage
   zipCode
@@ -68,7 +70,9 @@ query Query($propertyId: ID!){
     landlord
     petsAllowed
     price
-    image
+    images {
+      imageText
+    }
     propertyType
     reviews {
       reviewText

@@ -27,7 +27,7 @@ const MiddlesexCounty = () => {
         {middlesexProperties.map((property) => (
           <Link to={`/single-property/${property._id}`}>
             <div className="property-container">
-              <img src={`/images/${property.image}`} alt={property.address} />
+              <img src={`/images/${property.images[0].imageText}`} alt={property.address} />
               <div key={property.id} className="property-details">
                 <h3> ${property.price}/mo</h3>
                 <h4>
