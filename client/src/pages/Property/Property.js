@@ -47,13 +47,12 @@ const Property = () => {
   return (
     <div className="single_property-container">
       <div className="single_property-inner-container">
-      {/* <img src={`/images/${property.images[0].imageText}`} alt={property.address} /> */}
         <div className="slide">
           <Carousel useKeyboardArrows={true}>
             {property.images.map((image, index) => (
               <div key={index} className="images">
-              <img src={`/images/${property.images[index].imageText}`} alt={property.address} />
-            </div>
+                  <img src={`/images/${property.images[index].imageText}`} alt={property.address} className={index === 0 ? "current-image" : ""}/>
+              </div>
             ))}
           </Carousel>
         </div>
