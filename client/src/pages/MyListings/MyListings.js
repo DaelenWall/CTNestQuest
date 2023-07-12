@@ -8,27 +8,29 @@ function Favorite() {
   const me = data?.me;
 
   return (
-    <div className="container my-1">
+    <div className="main-container my-1">
       {me && (
         <>
           {console.log(me)}
           <h2>
             Listings for {me.firstName} {me.lastName}
           </h2>
-          {me.favorites.map((favorite) => (
-          <Link to={`/single-property/${favorite._id}`}>
-          <div className="favorite-container">
-            <img src={`/images/${favorite.images[0].imageText}`} alt={favorite.address} />
-            <div key={favorite.id} className="favorite-details">
-              <h3> ${favorite.price}/mo</h3>
+          <div className="mylisting-outer-container">
+          {me.property.map((myproperty) => (
+          <Link to={`/single-property/${myproperty._id}`}>
+          <div className="mylisting-container">
+            <img src={`/images/${myproperty.images[0].imageText}`} alt={myproperty.address} />
+            <div key={myproperty.id} className="mylisting-details">
+              <h3> ${myproperty.price}/mo</h3>
               <h4>
-                {favorite.bedroomCount} Bedroom {favorite.bathroomCount} Bath
+                {myproperty.bedroomCount} Bedroom {myproperty.bathroomCount} Bath
               </h4>
-                <h4>{favorite.address}</h4>
+                <h4>{myproperty.address}</h4>
             </div>
           </div>
         </Link>
           ))}
+          </div>
         </>
 
       )}
