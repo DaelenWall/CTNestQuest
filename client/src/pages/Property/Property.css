@@ -81,3 +81,23 @@ body {
     font-weight: bold;
     font-size: 18px;
   }
+
+  .slide .images {
+    min-width: 200%;
+    margin: 0;
+    display: flex;
+    position: relative;
+    text-align: center;
+  }
+  
+  .slide .images .current-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Adjust the width to make the current image bigger */
+  }
+  
+  .slide .images img {
+    border: 3px solid #cbb279;
+    border-radius: 10px;
+  }
