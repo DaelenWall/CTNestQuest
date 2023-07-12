@@ -9,6 +9,27 @@ export const QUERY_ME = gql`
       lastName
       password
       username
+      property{
+        _id
+        address
+        bathroomCount
+        bedroomCount
+        county
+        depositFee
+        images {
+          imageText
+        }
+        landlord
+        petsAllowed
+        price
+        propertyType
+        sqFootage
+        zipCode
+        reviews {
+          reviewText
+          reviewAuthor
+        }
+      }
       favorites {
         _id
         address
