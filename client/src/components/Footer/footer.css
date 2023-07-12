@@ -54,8 +54,8 @@
   align-items: center;
 }
 .footer-icon {
-  margin: 0 10px;
-  font-size: 24px;
+  margin: 0 12px;
+  font-size: 28px;
   color: black; 
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.5));
@@ -63,5 +63,5 @@
 
 
 .footer-icon:hover {
-  color: #dcdc83; 
+  color:#CBB279 ; 
 }

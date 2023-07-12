@@ -6,7 +6,14 @@
         "address": "25 Silver Lane, Fairfield CT", 
         "zipCode": "06085",
         "price": "1150",
-        "image": "apartment1.png",
+        "images": [
+            {
+                "imageText": "apartment1.png"
+            },
+            {
+                "imageText": "apartment2.png"
+            }
+        ],
         "bedroomCount": "1",
         "bathroomCount": "1",
         "petsAllowed": "false", 
@@ -30,7 +37,11 @@
         "address": "2493 Redding Rd, Fairfield, CT", 
         "zipCode": "06824",
         "price": "13000",
-        "image": "house1.png",
+        "images": [
+            {
+                "imageText": "house1.png"
+            }
+        ],
         "bedroomCount": "5",
         "bathroomCount": "5",
         "petsAllowed": "true", 
@@ -50,7 +61,11 @@
         "address": "14 Bedford Ave, Norwalk, CT", 
         "zipCode": "06850",
         "price": "2000",
-        "image": "apartment3.png",
+        "images": [
+            {
+                "imageText": "apartment3.png"
+            }
+        ],
         "bedroomCount": "1",
         "bathroomCount": "1",
         "petsAllowed": "true", 
@@ -70,7 +85,11 @@
         "address": "1111 Stratford Ave, Stratford, CT", 
         "zipCode": "06615",
         "price": "1700",
-        "image": "apartment2.png",
+        "images": [
+            {
+                "imageText": "apartment2.png"
+            }
+        ],
         "bedroomCount": "1",
         "bathroomCount": "1",
         "petsAllowed": "false", 
@@ -90,7 +109,11 @@
         "address": "23 Oakview Cir, # R, Westport, CT", 
         "zipCode": "06880",
         "price": "3900",
-        "image": "apartment4.png",
+        "images": [
+            {
+                "imageText": "apartment4.png"
+            }
+        ],
         "bedroomCount": "3",
         "bathroomCount": "2",
         "petsAllowed": "false", 
@@ -114,7 +137,11 @@
         "address": "20 Casement St, Darien, CT", 
         "zipCode": "06820",
         "price": "7500",
-        "image": "house3.png",
+        "images": [
+            {
+                "imageText": "house3.png"
+            }
+        ],
         "bedroomCount": "4",
         "bathroomCount": "2",
         "petsAllowed": "true", 
@@ -138,7 +165,11 @@
         "address": "32 Prospect Ave, Norwalk, CT", 
         "zipCode": "06850",
         "price": "1700",
-        "image": "apartment5.png",
+        "images": [
+            {
+                "imageText": "house5.png"
+            }
+        ],
         "bedroomCount": "1",
         "bathroomCount": "1",
         "petsAllowed": "true", 
@@ -162,7 +193,11 @@
         "address": "56 Bramble Ln, Riverside, CT", 
         "zipCode": "06878",
         "price": "10000",
-        "image": "house2.png",
+        "images": [
+            {
+                "imageText": "house2.png"
+            }
+        ],
         "bedroomCount": "4",
         "bathroomCount": "2",
         "petsAllowed": "true", 
@@ -186,7 +221,11 @@
         "address": "100 Oakview Dr, Trumbull, CT", 
         "zipCode": "06611",
         "price": "2600",
-        "image": "apartment6.png",
+        "images": [
+            {
+                "imageText": "apartment6.png"
+            }
+        ],
         "bedroomCount": "1",
         "bathroomCount": "1",
         "petsAllowed": "true", 
@@ -210,7 +249,11 @@
         "address": "12 Sandyside Dr, Hartford CT", 
         "zipCode": "06053",
         "price": "1600",
-        "image": "apartment3.png",
+        "images": [
+            {
+                "imageText": "apartment3.png"
+            }
+        ],
         "bedroomCount": "2",
         "bathroomCount": "1",
         "petsAllowed": "true", 
@@ -226,7 +269,11 @@
         "address": "P. Sherman Way, Hartford CT", 
         "zipCode": "06053",
         "price": "1500",
-        "image": "house1.png",
+        "images": [
+            {
+                "imageText": "house1.png"
+            }
+        ],
         "bedroomCount": "3",
         "bathroomCount": "2",
         "petsAllowed": "true", 
@@ -242,7 +289,11 @@
         "address": "54 Alden St, New Britain CT", 
         "zipCode": "06053",
         "price": "1000",
-        "image": "apartment4.png",
+        "images": [
+            {
+                "imageText": "apartment4.png"
+            }
+        ],
         "bedroomCount": "2",
         "bathroomCount": "1",
         "petsAllowed": "false", 
@@ -266,7 +317,11 @@
         "address": "40 Opal St, Hartford CT", 
         "zipCode": "06053",
         "price": "1100",
-        "image": "apartment2.png",
+        "images": [
+            {
+                "imageText": "apartment2.png"
+            }
+        ],
         "bedroomCount": "2",
         "bathroomCount": "1",
         "petsAllowed": "false", 
@@ -290,7 +345,11 @@
         "address": "55 Sharon St, # 2, Hartford, CT", 
         "zipCode": "06112",
         "price": "1800",
-        "image": "apartment5.png",
+        "images": [
+            {
+                "imageText": "house5.png"
+            }
+        ],
         "bedroomCount": "2",
         "bathroomCount": "1",
         "petsAllowed": "true", 
@@ -314,7 +373,11 @@
         "address": "205 High Path Rd, Windsor, CT", 
         "zipCode": "06095",
         "price": "1800",
-        "image": "house3.png",
+        "images": [
+            {
+                "imageText": "house3.png"
+            }
+        ],
         "bedroomCount": "2",
         "bathroomCount": "2",
         "petsAllowed": "true", 
@@ -338,7 +401,11 @@
         "address": "390 Nevers Rd, South Windsor, CT", 
         "zipCode": "06074",
         "price": "2500",
-        "image": "house3.png",
+        "images": [
+            {
+                "imageText": "house5.png"
+            }
+        ],
         "bedroomCount": "3",
         "bathroomCount": "2",
         "petsAllowed": "true", 
@@ -362,7 +429,11 @@
         "address": "61 Berkshire Rd, West Hartford, CT", 
         "zipCode": "06107",
         "price": "2600",
-        "image": "house2.png",
+        "images": [
+            {
+                "imageText": "house2.png"
+            }
+        ],
         "bedroomCount": "3",
         "bathroomCount": "1",
         "petsAllowed": "true", 
@@ -386,7 +457,11 @@
         "address": "253 White St FLOOR 3, Hartford, CT", 
         "zipCode": " 06106",
         "price": "1400",
-        "image": "apartment1.png",
+        "images": [
+            {
+                "imageText":"apartment1.png"
+            }
+        ],
         "bedroomCount": "3",
         "bathroomCount": "1",
         "petsAllowed": "false", 
@@ -410,7 +485,11 @@
         "address": "1 Abbott Rd, Ellington CT", 
         "zipCode": "06029",
         "price": "1700",
-        "image": "house1.png",
+        "images": [
+            {
+                "imageText": "house1.png"
+            }
+        ],
         "bedroomCount": "1",
         "bathroomCount": "2",
         "petsAllowed": "true", 
@@ -434,7 +513,11 @@
         "address": "10 Ghostly Way, Cromwell CT", 
         "zipCode": "06022",
         "price": "1450",
-        "image": "apartment3.png",
+        "images": [
+            {
+                "imageText":"apartment3.png"
+            }
+        ],
         "bedroomCount": "1",
         "bathroomCount": "1",
         "petsAllowed": "true", 
@@ -458,7 +541,11 @@
         "address": "45 Rancher Rd, Cromwell CT", 
         "zipCode": "06095",
         "price": "1900",
-        "image": "house3.png",
+        "images": [
+            {
+                "imageText": "house3.png"
+            }
+        ],
         "bedroomCount": "3",
         "bathroomCount": "2",
         "petsAllowed": "true", 
@@ -482,7 +569,11 @@
         "address": "56 Reservoir Rd, Vernon, CT", 
         "zipCode": "06066",
         "price": "1500",
-        "image": "house3.png",
+        "images": [
+            {
+                "imageText": "house11.png"
+            }
+        ],
         "bedroomCount": "3",
         "bathroomCount": "1",
         "petsAllowed": "true", 
@@ -506,7 +597,11 @@
         "address": "1085 Hartford Tpke, Vernon, CT", 
         "zipCode": "06066",
         "price": "1800",
-        "image": "apartment4.png",
+        "images": [
+            {
+                "imageText": "apartment4.png"
+            }
+        ],
         "bedroomCount": "1",
         "bathroomCount": "1",
         "petsAllowed": "false", 
@@ -530,7 +625,11 @@
         "address": "66 Crystal Ridge Dr, Ellington, CT", 
         "zipCode": "06029",
         "price": "3500",
-        "image": "house5.png",
+        "images": [
+            {
+                "imageText": "house5.png"
+            }
+        ],
         "bedroomCount": "4",
         "bathroomCount": "2",
         "petsAllowed": "true", 
@@ -554,7 +653,11 @@
         "address": "11 Depot Rd, Willington, CT", 
         "zipCode": "06279",
         "price": "1300",
-        "image": "apartment2.png",
+        "images": [
+            {
+                "imageText": "apartment2.png"
+            }
+        ],
         "bedroomCount": "1",
         "bathroomCount": "1",
         "petsAllowed": "true", 
@@ -578,7 +681,11 @@
         "address": "1125 Hartford Tpke, Vernon, CT", 
         "zipCode": "06066",
         "price": "1550",
-        "image": "apartment5.png",
+        "images": [
+            {
+                "imageText": "house5.png"
+            }
+        ],
         "bedroomCount": "1",
         "bathroomCount": "1",
         "petsAllowed": "false", 
@@ -602,7 +709,11 @@
         "address": "256 Buff Cap Rd, Tolland, CT ", 
         "zipCode": "06084",
         "price": "1500",
-        "image": "apartment1.png",
+        "images": [
+            {
+                "imageText":"apartment1.png"
+            }
+        ],
         "bedroomCount": "1",
         "bathroomCount": "1",
         "petsAllowed": "true", 
@@ -626,7 +737,11 @@
         "address": "12 Pondside Rd, Litchfield CT", 
         "zipCode": "06043",
         "price": "1300",
-        "image": "house1.png",
+        "images": [
+            {
+                "imageText": "house1.png"
+            }
+        ],
         "bedroomCount": "4",
         "bathroomCount": "2",
         "petsAllowed": "true", 
@@ -649,7 +764,11 @@
         "county": "Litchfield",
         "address": "32 Turtle Dr, Litchfield CT", 
         "zipCode": "06022",
-        "image": "house3.png",
+        "images": [
+            {
+                "imageText": "house3.png"
+            }
+        ],
         "price": "2000",
         "bedroomCount": "3",
         "bathroomCount": "2",
@@ -673,7 +792,11 @@
         "county": "Litchfield",
         "address": "29 Morgan Ln, Salisbury, CT", 
         "zipCode": "06068",
-        "image": "house7.png",
+        "images": [
+            {
+                "imageText": "house7.png"
+            }
+        ],
         "price": "30000",
         "bedroomCount": "4",
         "bathroomCount": "3",
@@ -697,7 +820,11 @@
         "county": "Litchfield",
         "address": "39 Rockwell St, # 41, Winsted, CT", 
         "zipCode": "06098",
-        "image": "apartment3.png",
+        "images": [
+            {
+                "imageText": "apartment3.png"
+            }
+        ],
         "price": "1200",
         "bedroomCount": "1",
         "bathroomCount": "1",
@@ -721,7 +848,11 @@
         "county": "Litchfield",
         "address": "12 Lovers Ln, Sharon, CT", 
         "zipCode": "06069",
-        "image": "house6.png",
+        "images": [
+            {
+                "imageText": "house6.png"
+            }
+        ],
         "price": "5600",
         "bedroomCount": "4",
         "bathroomCount": "2",
@@ -745,7 +876,11 @@
         "county": "Litchfield",
         "address": "499 Bantam Rd, # 499, Litchfield, CT", 
         "zipCode": "06759",
-        "image": "apartment4.png",
+        "images": [
+            {
+                "imageText": "apartment4.png"
+            }
+        ],
         "price": "2000",
         "bedroomCount": "1",
         "bathroomCount": "1",
@@ -761,7 +896,11 @@
         "county": "Litchfield",
         "address": "10 Ames Ave, APT 2, Terryville, CT", 
         "zipCode": "06786",
-        "image": "apartment7.png",
+        "images": [
+            {
+                "imageText": "apartment7.png"
+            }
+        ],
         "price": "1400",
         "bedroomCount": "2",
         "bathroomCount": "1",
@@ -777,7 +916,11 @@
         "county": "Litchfield",
         "address": "126 Sherman Hill Rd APT B15, Woodbury, CT", 
         "zipCode": "06798",
-        "image": "apartment8.png",
+        "images": [
+            {
+                "imageText": "apartment8.png"
+            }
+        ],
         "price": "2050",
         "bedroomCount": "2",
         "bathroomCount": "1",
@@ -794,7 +937,11 @@
         "address": "18 Cherry Ave, Watertown, CT", 
         "zipCode": "06795",
         "price": "3900",
-        "image": "house8.png",
+        "images": [
+            {
+                "imageText": "house8.png"
+            }
+        ],
         "bedroomCount": "4",
         "bathroomCount": "2",
         "petsAllowed": "true", 
@@ -810,7 +957,11 @@
         "address": "50-56 S Broad St, Milford, CT", 
         "zipCode": "06460",
         "price": "2200",
-        "image": "apartment3.png",
+        "images": [
+            {
+                "imageText": "apartment3.png"
+            }
+        ],
         "bedroomCount": "1",
         "bathroomCount": "1",
         "petsAllowed": "true", 
@@ -826,7 +977,11 @@
         "address": "211 Campbell Ave, # 3, West Haven, CT", 
         "zipCode": "06516",
         "price": "1400",
-        "image": "apartment7.png",
+        "images": [
+            {
+                "imageText": "apartment7.png"
+            }
+        ],
         "bedroomCount": "2",
         "bathroomCount": "1",
         "petsAllowed": "false", 
@@ -842,7 +997,11 @@
         "address": "20 Ashford St, West Haven, CT 06516", 
         "zipCode": "06516",
         "price": "2900",
-        "image": "house3.png",
+        "images": [
+            {
+                "imageText": "house5.png"
+            }
+        ],
         "bedroomCount": "5",
         "bathroomCount": "2",
         "petsAllowed": "true", 
@@ -858,7 +1017,11 @@
         "address": "32 Old Bradley St, # 3, East Haven, CT", 
         "zipCode": "06512",
         "price": "1100",
-        "image": "apartment8.png",
+        "images": [
+            {
+                "imageText": "apartment8.png"
+            }
+        ],
         "bedroomCount": "1",
         "bathroomCount": "1",
         "petsAllowed": "true", 
@@ -874,7 +1037,11 @@
         "address": "104 Lexington Ave, # F, New Haven, CT", 
         "zipCode": "06513",
         "price": "1300",
-        "image": "apartment2.png",
+        "images": [
+            {
+                "imageText": "apartment2.png"
+            }
+        ],
         "bedroomCount": "1",
         "bathroomCount": "1",
         "petsAllowed": "true", 
@@ -890,7 +1057,11 @@
         "address": "25 S End Rd, New Haven, CT", 
         "zipCode": "06512",
         "price": "1850",
-        "image": "house3.png",
+        "images": [
+            {
+                "imageText": "house3.png"
+            }
+        ],
         "bedroomCount": "3",
         "bathroomCount": "1",
         "petsAllowed": "true", 
@@ -906,7 +1077,11 @@
         "address": "172 Foxon Blvd, East Haven, CT", 
         "zipCode": "06513",
         "price": "2750",
-        "image": "house2.png",
+        "images": [
+            {
+                "imageText": "house2.png"
+            }
+        ],
         "bedroomCount": "4",
         "bathroomCount": "2",
         "petsAllowed": "true", 
@@ -922,7 +1097,11 @@
         "address": "Parkside Manor, APT 409, 1730 State St, Hamden, CT", 
         "zipCode": "06517",
         "price": "1500",
-        "image": "apartment4.png",
+        "images": [
+            {
+                "imageText": "apartment4.png"
+            }
+        ],
         "bedroomCount": "1",
         "bathroomCount": "1",
         "petsAllowed": "true", 
@@ -938,7 +1117,11 @@
         "address": "285 Grandview Ave, New Haven, CT", 
         "zipCode": "06514",
         "price": "3000",
-        "image": "house9.png",
+        "images": [
+            {
+                "imageText": "house9.png"
+            }
+        ],
         "bedroomCount": "3",
         "bathroomCount": "2",
         "petsAllowed": "true", 
@@ -954,7 +1137,11 @@
         "address": "77 Boys Ave, Killingly, CT", 
         "zipCode": "06263",
         "price": "1400",
-        "image": "house2.png",
+        "images": [
+            {
+                "imageText": "house2.png"
+            }
+        ],
         "bedroomCount": "3",
         "bathroomCount": "1",
         "petsAllowed": "true", 
@@ -970,7 +1157,11 @@
         "address": "20 Litchfield Ave, Dayville, CT", 
         "zipCode": "06241",
         "price": "1500",
-        "image": "house3.png",
+        "images": [
+            {
+                "imageText": "house3.png"
+            }
+        ],
         "bedroomCount": "3",
         "bathroomCount": "1",
         "petsAllowed": "true", 
@@ -986,7 +1177,11 @@
         "address": "32 Gawron Rd, Thompson, CT", 
         "zipCode": "06277",
         "price": "3000",
-        "image": "house10.png",
+        "images": [
+            {
+                "imageText": "house10.png"
+            }
+        ],
         "bedroomCount": "3",
         "bathroomCount": "2",
         "petsAllowed": "true", 
@@ -1002,7 +1197,11 @@
         "address": "32-6 Pompey Rd, Ashford, CT", 
         "zipCode": "06278",
         "price": "1400",
-        "image": "apartment2.png",
+        "images": [
+            {
+                "imageText": "apartment2.png"
+            }
+        ],
         "bedroomCount": "2",
         "bathroomCount": "1",
         "petsAllowed": "false", 
@@ -1018,7 +1217,11 @@
         "address": "140 Plains Rd, Windham, CT", 
         "zipCode": "06280",
         "price": "1700",
-        "image": "apartment5.png",
+        "images": [
+            {
+                "imageText": "house5.png"
+            }
+        ],
         "bedroomCount": "2",
         "bathroomCount": "1",
         "petsAllowed": "false", 
@@ -1034,7 +1237,11 @@
         "address": "5 Brookside Ln, Woodstock, CT", 
         "zipCode": "06281",
         "price": "1500",
-        "image": "apartment3.png",
+        "images": [
+            {
+                "imageText": "apartment3.png"
+            }
+        ],
         "bedroomCount": "2",
         "bathroomCount": "1",
         "petsAllowed": "false", 
@@ -1050,7 +1257,11 @@
         "address": "34 Pleasant St, APT A, Plainfield, CT", 
         "zipCode": "06374",
         "price": "1800",
-        "image": "apartment6.png",
+        "images": [
+            {
+                "imageText": "apartment6.png"
+            }
+        ],
         "bedroomCount": "3",
         "bathroomCount": "1",
         "petsAllowed": "false", 
@@ -1066,7 +1277,11 @@
         "address": "34 Pleasant St, APT A, Plainfield, CT", 
         "zipCode": "06374",
         "price": "1800",
-        "image": "apartment7.png",
+        "images": [
+            {
+                "imageText": "apartment7.png"
+            }
+        ],
         "bedroomCount": "3",
         "bathroomCount": "1",
         "petsAllowed": "false", 
@@ -1082,7 +1297,11 @@
         "address": "44 Geer Rd, Griswold, CT", 
         "zipCode": "06351",
         "price": "1300",
-        "image": "house11.png",
+        "images": [
+            {
+                "imageText": "house11.png"
+            }
+        ],
         "bedroomCount": "1",
         "bathroomCount": "1",
         "petsAllowed": "true", 
@@ -1098,7 +1317,11 @@
         "address": "124 Somersett Dr, Groton, CT", 
         "zipCode": "06355",
         "price": "3000",
-        "image": "house3.png",
+        "images": [
+            {
+                "imageText": "house3.png"
+            }
+        ],
         "bedroomCount": "3",
         "bathroomCount": "2",
         "petsAllowed": "true", 
@@ -1114,7 +1337,11 @@
         "address": "600 Meridian St, Groton, CT", 
         "zipCode": "06340",
         "price": "1800",
-        "image": "apartment3.png",
+        "images": [
+            {
+                "imageText": "apartment3.png"
+            }
+        ],
         "bedroomCount": "3",
         "bathroomCount": "2",
         "petsAllowed": "false", 
@@ -1130,7 +1357,11 @@
         "address": "202 Shaw St, # 2, New London, CT", 
         "zipCode": "06320",
         "price": "1650",
-        "image": "apartment7.png",
+        "images": [
+            {
+                "imageText": "apartment7.png"
+            }
+        ],
         "bedroomCount": "3",
         "bathroomCount": "2",
         "petsAllowed": "false", 
@@ -1146,7 +1377,11 @@
         "address": "9 Wilford Ct, Pawcatuck, CT", 
         "zipCode": "06379",
         "price": "1650",
-        "image": "apartment2.png",
+        "images": [
+            {
+                "imageText": "apartment2.png"
+            }
+        ],
         "bedroomCount": "2",
         "bathroomCount": "1",
         "petsAllowed": "false", 
@@ -1162,7 +1397,11 @@
         "address": "26 Lamphere Rd, Waterford, CT", 
         "zipCode": "06385",
         "price": "4000",
-        "image": "house8.png",
+        "images": [
+            {
+                "imageText": "house8.png"
+            }
+        ],
         "bedroomCount": "4",
         "bathroomCount": "2",
         "petsAllowed": "true", 
@@ -1178,7 +1417,11 @@
         "address": "20 Wayne Dr, East Lyme, CT", 
         "zipCode": "06333",
         "price": "2300",
-        "image": "house2.png",
+        "images": [
+            {
+                "imageText": "house2.png"
+            }
+        ],
         "bedroomCount": "4",
         "bathroomCount": "3",
         "petsAllowed": "false", 
@@ -1194,7 +1437,11 @@
         "address": "103 E Pattagansett Rd, # A, Niantic, CT", 
         "zipCode": "06357",
         "price": "1900",
-        "image": "apartment4.png",
+        "images": [
+            {
+                "imageText": "apartment4.png"
+            }
+        ],
         "bedroomCount": "2",
         "bathroomCount": "1",
         "petsAllowed": "true", 
@@ -1210,7 +1457,11 @@
         "address": "20 Portland Ave, Old Lyme, CT", 
         "zipCode": "06371",
         "price": "3200",
-        "image": "house9.png",
+        "images": [
+            {
+                "imageText": "house9.png"
+            }
+        ],
         "bedroomCount": "4",
         "bathroomCount": "2",
         "petsAllowed": "true", 
@@ -1226,7 +1477,11 @@
         "address": "59-3 Elys Ferry Rd, Old Lyme, CT", 
         "zipCode": "06371",
         "price": "4800",
-        "image": "house9.png",
+        "images": [
+            {
+                "imageText": "house12.png"
+            }
+        ],
         "bedroomCount": "4",
         "bathroomCount": "3",
         "petsAllowed": "true", 
@@ -1242,7 +1497,11 @@
         "address": "38 Pond Rd, Old Saybrook, CT", 
         "zipCode": "06475",
         "price": "3000",
-        "image": "house6.png",
+        "images": [
+            {
+                "imageText": "house6.png"
+            }
+        ],
         "bedroomCount": "3",
         "bathroomCount": "2",
         "petsAllowed": "true", 
@@ -1258,7 +1517,11 @@
         "address": "27 Boston Post Road Pl, # 2, Old Saybrook, CT", 
         "zipCode": "06475",
         "price": "2000",
-        "image": "apartment3.png",
+        "images": [
+            {
+                "imageText": "apartment3.png"
+            }
+        ],
         "bedroomCount": "1",
         "bathroomCount": "1",
         "petsAllowed": "false", 
@@ -1274,7 +1537,11 @@
         "address": "132 W Main St, APT C, Chester, CT", 
         "zipCode": "06412",
         "price": "1375",
-        "image": "apartment2.png",
+        "images": [
+            {
+                "imageText": "apartment2.png"
+            }
+        ],
         "bedroomCount": "1",
         "bathroomCount": "1",
         "petsAllowed": "false", 
@@ -1290,7 +1557,11 @@
         "address": "60 Watch Hill Dr, Middletown, CT", 
         "zipCode": "06457",
         "price": "4000",
-        "image": "house8.png",
+        "images": [
+            {
+                "imageText": "house8.png"
+            }
+        ],
         "bedroomCount": "4",
         "bathroomCount": "3",
         "petsAllowed": "true", 
@@ -1306,7 +1577,11 @@
         "address": "288 Woodbury Cir, Middletown, CT", 
         "zipCode": "06457",
         "price": "1200",
-        "image": "apartment4.png",
+        "images": [
+            {
+                "imageText": "apartment4.png"
+            }
+        ],
         "bedroomCount": "2",
         "bathroomCount": "2",
         "petsAllowed": "true", 
@@ -1322,7 +1597,11 @@
         "address": "11 Pine Ridge Rd FLOOR 2, Cromwell, CT", 
         "zipCode": "06416",
         "price": "1500",
-        "image": "apartment5.png",
+        "images": [
+            {
+                "imageText": "house5.png"
+            }
+        ],
         "bedroomCount": "2",
         "bathroomCount": "1",
         "petsAllowed": "false", 
@@ -1338,7 +1617,11 @@
         "address": "42 Oakum Dock Rd, Cobalt, CT", 
         "zipCode": "06414",
         "price": "3900",
-        "image": "house12.png",
+        "images": [
+            {
+                "imageText": "house12.png"
+            }
+        ],
         "bedroomCount": "4",
         "bathroomCount": "3",
         "petsAllowed": "true", 
@@ -1354,7 +1637,11 @@
         "address": "20 Ridgewood Rd, Middletown, CT", 
         "zipCode": "06457",
         "price": "1800",
-        "image": "house11.png",
+        "images": [
+            {
+                "imageText": "house11.png"
+            }
+        ],
         "bedroomCount": "3",
         "bathroomCount": "2",
         "petsAllowed": "true", 
@@ -1370,7 +1657,11 @@
         "address": "80 Hillside Ave, Middletown, CT", 
         "zipCode": "06457",
         "price": "1600",
-        "image": "apartment7.png",
+        "images": [
+            {
+                "imageText": "apartment7.png"
+            }
+        ],
         "bedroomCount": "2",
         "bathroomCount": "1",
         "petsAllowed": "true", 

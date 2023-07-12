@@ -2,7 +2,8 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { useQuery, useMutation } from "@apollo/client";
 import { GET_SINGLE_PROPERTY } from "../../utils/queries";
-import { Link } from 'react-router-dom';
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 //import use mutation and mutation
 import { ADD_FAVORITE } from "../../utils/mutations";
@@ -46,7 +47,16 @@ const Property = () => {
   return (
     <div className="single_property-container">
       <div className="single_property-inner-container">
-        <img src={`/images/${property.image}`} alt={property.address} />
+        <div className="slide">
+          <Carousel useKeyboardArrows={true}>
+            {property.images.map((image, index) => (
+              <div key={index} className="images">
+                  <img src={`/images/${property.images[index].imageText}`} alt={property.address} className={index === 0 ? "current-image" : ""}/>
+              </div>
+            ))}
+          </Carousel>
+        </div>
+        
         <div key={property.id} className="single_property-info-container">
           <div className="single_property-details">
             <h3> ${property.price}/mo</h3>
