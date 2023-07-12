@@ -19,7 +19,6 @@ export const ADD_PROPERTY = gql`
     $address: String!
     $zipCode: Int!
     $price: Int!
-    $images: String
     $bedroomCount: Int!
     $bathroomCount: Int!
     $petsAllowed: String!
@@ -33,7 +32,6 @@ export const ADD_PROPERTY = gql`
       address: $address
       zipCode: $zipCode
       price: $price
-      image: $image
       bedroomCount: $bedroomCount
       bathroomCount: $bathroomCount
       petsAllowed: $petsAllowed

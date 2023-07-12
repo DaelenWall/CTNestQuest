@@ -20,7 +20,7 @@ const resolvers = {
     },
     me: async (parent, args, context) => {
       if (context.user) {
-        const user = await User.findOne({ _id: context.user._id }).populate("favorites");
+        const user = await User.findOne({ _id: context.user._id }).populate("favorites").populate("property");
         return user;
       }
       throw new AuthenticationError('You need to be logged in!');
@@ -50,10 +50,10 @@ const resolvers = {
 
       return { token, user };
     },
-    addProperty: async (parent, { propertyType, landlord, county, address, zipCode, price, images, bedroomCount, bathroomCount, petsAllowed, sqFootage, depositFee }, context) => {
+    addProperty: async (parent, { propertyType, landlord, county, address, zipCode, price, bedroomCount, bathroomCount, petsAllowed, sqFootage, depositFee }, context) => {
       if (context.user) {
         const property = await Property.create({
-          propertyType, landlord, county, address, zipCode, price, images, bedroomCount, bathroomCount, petsAllowed, sqFootage, depositFee,
+          propertyType, landlord, county, address, zipCode, price, images: [{ imageText: 'apartment1.png' }], bedroomCount, bathroomCount, petsAllowed, sqFootage, depositFee,
         });
 
         await User.findOneAndUpdate(

@@ -64,7 +64,7 @@ type Auth {
 type Mutation {
     login(username: String!, password: String!): Auth
     addUser(firstName: String!, lastName: String!, email: String!, username: String!, password: String!): Auth
-    addProperty( propertyType: String!, landlord: String!, county: String!, address: String!, zipCode: Int!, price: Int!, images: String!, bedroomCount: Int!, bathroomCount: Int!, petsAllowed: String!, sqFootage: Int!, depositFee: Int!): Property
+    addProperty( propertyType: String!, landlord: String!, county: String!, address: String!, zipCode: Int!, price: Int!, bedroomCount: Int!, bathroomCount: Int!, petsAllowed: String!, sqFootage: Int!, depositFee: Int!): Property
     addFavorite(propertyId: ID!): Property
     addReview(propertyId: ID!, reviewText: String!): Property
     removeProperty(propertyId: ID!): Property
