@@ -53,7 +53,7 @@ const resolvers = {
     addProperty: async (parent, { propertyType, landlord, county, address, zipCode, price, bedroomCount, bathroomCount, petsAllowed, sqFootage, depositFee }, context) => {
       if (context.user) {
         const property = await Property.create({
-          propertyType, landlord, county, address, zipCode, price, images: [{ imageText: 'apartment1.png' }], bedroomCount, bathroomCount, petsAllowed, sqFootage, depositFee,
+          propertyType, landlord, county, address, zipCode, price, images: [{ imageText: 'defaultImage.png' }], bedroomCount, bathroomCount, petsAllowed, sqFootage, depositFee,
         });
 
         await User.findOneAndUpdate(
