@@ -1,13 +1,13 @@
 body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .container {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
     height: 82.5vh;
+    margin-bottom: 30%;
 }
 
 p {
@@ -15,20 +15,25 @@ p {
 }
 
 .family-photo {
+    width: 50%;
     opacity: 0.6;
     border-radius: 5px;
     border: 3px solid #CBB279;
-    margin-top: 3%;
+    margin-top: 8%;
+    margin-right: 3%;
 }
 
 .addproperty-form {
-    margin-top: 3%;
-    width: 700px;
+    margin-top: 30%;
+    width: 110%;
+    height: auto;
     display: inline;
-    padding: 40px;
+    padding: 60px;
     background-color:  #D6D6D6;
     border-radius: 5px;
     border: 3px solid #CBB279;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .addproperty-form input[type="radio"] {
@@ -42,10 +47,6 @@ p {
     font-size: 35px;
     padding: 20px;
     text-shadow: 0px 1px #537188;
-}
-
-.addproperty-form form {
-    margin-top: 25px;
 }
 
 .addproperty-form .flex-row {
@@ -62,8 +63,8 @@ p {
 }
 
 .addproperty-form input {
-    width: 65%;
-    padding: 18px;
+    width: 75%;
+    padding: 20px;
     border-radius: 3px;
     border: 2px solid #537188;
     color: #537188;
@@ -72,6 +73,7 @@ p {
 .addproperty-form .flex-end {
     justify-content: center;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .addproperty-form button {
@@ -83,7 +85,7 @@ p {
     border-color: #537188;
     cursor: pointer;
     font-size: 20px;
-    margin-top: 30px;
+    margin-top: 10px;
     transition: transform 0.3s ease;
 }
 
