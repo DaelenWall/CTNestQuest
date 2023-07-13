@@ -103,10 +103,11 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%; /* Adjust the width to make the current image bigger */
+    width: auto;
   }
   
   .slide .images img {
+    width: auto;
     border: 3px solid #cbb279;
     border-radius: 10px;
   }
