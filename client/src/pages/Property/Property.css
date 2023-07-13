@@ -80,6 +80,15 @@ body {
     border-radius: 6px;
     font-weight: bold;
     font-size: 18px;
+
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+
+  .favorite_button:hover {
+    transform: scale(1.05);
+    background-color: #537188;
+    color: #CBB279;
   }
 
   .slide .images {
@@ -94,10 +103,11 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%; /* Adjust the width to make the current image bigger */
+    width: auto;
   }
   
   .slide .images img {
+    width: auto;
     border: 3px solid #cbb279;
     border-radius: 10px;
   }
