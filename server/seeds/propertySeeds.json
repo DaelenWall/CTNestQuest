@@ -1,6 +1,45 @@
 [
     {
         "propertyType": "Apartment",
+        "landlord": "Matthew Bull",
+        "county": "Fairfield",
+        "address": "14 Bedford Ave, Norwalk, CT", 
+        "zipCode": "06850",
+        "price": "2000",
+        "images": [
+            {
+                "imageText": "apartment3.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
+            }
+        ],
+        "bedroomCount": "1",
+        "bathroomCount": "1",
+        "petsAllowed": "true", 
+        "sqFootage": "700",
+        "depositFee": "1000",
+        "reviews": [
+            {
+                "reviewText": "Management is impossible to contact. Always a struggle to fix problems",
+                "reviewAuthor": "anonymous"
+            }
+        ]
+    },
+    {
+        "propertyType": "Apartment",
         "landlord": "Sami Saqib",
         "county": "Fairfield",
         "address": "25 Silver Lane, Fairfield CT", 
@@ -11,7 +50,19 @@
                 "imageText": "apartment1.png"
             },
             {
-                "imageText": "apartment2.png"
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "1",
@@ -40,6 +91,21 @@
         "images": [
             {
                 "imageText": "house1.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "5",
@@ -58,36 +124,27 @@
         "propertyType": "Apartment",
         "landlord": "Matthew Bull",
         "county": "Fairfield",
-        "address": "14 Bedford Ave, Norwalk, CT", 
-        "zipCode": "06850",
-        "price": "2000",
-        "images": [
-            {
-                "imageText": "apartment3.png"
-            }
-        ],
-        "bedroomCount": "1",
-        "bathroomCount": "1",
-        "petsAllowed": "true", 
-        "sqFootage": "700",
-        "depositFee": "1000",
-        "reviews": [
-            {
-                "reviewText": "Management is impossible to contact. Always a struggle to fix problems",
-                "reviewAuthor": "anonymous"
-            }
-        ]
-    },
-    {
-        "propertyType": "Apartment",
-        "landlord": "Matthew Bull",
-        "county": "Fairfield",
         "address": "1111 Stratford Ave, Stratford, CT", 
         "zipCode": "06615",
         "price": "1700",
         "images": [
             {
                 "imageText": "apartment2.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "1",
@@ -112,6 +169,21 @@
         "images": [
             {
                 "imageText": "apartment4.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "3",
@@ -140,6 +212,21 @@
         "images": [
             {
                 "imageText": "house3.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "4",
@@ -168,6 +255,21 @@
         "images": [
             {
                 "imageText": "house5.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "1",
@@ -196,6 +298,21 @@
         "images": [
             {
                 "imageText": "house2.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "4",
@@ -224,6 +341,21 @@
         "images": [
             {
                 "imageText": "apartment6.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "1",
@@ -252,6 +384,21 @@
         "images": [
             {
                 "imageText": "apartment3.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "2",
@@ -272,6 +419,21 @@
         "images": [
             {
                 "imageText": "house1.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "3",
@@ -292,6 +454,21 @@
         "images": [
             {
                 "imageText": "apartment4.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "2",
@@ -320,6 +497,21 @@
         "images": [
             {
                 "imageText": "apartment2.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "2",
@@ -348,6 +540,21 @@
         "images": [
             {
                 "imageText": "house5.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "2",
@@ -376,6 +583,21 @@
         "images": [
             {
                 "imageText": "house3.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "2",
@@ -404,6 +626,21 @@
         "images": [
             {
                 "imageText": "house5.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "3",
@@ -432,6 +669,21 @@
         "images": [
             {
                 "imageText": "house2.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "3",
@@ -460,6 +712,21 @@
         "images": [
             {
                 "imageText":"apartment1.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "3",
@@ -488,6 +755,21 @@
         "images": [
             {
                 "imageText": "house1.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "1",
@@ -516,6 +798,21 @@
         "images": [
             {
                 "imageText":"apartment3.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "1",
@@ -544,6 +841,21 @@
         "images": [
             {
                 "imageText": "house3.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "3",
@@ -572,6 +884,21 @@
         "images": [
             {
                 "imageText": "house11.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "3",
@@ -600,6 +927,21 @@
         "images": [
             {
                 "imageText": "apartment4.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "1",
@@ -628,6 +970,21 @@
         "images": [
             {
                 "imageText": "house5.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "4",
@@ -656,6 +1013,21 @@
         "images": [
             {
                 "imageText": "apartment2.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "1",
@@ -684,6 +1056,21 @@
         "images": [
             {
                 "imageText": "house5.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "1",
@@ -712,6 +1099,21 @@
         "images": [
             {
                 "imageText":"apartment1.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "1",
@@ -740,6 +1142,21 @@
         "images": [
             {
                 "imageText": "house1.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "4",
@@ -767,6 +1184,21 @@
         "images": [
             {
                 "imageText": "house3.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "price": "2000",
@@ -795,6 +1227,21 @@
         "images": [
             {
                 "imageText": "house7.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "price": "30000",
@@ -823,6 +1270,21 @@
         "images": [
             {
                 "imageText": "apartment3.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "price": "1200",
@@ -851,6 +1313,21 @@
         "images": [
             {
                 "imageText": "house6.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "price": "5600",
@@ -879,6 +1356,21 @@
         "images": [
             {
                 "imageText": "apartment4.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "price": "2000",
@@ -899,6 +1391,21 @@
         "images": [
             {
                 "imageText": "apartment7.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "price": "1400",
@@ -919,6 +1426,21 @@
         "images": [
             {
                 "imageText": "apartment8.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "price": "2050",
@@ -940,6 +1462,21 @@
         "images": [
             {
                 "imageText": "house8.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "4",
@@ -960,6 +1497,21 @@
         "images": [
             {
                 "imageText": "apartment3.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "1",
@@ -980,6 +1532,21 @@
         "images": [
             {
                 "imageText": "apartment7.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "2",
@@ -1000,6 +1567,21 @@
         "images": [
             {
                 "imageText": "house5.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "5",
@@ -1020,6 +1602,21 @@
         "images": [
             {
                 "imageText": "apartment8.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "1",
@@ -1040,6 +1637,21 @@
         "images": [
             {
                 "imageText": "apartment2.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "1",
@@ -1060,6 +1672,21 @@
         "images": [
             {
                 "imageText": "house3.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "3",
@@ -1080,6 +1707,21 @@
         "images": [
             {
                 "imageText": "house2.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "4",
@@ -1100,6 +1742,21 @@
         "images": [
             {
                 "imageText": "apartment4.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "1",
@@ -1120,6 +1777,21 @@
         "images": [
             {
                 "imageText": "house9.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "3",
@@ -1140,6 +1812,21 @@
         "images": [
             {
                 "imageText": "house2.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "3",
@@ -1160,6 +1847,21 @@
         "images": [
             {
                 "imageText": "house3.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "3",
@@ -1180,6 +1882,21 @@
         "images": [
             {
                 "imageText": "house10.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "3",
@@ -1200,6 +1917,21 @@
         "images": [
             {
                 "imageText": "apartment2.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "2",
@@ -1220,6 +1952,21 @@
         "images": [
             {
                 "imageText": "house5.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "2",
@@ -1240,6 +1987,21 @@
         "images": [
             {
                 "imageText": "apartment3.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "2",
@@ -1260,6 +2022,21 @@
         "images": [
             {
                 "imageText": "apartment6.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "3",
@@ -1280,6 +2057,21 @@
         "images": [
             {
                 "imageText": "apartment7.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "3",
@@ -1300,6 +2092,21 @@
         "images": [
             {
                 "imageText": "house11.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "1",
@@ -1320,6 +2127,21 @@
         "images": [
             {
                 "imageText": "house3.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "3",
@@ -1340,6 +2162,21 @@
         "images": [
             {
                 "imageText": "apartment3.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "3",
@@ -1360,6 +2197,21 @@
         "images": [
             {
                 "imageText": "apartment7.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "3",
@@ -1380,6 +2232,21 @@
         "images": [
             {
                 "imageText": "apartment2.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "2",
@@ -1400,6 +2267,21 @@
         "images": [
             {
                 "imageText": "house8.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "4",
@@ -1420,6 +2302,21 @@
         "images": [
             {
                 "imageText": "house2.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "4",
@@ -1440,6 +2337,21 @@
         "images": [
             {
                 "imageText": "apartment4.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "2",
@@ -1460,6 +2372,21 @@
         "images": [
             {
                 "imageText": "house9.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "4",
@@ -1480,6 +2407,21 @@
         "images": [
             {
                 "imageText": "house12.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "4",
@@ -1500,6 +2442,21 @@
         "images": [
             {
                 "imageText": "house6.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "3",
@@ -1520,6 +2477,21 @@
         "images": [
             {
                 "imageText": "apartment3.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "1",
@@ -1540,6 +2512,21 @@
         "images": [
             {
                 "imageText": "apartment2.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "1",
@@ -1560,6 +2547,21 @@
         "images": [
             {
                 "imageText": "house8.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "4",
@@ -1580,6 +2582,21 @@
         "images": [
             {
                 "imageText": "apartment4.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "2",
@@ -1600,6 +2617,21 @@
         "images": [
             {
                 "imageText": "house5.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "2",
@@ -1620,6 +2652,21 @@
         "images": [
             {
                 "imageText": "house12.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "4",
@@ -1640,6 +2687,21 @@
         "images": [
             {
                 "imageText": "house11.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "3",
@@ -1660,6 +2722,21 @@
         "images": [
             {
                 "imageText": "apartment7.png"
+            },
+            {
+                "imageText": "apartment3pic2.png"
+            },
+            {
+                "imageText": "apartment3pic3.png"
+            },
+            {
+                "imageText": "apartment3pic4.png"
+            },
+            {
+                "imageText": "apartment3pic5.png"
+            },
+            {
+                "imageText": "apartment3pic6.png"
             }
         ],
         "bedroomCount": "2",

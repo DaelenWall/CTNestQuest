@@ -92,7 +92,7 @@ body {
   }
 
   .slide .images {
-    min-width: 200%;
+    max-width: 123px;
     margin: 0;
     display: flex;
     position: relative;
